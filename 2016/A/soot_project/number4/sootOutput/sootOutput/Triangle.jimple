@@ -1,0 +1,42 @@
+public class Triangle extends java.lang.Object
+{
+    static long gotoC;
+
+    public void <init>()
+    {
+        Triangle r0;
+
+        r0 := @this: Triangle;
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] r0;
+        java.util.Scanner $r1;
+        java.io.InputStream $r2;
+        int i0;
+        java.io.PrintStream $r3;
+        boolean z0, z1;
+
+        r0 := @parameter0: java.lang.String[];
+        $r1 = new java.util.Scanner;
+        $r2 = <java.lang.System: java.io.InputStream in>;
+        specialinvoke $r1.<java.util.Scanner: void <init>(java.io.InputStream)>($r2);
+        i0 = virtualinvoke $r1.<java.util.Scanner: int nextInt()>();
+        $r3 = <java.lang.System: java.io.PrintStream out>;
+        virtualinvoke $r3.<java.io.PrintStream: void println(int)>(i0);
+        if i0 >= 10 goto label0;
+
+        z0 = 1;
+        goto label1;
+
+     label0:
+        z0 = 0;
+
+     label1:
+        z1 = z0;
+        return;
+    }
+}

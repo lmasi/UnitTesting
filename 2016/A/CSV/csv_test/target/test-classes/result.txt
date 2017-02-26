@@ -1,0 +1,2288 @@
+===========================================================================
+org.apache.commons.csv.CSVFormat:::CLASS
+org.apache.commons.csv.CSVFormat.DEFAULT has only one value
+org.apache.commons.csv.CSVFormat.DEFAULT != null
+org.apache.commons.csv.CSVFormat.EXCEL has only one value
+org.apache.commons.csv.CSVFormat.EXCEL != null
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD has only one value
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD != null
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV has only one value
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV != null
+org.apache.commons.csv.CSVFormat.MYSQL has only one value
+org.apache.commons.csv.CSVFormat.MYSQL != null
+org.apache.commons.csv.CSVFormat.RFC4180 has only one value
+org.apache.commons.csv.CSVFormat.RFC4180 != null
+org.apache.commons.csv.CSVFormat.TDF has only one value
+org.apache.commons.csv.CSVFormat.TDF != null
+===========================================================================
+org.apache.commons.csv.CSVFormat:::OBJECT
+this.header == this.headerComments
+this.ignoreHeaderCase == this.skipHeaderRecord
+this.ignoreHeaderCase == this.trailingDelimiter
+this.ignoreHeaderCase == this.trim
+this.header == null
+this.ignoreHeaderCase == false
+this.nullString.toString == "\\N"
+this.quoteMode == null
+this.recordSeparator != null
+this.recordSeparator.toString one of { "\n", "\r\n" }
+org.apache.commons.csv.CSVFormat.serialVersionUID < this.delimiter
+===========================================================================
+org.apache.commons.csv.CSVFormat.CSVFormat(char, java.lang.Character, org.apache.commons.csv.QuoteMode, java.lang.Character, java.lang.Character, boolean, boolean, java.lang.String, java.lang.String, java.lang.Object[], java.lang.String[], boolean, boolean, boolean, boolean, boolean):::ENTER
+headerComments == header
+skipHeaderRecord == ignoreHeaderCase
+skipHeaderRecord == trim
+skipHeaderRecord == trailingDelimiter
+quoteMode == null
+recordSeparator != null
+recordSeparator.toString one of { "\n", "\r\n" }
+nullString.toString == "\\N"
+headerComments == null
+header == null
+skipHeaderRecord == false
+===========================================================================
+org.apache.commons.csv.CSVFormat.CSVFormat(char, java.lang.Character, org.apache.commons.csv.QuoteMode, java.lang.Character, java.lang.Character, boolean, boolean, java.lang.String, java.lang.String, java.lang.Object[], java.lang.String[], boolean, boolean, boolean, boolean, boolean):::EXIT
+this.allowMissingColumnNames == orig(allowMissingColumnNames)
+this.commentMarker == orig(commentStart)
+this.delimiter == orig(delimiter)
+this.escapeCharacter == orig(escape)
+this.header == orig(headerComments)
+this.header == orig(header)
+this.ignoreEmptyLines == orig(ignoreEmptyLines)
+this.ignoreHeaderCase == orig(skipHeaderRecord)
+this.ignoreHeaderCase == orig(ignoreHeaderCase)
+this.ignoreHeaderCase == orig(trim)
+this.ignoreHeaderCase == orig(trailingDelimiter)
+this.ignoreSurroundingSpaces == orig(ignoreSurroundingSpaces)
+this.nullString == orig(nullString)
+this.quoteCharacter == orig(quoteChar)
+this.quoteMode == orig(quoteMode)
+this.recordSeparator == orig(recordSeparator)
+recordSeparator.toString one of { "\n", "\r\n" }
+nullString.toString == "\\N"
+this.nullString.toString == nullString.toString
+this.recordSeparator.toString == recordSeparator.toString
+recordSeparator.toString == orig(recordSeparator.toString)
+nullString.toString == orig(nullString.toString)
+===========================================================================
+org.apache.commons.csv.CSVFormat.getCommentMarker():::ENTER
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == false
+this.delimiter one of { 9, 44, 59 }
+this.nullString == null
+this.quoteCharacter != null
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+===========================================================================
+org.apache.commons.csv.CSVFormat.getCommentMarker():::EXIT
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(org.apache.commons.csv.CSVFormat.DEFAULT)
+org.apache.commons.csv.CSVFormat.EXCEL == orig(org.apache.commons.csv.CSVFormat.EXCEL)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV)
+org.apache.commons.csv.CSVFormat.MYSQL == orig(org.apache.commons.csv.CSVFormat.MYSQL)
+org.apache.commons.csv.CSVFormat.RFC4180 == orig(org.apache.commons.csv.CSVFormat.RFC4180)
+org.apache.commons.csv.CSVFormat.TDF == orig(org.apache.commons.csv.CSVFormat.TDF)
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == orig(this.allowMissingColumnNames)
+this.allowMissingColumnNames == orig(this.ignoreHeaderCase)
+this.allowMissingColumnNames == orig(this.skipHeaderRecord)
+this.allowMissingColumnNames == orig(this.trailingDelimiter)
+this.allowMissingColumnNames == orig(this.trim)
+this.commentMarker == return
+this.delimiter == orig(this.delimiter)
+this.escapeCharacter == orig(this.escapeCharacter)
+this.header == orig(this.header)
+this.header == orig(this.headerComments)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.ignoreSurroundingSpaces == orig(this.ignoreSurroundingSpaces)
+this.nullString == orig(this.nullString)
+this.quoteCharacter == orig(this.quoteCharacter)
+this.quoteMode == orig(this.quoteMode)
+this.recordSeparator == orig(this.recordSeparator)
+return == orig(this.commentMarker)
+this.allowMissingColumnNames == false
+this.delimiter one of { 9, 44, 59 }
+this.nullString == null
+this.quoteCharacter != null
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+this.recordSeparator.toString == orig(this.recordSeparator.toString)
+===========================================================================
+org.apache.commons.csv.CSVFormat.getDelimiter():::ENTER
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == false
+this.delimiter one of { 9, 44, 59 }
+this.nullString == null
+this.quoteCharacter != null
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+===========================================================================
+org.apache.commons.csv.CSVFormat.getDelimiter():::EXIT
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(org.apache.commons.csv.CSVFormat.DEFAULT)
+org.apache.commons.csv.CSVFormat.EXCEL == orig(org.apache.commons.csv.CSVFormat.EXCEL)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV)
+org.apache.commons.csv.CSVFormat.MYSQL == orig(org.apache.commons.csv.CSVFormat.MYSQL)
+org.apache.commons.csv.CSVFormat.RFC4180 == orig(org.apache.commons.csv.CSVFormat.RFC4180)
+org.apache.commons.csv.CSVFormat.TDF == orig(org.apache.commons.csv.CSVFormat.TDF)
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == orig(this.allowMissingColumnNames)
+this.allowMissingColumnNames == orig(this.ignoreHeaderCase)
+this.allowMissingColumnNames == orig(this.skipHeaderRecord)
+this.allowMissingColumnNames == orig(this.trailingDelimiter)
+this.allowMissingColumnNames == orig(this.trim)
+this.commentMarker == orig(this.commentMarker)
+this.delimiter == return
+this.escapeCharacter == orig(this.escapeCharacter)
+this.header == orig(this.header)
+this.header == orig(this.headerComments)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.ignoreSurroundingSpaces == orig(this.ignoreSurroundingSpaces)
+this.nullString == orig(this.nullString)
+this.quoteCharacter == orig(this.quoteCharacter)
+this.quoteMode == orig(this.quoteMode)
+this.recordSeparator == orig(this.recordSeparator)
+return == orig(this.delimiter)
+this.allowMissingColumnNames == false
+this.nullString == null
+this.quoteCharacter != null
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+return one of { 9, 44, 59 }
+org.apache.commons.csv.CSVFormat.serialVersionUID < return
+this.recordSeparator.toString == orig(this.recordSeparator.toString)
+===========================================================================
+org.apache.commons.csv.CSVFormat.getEscapeCharacter():::ENTER
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == false
+this.delimiter one of { 9, 44, 59 }
+this.nullString == null
+this.quoteCharacter != null
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+===========================================================================
+org.apache.commons.csv.CSVFormat.getEscapeCharacter():::EXIT
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(org.apache.commons.csv.CSVFormat.DEFAULT)
+org.apache.commons.csv.CSVFormat.EXCEL == orig(org.apache.commons.csv.CSVFormat.EXCEL)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV)
+org.apache.commons.csv.CSVFormat.MYSQL == orig(org.apache.commons.csv.CSVFormat.MYSQL)
+org.apache.commons.csv.CSVFormat.RFC4180 == orig(org.apache.commons.csv.CSVFormat.RFC4180)
+org.apache.commons.csv.CSVFormat.TDF == orig(org.apache.commons.csv.CSVFormat.TDF)
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == orig(this.allowMissingColumnNames)
+this.allowMissingColumnNames == orig(this.ignoreHeaderCase)
+this.allowMissingColumnNames == orig(this.skipHeaderRecord)
+this.allowMissingColumnNames == orig(this.trailingDelimiter)
+this.allowMissingColumnNames == orig(this.trim)
+this.commentMarker == orig(this.commentMarker)
+this.delimiter == orig(this.delimiter)
+this.escapeCharacter == return
+this.header == orig(this.header)
+this.header == orig(this.headerComments)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.ignoreSurroundingSpaces == orig(this.ignoreSurroundingSpaces)
+this.nullString == orig(this.nullString)
+this.quoteCharacter == orig(this.quoteCharacter)
+this.quoteMode == orig(this.quoteMode)
+this.recordSeparator == orig(this.recordSeparator)
+return == orig(this.escapeCharacter)
+this.allowMissingColumnNames == false
+this.delimiter one of { 9, 44, 59 }
+this.nullString == null
+this.quoteCharacter != null
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+this.recordSeparator.toString == orig(this.recordSeparator.toString)
+===========================================================================
+org.apache.commons.csv.CSVFormat.getIgnoreEmptyLines():::ENTER
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == false
+this.delimiter one of { 9, 44, 59 }
+this.nullString == null
+this.quoteCharacter != null
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+===========================================================================
+org.apache.commons.csv.CSVFormat.getIgnoreEmptyLines():::EXIT
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(org.apache.commons.csv.CSVFormat.DEFAULT)
+org.apache.commons.csv.CSVFormat.EXCEL == orig(org.apache.commons.csv.CSVFormat.EXCEL)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV)
+org.apache.commons.csv.CSVFormat.MYSQL == orig(org.apache.commons.csv.CSVFormat.MYSQL)
+org.apache.commons.csv.CSVFormat.RFC4180 == orig(org.apache.commons.csv.CSVFormat.RFC4180)
+org.apache.commons.csv.CSVFormat.TDF == orig(org.apache.commons.csv.CSVFormat.TDF)
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == orig(this.allowMissingColumnNames)
+this.allowMissingColumnNames == orig(this.ignoreHeaderCase)
+this.allowMissingColumnNames == orig(this.skipHeaderRecord)
+this.allowMissingColumnNames == orig(this.trailingDelimiter)
+this.allowMissingColumnNames == orig(this.trim)
+this.commentMarker == orig(this.commentMarker)
+this.delimiter == orig(this.delimiter)
+this.escapeCharacter == orig(this.escapeCharacter)
+this.header == orig(this.header)
+this.header == orig(this.headerComments)
+this.ignoreEmptyLines == return
+this.ignoreSurroundingSpaces == orig(this.ignoreSurroundingSpaces)
+this.nullString == orig(this.nullString)
+this.quoteCharacter == orig(this.quoteCharacter)
+this.quoteMode == orig(this.quoteMode)
+this.recordSeparator == orig(this.recordSeparator)
+return == orig(this.ignoreEmptyLines)
+(return == false)  ==>  (this.allowMissingColumnNames == return)
+(return == false)  ==>  (this.delimiter == 44)
+(return == false)  ==>  (this.ignoreSurroundingSpaces == false)
+(return == false)  ==>  (this.ignoreSurroundingSpaces == return)
+(return == false)  ==>  (this.quoteCharacter has only one value)
+(return == true)  ==>  (this.delimiter one of { 9, 44, 59 })
+this.allowMissingColumnNames == false
+this.delimiter one of { 9, 44, 59 }
+this.nullString == null
+this.quoteCharacter != null
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+this.recordSeparator.toString == orig(this.recordSeparator.toString)
+===========================================================================
+org.apache.commons.csv.CSVFormat.getIgnoreEmptyLines():::EXIT;condition="return == true"
+return == true
+===========================================================================
+org.apache.commons.csv.CSVFormat.getIgnoreEmptyLines():::EXIT;condition="not(return == true)"
+this.allowMissingColumnNames == return
+this.ignoreHeaderCase == return
+this.ignoreSurroundingSpaces == return
+this.skipHeaderRecord == return
+this.trailingDelimiter == return
+this.trim == return
+return == orig(this.allowMissingColumnNames)
+return == orig(this.ignoreHeaderCase)
+return == orig(this.ignoreSurroundingSpaces)
+return == orig(this.skipHeaderRecord)
+return == orig(this.trailingDelimiter)
+return == orig(this.trim)
+this.delimiter == 44
+this.quoteCharacter has only one value
+return == false
+===========================================================================
+org.apache.commons.csv.CSVFormat.getIgnoreSurroundingSpaces():::ENTER
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == false
+this.delimiter one of { 9, 44, 59 }
+this.nullString == null
+this.quoteCharacter != null
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+===========================================================================
+org.apache.commons.csv.CSVFormat.getIgnoreSurroundingSpaces():::EXIT
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(org.apache.commons.csv.CSVFormat.DEFAULT)
+org.apache.commons.csv.CSVFormat.EXCEL == orig(org.apache.commons.csv.CSVFormat.EXCEL)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV)
+org.apache.commons.csv.CSVFormat.MYSQL == orig(org.apache.commons.csv.CSVFormat.MYSQL)
+org.apache.commons.csv.CSVFormat.RFC4180 == orig(org.apache.commons.csv.CSVFormat.RFC4180)
+org.apache.commons.csv.CSVFormat.TDF == orig(org.apache.commons.csv.CSVFormat.TDF)
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == orig(this.allowMissingColumnNames)
+this.allowMissingColumnNames == orig(this.ignoreHeaderCase)
+this.allowMissingColumnNames == orig(this.skipHeaderRecord)
+this.allowMissingColumnNames == orig(this.trailingDelimiter)
+this.allowMissingColumnNames == orig(this.trim)
+this.commentMarker == orig(this.commentMarker)
+this.delimiter == orig(this.delimiter)
+this.escapeCharacter == orig(this.escapeCharacter)
+this.header == orig(this.header)
+this.header == orig(this.headerComments)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.ignoreSurroundingSpaces == return
+this.nullString == orig(this.nullString)
+this.quoteCharacter == orig(this.quoteCharacter)
+this.quoteMode == orig(this.quoteMode)
+this.recordSeparator == orig(this.recordSeparator)
+return == orig(this.ignoreSurroundingSpaces)
+(return == false)  ==>  (this.allowMissingColumnNames == return)
+(return == false)  ==>  (this.delimiter one of { 44, 59 })
+(return == true)  ==>  (this.commentMarker == null)
+(return == true)  ==>  (this.commentMarker == this.escapeCharacter)
+(return == true)  ==>  (this.delimiter one of { 9, 44 })
+(return == true)  ==>  (this.escapeCharacter == null)
+(return == true)  ==>  (this.ignoreEmptyLines == return)
+(return == true)  ==>  (this.ignoreEmptyLines == true)
+(return == true)  ==>  (this.quoteCharacter has only one value)
+this.allowMissingColumnNames == false
+this.delimiter one of { 9, 44, 59 }
+this.nullString == null
+this.quoteCharacter != null
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+this.recordSeparator.toString == orig(this.recordSeparator.toString)
+===========================================================================
+org.apache.commons.csv.CSVFormat.getIgnoreSurroundingSpaces():::EXIT;condition="return == true"
+this.commentMarker == this.escapeCharacter
+this.commentMarker == orig(this.escapeCharacter)
+this.ignoreEmptyLines == return
+return == orig(this.ignoreEmptyLines)
+this.commentMarker == null
+this.delimiter one of { 9, 44 }
+this.quoteCharacter has only one value
+return == true
+===========================================================================
+org.apache.commons.csv.CSVFormat.getIgnoreSurroundingSpaces():::EXIT;condition="not(return == true)"
+this.allowMissingColumnNames == return
+this.ignoreHeaderCase == return
+this.skipHeaderRecord == return
+this.trailingDelimiter == return
+this.trim == return
+return == orig(this.allowMissingColumnNames)
+return == orig(this.ignoreHeaderCase)
+return == orig(this.skipHeaderRecord)
+return == orig(this.trailingDelimiter)
+return == orig(this.trim)
+this.delimiter one of { 44, 59 }
+return == false
+===========================================================================
+org.apache.commons.csv.CSVFormat.getQuoteCharacter():::ENTER
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == false
+this.delimiter one of { 9, 44, 59 }
+this.nullString == null
+this.quoteCharacter != null
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+===========================================================================
+org.apache.commons.csv.CSVFormat.getQuoteCharacter():::EXIT
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(org.apache.commons.csv.CSVFormat.DEFAULT)
+org.apache.commons.csv.CSVFormat.EXCEL == orig(org.apache.commons.csv.CSVFormat.EXCEL)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV)
+org.apache.commons.csv.CSVFormat.MYSQL == orig(org.apache.commons.csv.CSVFormat.MYSQL)
+org.apache.commons.csv.CSVFormat.RFC4180 == orig(org.apache.commons.csv.CSVFormat.RFC4180)
+org.apache.commons.csv.CSVFormat.TDF == orig(org.apache.commons.csv.CSVFormat.TDF)
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == orig(this.allowMissingColumnNames)
+this.allowMissingColumnNames == orig(this.ignoreHeaderCase)
+this.allowMissingColumnNames == orig(this.skipHeaderRecord)
+this.allowMissingColumnNames == orig(this.trailingDelimiter)
+this.allowMissingColumnNames == orig(this.trim)
+this.commentMarker == orig(this.commentMarker)
+this.delimiter == orig(this.delimiter)
+this.escapeCharacter == orig(this.escapeCharacter)
+this.header == orig(this.header)
+this.header == orig(this.headerComments)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.ignoreSurroundingSpaces == orig(this.ignoreSurroundingSpaces)
+this.nullString == orig(this.nullString)
+this.quoteCharacter == return
+this.quoteMode == orig(this.quoteMode)
+this.recordSeparator == orig(this.recordSeparator)
+return == orig(this.quoteCharacter)
+this.allowMissingColumnNames == false
+this.delimiter one of { 9, 44, 59 }
+this.nullString == null
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+return != null
+this.recordSeparator.toString == orig(this.recordSeparator.toString)
+===========================================================================
+org.apache.commons.csv.CSVFormat.isEscapeCharacterSet():::ENTER
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter == 44
+this.nullString == null
+this.quoteCharacter has only one value
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+===========================================================================
+org.apache.commons.csv.CSVFormat.isEscapeCharacterSet():::EXIT
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(org.apache.commons.csv.CSVFormat.DEFAULT)
+org.apache.commons.csv.CSVFormat.EXCEL == orig(org.apache.commons.csv.CSVFormat.EXCEL)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV)
+org.apache.commons.csv.CSVFormat.MYSQL == orig(org.apache.commons.csv.CSVFormat.MYSQL)
+org.apache.commons.csv.CSVFormat.RFC4180 == orig(org.apache.commons.csv.CSVFormat.RFC4180)
+org.apache.commons.csv.CSVFormat.TDF == orig(org.apache.commons.csv.CSVFormat.TDF)
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == orig(this.allowMissingColumnNames)
+this.allowMissingColumnNames == orig(this.ignoreHeaderCase)
+this.allowMissingColumnNames == orig(this.ignoreSurroundingSpaces)
+this.allowMissingColumnNames == orig(this.skipHeaderRecord)
+this.allowMissingColumnNames == orig(this.trailingDelimiter)
+this.allowMissingColumnNames == orig(this.trim)
+this.commentMarker == orig(this.commentMarker)
+this.delimiter == orig(this.delimiter)
+this.escapeCharacter == orig(this.escapeCharacter)
+this.header == orig(this.header)
+this.header == orig(this.headerComments)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.nullString == orig(this.nullString)
+this.quoteCharacter == orig(this.quoteCharacter)
+this.quoteMode == orig(this.quoteMode)
+this.recordSeparator == orig(this.recordSeparator)
+(this.escapeCharacter == null)  <==>  (return == false)
+(this.escapeCharacter == null)  <==>  (this.ignoreEmptyLines == true)
+(this.escapeCharacter == null)  ==>  (org.apache.commons.csv.CSVFormat.DEFAULT == orig(this))
+(this.escapeCharacter == null)  ==>  (this.allowMissingColumnNames == return)
+(this.escapeCharacter == null)  ==>  (this.commentMarker == this.escapeCharacter)
+(this.escapeCharacter has only one value)  <==>  (return == true)
+(this.escapeCharacter has only one value)  <==>  (this.ignoreEmptyLines == false)
+(this.escapeCharacter has only one value)  ==>  (this.allowMissingColumnNames == this.ignoreEmptyLines)
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter == 44
+this.nullString == null
+this.quoteCharacter has only one value
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+===========================================================================
+org.apache.commons.csv.CSVFormat.isEscapeCharacterSet():::EXIT;condition="return == true"
+this.allowMissingColumnNames == this.ignoreEmptyLines
+this.allowMissingColumnNames == orig(this.ignoreEmptyLines)
+this.escapeCharacter has only one value
+return == true
+orig(this) has only one value
+===========================================================================
+org.apache.commons.csv.CSVFormat.isEscapeCharacterSet():::EXIT;condition="not(return == true)"
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(this)
+this.allowMissingColumnNames == return
+this.commentMarker == this.escapeCharacter
+this.commentMarker == orig(this.escapeCharacter)
+this.ignoreHeaderCase == return
+this.ignoreSurroundingSpaces == return
+this.skipHeaderRecord == return
+this.trailingDelimiter == return
+this.trim == return
+return == orig(this.allowMissingColumnNames)
+return == orig(this.ignoreHeaderCase)
+return == orig(this.ignoreSurroundingSpaces)
+return == orig(this.skipHeaderRecord)
+return == orig(this.trailingDelimiter)
+return == orig(this.trim)
+this.ignoreEmptyLines == true
+return == false
+orig(this) has only one value
+===========================================================================
+org.apache.commons.csv.CSVFormat.isLineBreak(char):::ENTER
+org.apache.commons.csv.CSVFormat.serialVersionUID < c
+===========================================================================
+org.apache.commons.csv.CSVFormat.isLineBreak(char):::EXIT
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(org.apache.commons.csv.CSVFormat.DEFAULT)
+org.apache.commons.csv.CSVFormat.EXCEL == orig(org.apache.commons.csv.CSVFormat.EXCEL)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV)
+org.apache.commons.csv.CSVFormat.MYSQL == orig(org.apache.commons.csv.CSVFormat.MYSQL)
+org.apache.commons.csv.CSVFormat.RFC4180 == orig(org.apache.commons.csv.CSVFormat.RFC4180)
+org.apache.commons.csv.CSVFormat.TDF == orig(org.apache.commons.csv.CSVFormat.TDF)
+return == false
+===========================================================================
+org.apache.commons.csv.CSVFormat.isLineBreak(char):::EXIT;condition="not(return == true)"
+===========================================================================
+org.apache.commons.csv.CSVFormat.isLineBreak(java.lang.Character):::ENTER
+===========================================================================
+org.apache.commons.csv.CSVFormat.isLineBreak(java.lang.Character):::EXIT
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(org.apache.commons.csv.CSVFormat.DEFAULT)
+org.apache.commons.csv.CSVFormat.EXCEL == orig(org.apache.commons.csv.CSVFormat.EXCEL)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV)
+org.apache.commons.csv.CSVFormat.MYSQL == orig(org.apache.commons.csv.CSVFormat.MYSQL)
+org.apache.commons.csv.CSVFormat.RFC4180 == orig(org.apache.commons.csv.CSVFormat.RFC4180)
+org.apache.commons.csv.CSVFormat.TDF == orig(org.apache.commons.csv.CSVFormat.TDF)
+return == false
+===========================================================================
+org.apache.commons.csv.CSVFormat.isLineBreak(java.lang.Character):::EXIT;condition="not(return == true)"
+===========================================================================
+org.apache.commons.csv.CSVFormat.toStringArray(java.lang.Object[]):::ENTER
+this.header == values
+values == null
+===========================================================================
+org.apache.commons.csv.CSVFormat.toStringArray(java.lang.Object[]):::EXIT1150
+===========================================================================
+org.apache.commons.csv.CSVFormat.toStringArray(java.lang.Object[]):::EXIT
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(org.apache.commons.csv.CSVFormat.DEFAULT)
+org.apache.commons.csv.CSVFormat.EXCEL == orig(org.apache.commons.csv.CSVFormat.EXCEL)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV)
+org.apache.commons.csv.CSVFormat.MYSQL == orig(org.apache.commons.csv.CSVFormat.MYSQL)
+org.apache.commons.csv.CSVFormat.RFC4180 == orig(org.apache.commons.csv.CSVFormat.RFC4180)
+org.apache.commons.csv.CSVFormat.TDF == orig(org.apache.commons.csv.CSVFormat.TDF)
+this.allowMissingColumnNames == orig(this.allowMissingColumnNames)
+this.commentMarker == orig(this.commentMarker)
+this.delimiter == orig(this.delimiter)
+this.escapeCharacter == orig(this.escapeCharacter)
+this.header == return
+this.headerComments == return
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.ignoreHeaderCase == orig(this.ignoreHeaderCase)
+this.ignoreHeaderCase == orig(this.skipHeaderRecord)
+this.ignoreHeaderCase == orig(this.trailingDelimiter)
+this.ignoreHeaderCase == orig(this.trim)
+this.ignoreSurroundingSpaces == orig(this.ignoreSurroundingSpaces)
+this.nullString == orig(this.nullString)
+this.quoteCharacter == orig(this.quoteCharacter)
+this.quoteMode == orig(this.quoteMode)
+this.recordSeparator == orig(this.recordSeparator)
+return == orig(this.header)
+return == orig(this.headerComments)
+return == orig(values)
+return == null
+this.nullString.toString == orig(this.nullString.toString)
+this.recordSeparator.toString == orig(this.recordSeparator.toString)
+===========================================================================
+org.apache.commons.csv.CSVFormat.validate():::ENTER
+===========================================================================
+org.apache.commons.csv.CSVFormat.validate():::EXIT
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(org.apache.commons.csv.CSVFormat.DEFAULT)
+org.apache.commons.csv.CSVFormat.EXCEL == orig(org.apache.commons.csv.CSVFormat.EXCEL)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV)
+org.apache.commons.csv.CSVFormat.MYSQL == orig(org.apache.commons.csv.CSVFormat.MYSQL)
+org.apache.commons.csv.CSVFormat.RFC4180 == orig(org.apache.commons.csv.CSVFormat.RFC4180)
+org.apache.commons.csv.CSVFormat.TDF == orig(org.apache.commons.csv.CSVFormat.TDF)
+this.allowMissingColumnNames == orig(this.allowMissingColumnNames)
+this.commentMarker == orig(this.commentMarker)
+this.delimiter == orig(this.delimiter)
+this.escapeCharacter == orig(this.escapeCharacter)
+this.header == orig(this.header)
+this.header == orig(this.headerComments)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.ignoreHeaderCase == orig(this.ignoreHeaderCase)
+this.ignoreHeaderCase == orig(this.skipHeaderRecord)
+this.ignoreHeaderCase == orig(this.trailingDelimiter)
+this.ignoreHeaderCase == orig(this.trim)
+this.ignoreSurroundingSpaces == orig(this.ignoreSurroundingSpaces)
+this.nullString == orig(this.nullString)
+this.quoteCharacter == orig(this.quoteCharacter)
+this.quoteMode == orig(this.quoteMode)
+this.recordSeparator == orig(this.recordSeparator)
+this.nullString.toString == orig(this.nullString.toString)
+this.recordSeparator.toString == orig(this.recordSeparator.toString)
+===========================================================================
+org.apache.commons.csv.CSVFormat.withAllowMissingColumnNames():::ENTER
+this.allowMissingColumnNames == this.ignoreEmptyLines
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.commentMarker == this.escapeCharacter
+this has only one value
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter == 44
+this.nullString == null
+this.quoteCharacter has only one value
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+===========================================================================
+org.apache.commons.csv.CSVFormat.withAllowMissingColumnNames():::EXIT
+this.allowMissingColumnNames == this.ignoreEmptyLines
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == orig(this.allowMissingColumnNames)
+this.allowMissingColumnNames == orig(this.ignoreEmptyLines)
+this.allowMissingColumnNames == orig(this.ignoreHeaderCase)
+this.allowMissingColumnNames == orig(this.ignoreSurroundingSpaces)
+this.allowMissingColumnNames == orig(this.skipHeaderRecord)
+this.allowMissingColumnNames == orig(this.trailingDelimiter)
+this.allowMissingColumnNames == orig(this.trim)
+this.commentMarker == this.escapeCharacter
+this.commentMarker == orig(this.commentMarker)
+this.commentMarker == orig(this.escapeCharacter)
+this.delimiter == orig(this.delimiter)
+this.header == orig(this.header)
+this.header == orig(this.headerComments)
+this.nullString == orig(this.nullString)
+this.quoteCharacter == orig(this.quoteCharacter)
+this.quoteMode == orig(this.quoteMode)
+this.recordSeparator == orig(this.recordSeparator)
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter == 44
+this.nullString == null
+this.quoteCharacter has only one value
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+return has only one value
+===========================================================================
+org.apache.commons.csv.CSVFormat.withAllowMissingColumnNames(boolean):::ENTER
+this.allowMissingColumnNames == this.ignoreEmptyLines
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.commentMarker == this.escapeCharacter
+this has only one value
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter == 44
+this.nullString == null
+this.quoteCharacter has only one value
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+allowMissingColumnNames == true
+===========================================================================
+org.apache.commons.csv.CSVFormat.withAllowMissingColumnNames(boolean):::EXIT
+this.allowMissingColumnNames == this.ignoreEmptyLines
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == orig(this.allowMissingColumnNames)
+this.allowMissingColumnNames == orig(this.ignoreEmptyLines)
+this.allowMissingColumnNames == orig(this.ignoreHeaderCase)
+this.allowMissingColumnNames == orig(this.ignoreSurroundingSpaces)
+this.allowMissingColumnNames == orig(this.skipHeaderRecord)
+this.allowMissingColumnNames == orig(this.trailingDelimiter)
+this.allowMissingColumnNames == orig(this.trim)
+this.commentMarker == this.escapeCharacter
+this.commentMarker == orig(this.commentMarker)
+this.commentMarker == orig(this.escapeCharacter)
+this.delimiter == orig(this.delimiter)
+this.header == orig(this.header)
+this.header == orig(this.headerComments)
+this.nullString == orig(this.nullString)
+this.quoteCharacter == orig(this.quoteCharacter)
+this.quoteMode == orig(this.quoteMode)
+this.recordSeparator == orig(this.recordSeparator)
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter == 44
+this.nullString == null
+this.quoteCharacter has only one value
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+return has only one value
+===========================================================================
+org.apache.commons.csv.CSVFormat.withCommentMarker(char):::ENTER
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.commentMarker == this.escapeCharacter
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter == 44
+this.ignoreEmptyLines == true
+this.nullString == null
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+commentMarker one of { 33, 35 }
+===========================================================================
+org.apache.commons.csv.CSVFormat.withCommentMarker(char):::EXIT
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(org.apache.commons.csv.CSVFormat.DEFAULT)
+org.apache.commons.csv.CSVFormat.EXCEL == orig(org.apache.commons.csv.CSVFormat.EXCEL)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV)
+org.apache.commons.csv.CSVFormat.MYSQL == orig(org.apache.commons.csv.CSVFormat.MYSQL)
+org.apache.commons.csv.CSVFormat.RFC4180 == orig(org.apache.commons.csv.CSVFormat.RFC4180)
+org.apache.commons.csv.CSVFormat.TDF == orig(org.apache.commons.csv.CSVFormat.TDF)
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == orig(this.allowMissingColumnNames)
+this.allowMissingColumnNames == orig(this.ignoreHeaderCase)
+this.allowMissingColumnNames == orig(this.ignoreSurroundingSpaces)
+this.allowMissingColumnNames == orig(this.skipHeaderRecord)
+this.allowMissingColumnNames == orig(this.trailingDelimiter)
+this.allowMissingColumnNames == orig(this.trim)
+this.commentMarker == this.escapeCharacter
+this.commentMarker == orig(this.commentMarker)
+this.commentMarker == orig(this.escapeCharacter)
+this.delimiter == orig(this.delimiter)
+this.header == orig(this.header)
+this.header == orig(this.headerComments)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.nullString == orig(this.nullString)
+this.quoteCharacter == orig(this.quoteCharacter)
+this.quoteMode == orig(this.quoteMode)
+this.recordSeparator == orig(this.recordSeparator)
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter == 44
+this.ignoreEmptyLines == true
+this.nullString == null
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+this.recordSeparator.toString == orig(this.recordSeparator.toString)
+===========================================================================
+org.apache.commons.csv.CSVFormat.withCommentMarker(java.lang.Character):::ENTER
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.commentMarker == this.escapeCharacter
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter == 44
+this.ignoreEmptyLines == true
+this.nullString == null
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+===========================================================================
+org.apache.commons.csv.CSVFormat.withCommentMarker(java.lang.Character):::EXIT
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(org.apache.commons.csv.CSVFormat.DEFAULT)
+org.apache.commons.csv.CSVFormat.EXCEL == orig(org.apache.commons.csv.CSVFormat.EXCEL)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV)
+org.apache.commons.csv.CSVFormat.MYSQL == orig(org.apache.commons.csv.CSVFormat.MYSQL)
+org.apache.commons.csv.CSVFormat.RFC4180 == orig(org.apache.commons.csv.CSVFormat.RFC4180)
+org.apache.commons.csv.CSVFormat.TDF == orig(org.apache.commons.csv.CSVFormat.TDF)
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == orig(this.allowMissingColumnNames)
+this.allowMissingColumnNames == orig(this.ignoreHeaderCase)
+this.allowMissingColumnNames == orig(this.ignoreSurroundingSpaces)
+this.allowMissingColumnNames == orig(this.skipHeaderRecord)
+this.allowMissingColumnNames == orig(this.trailingDelimiter)
+this.allowMissingColumnNames == orig(this.trim)
+this.commentMarker == this.escapeCharacter
+this.commentMarker == orig(this.commentMarker)
+this.commentMarker == orig(this.escapeCharacter)
+this.delimiter == orig(this.delimiter)
+this.header == orig(this.header)
+this.header == orig(this.headerComments)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.nullString == orig(this.nullString)
+this.quoteCharacter == orig(this.quoteCharacter)
+this.quoteMode == orig(this.quoteMode)
+this.recordSeparator == orig(this.recordSeparator)
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter == 44
+this.ignoreEmptyLines == true
+this.nullString == null
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+this.recordSeparator.toString == orig(this.recordSeparator.toString)
+===========================================================================
+org.apache.commons.csv.CSVFormat.withDelimiter(char):::ENTER
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == false
+this.delimiter == 44
+this.escapeCharacter == null
+this.ignoreEmptyLines == true
+this.nullString == null
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+===========================================================================
+org.apache.commons.csv.CSVFormat.withDelimiter(char):::EXIT
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(org.apache.commons.csv.CSVFormat.DEFAULT)
+org.apache.commons.csv.CSVFormat.EXCEL == orig(org.apache.commons.csv.CSVFormat.EXCEL)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV)
+org.apache.commons.csv.CSVFormat.MYSQL == orig(org.apache.commons.csv.CSVFormat.MYSQL)
+org.apache.commons.csv.CSVFormat.RFC4180 == orig(org.apache.commons.csv.CSVFormat.RFC4180)
+org.apache.commons.csv.CSVFormat.TDF == orig(org.apache.commons.csv.CSVFormat.TDF)
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == orig(this.allowMissingColumnNames)
+this.allowMissingColumnNames == orig(this.ignoreHeaderCase)
+this.allowMissingColumnNames == orig(this.ignoreSurroundingSpaces)
+this.allowMissingColumnNames == orig(this.skipHeaderRecord)
+this.allowMissingColumnNames == orig(this.trailingDelimiter)
+this.allowMissingColumnNames == orig(this.trim)
+this.commentMarker == orig(this.commentMarker)
+this.delimiter == orig(this.delimiter)
+this.escapeCharacter == orig(this.escapeCharacter)
+this.header == orig(this.header)
+this.header == orig(this.headerComments)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.nullString == orig(this.nullString)
+this.quoteCharacter == orig(this.quoteCharacter)
+this.quoteMode == orig(this.quoteMode)
+this.recordSeparator == orig(this.recordSeparator)
+this.allowMissingColumnNames == false
+this.delimiter == 44
+this.escapeCharacter == null
+this.ignoreEmptyLines == true
+this.nullString == null
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+this.recordSeparator.toString == orig(this.recordSeparator.toString)
+===========================================================================
+org.apache.commons.csv.CSVFormat.withEscape(char):::ENTER
+this == org.apache.commons.csv.CSVFormat.DEFAULT
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.commentMarker == this.escapeCharacter
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter one of { 9, 44, 124 }
+this.ignoreEmptyLines == true
+this.nullString == null
+this.quoteCharacter has only one value
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+escape one of { 33, 92 }
+===========================================================================
+org.apache.commons.csv.CSVFormat.withEscape(char):::EXIT
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(this)
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(org.apache.commons.csv.CSVFormat.DEFAULT)
+org.apache.commons.csv.CSVFormat.EXCEL == orig(org.apache.commons.csv.CSVFormat.EXCEL)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV)
+org.apache.commons.csv.CSVFormat.MYSQL == orig(org.apache.commons.csv.CSVFormat.MYSQL)
+org.apache.commons.csv.CSVFormat.RFC4180 == orig(org.apache.commons.csv.CSVFormat.RFC4180)
+org.apache.commons.csv.CSVFormat.TDF == orig(org.apache.commons.csv.CSVFormat.TDF)
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == orig(this.allowMissingColumnNames)
+this.allowMissingColumnNames == orig(this.ignoreHeaderCase)
+this.allowMissingColumnNames == orig(this.ignoreSurroundingSpaces)
+this.allowMissingColumnNames == orig(this.skipHeaderRecord)
+this.allowMissingColumnNames == orig(this.trailingDelimiter)
+this.allowMissingColumnNames == orig(this.trim)
+this.commentMarker == this.escapeCharacter
+this.commentMarker == orig(this.commentMarker)
+this.commentMarker == orig(this.escapeCharacter)
+this.delimiter == orig(this.delimiter)
+this.header == orig(this.header)
+this.header == orig(this.headerComments)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.nullString == orig(this.nullString)
+this.quoteCharacter == orig(this.quoteCharacter)
+this.quoteMode == orig(this.quoteMode)
+this.recordSeparator == orig(this.recordSeparator)
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter one of { 9, 44, 124 }
+this.ignoreEmptyLines == true
+this.nullString == null
+this.quoteCharacter has only one value
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+this.recordSeparator.toString == orig(this.recordSeparator.toString)
+===========================================================================
+org.apache.commons.csv.CSVFormat.withEscape(java.lang.Character):::ENTER
+this == org.apache.commons.csv.CSVFormat.DEFAULT
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.commentMarker == this.escapeCharacter
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter one of { 9, 44, 124 }
+this.ignoreEmptyLines == true
+this.nullString == null
+this.quoteCharacter has only one value
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+===========================================================================
+org.apache.commons.csv.CSVFormat.withEscape(java.lang.Character):::EXIT
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(this)
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(org.apache.commons.csv.CSVFormat.DEFAULT)
+org.apache.commons.csv.CSVFormat.EXCEL == orig(org.apache.commons.csv.CSVFormat.EXCEL)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV)
+org.apache.commons.csv.CSVFormat.MYSQL == orig(org.apache.commons.csv.CSVFormat.MYSQL)
+org.apache.commons.csv.CSVFormat.RFC4180 == orig(org.apache.commons.csv.CSVFormat.RFC4180)
+org.apache.commons.csv.CSVFormat.TDF == orig(org.apache.commons.csv.CSVFormat.TDF)
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == orig(this.allowMissingColumnNames)
+this.allowMissingColumnNames == orig(this.ignoreHeaderCase)
+this.allowMissingColumnNames == orig(this.ignoreSurroundingSpaces)
+this.allowMissingColumnNames == orig(this.skipHeaderRecord)
+this.allowMissingColumnNames == orig(this.trailingDelimiter)
+this.allowMissingColumnNames == orig(this.trim)
+this.commentMarker == this.escapeCharacter
+this.commentMarker == orig(this.commentMarker)
+this.commentMarker == orig(this.escapeCharacter)
+this.delimiter == orig(this.delimiter)
+this.header == orig(this.header)
+this.header == orig(this.headerComments)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.nullString == orig(this.nullString)
+this.quoteCharacter == orig(this.quoteCharacter)
+this.quoteMode == orig(this.quoteMode)
+this.recordSeparator == orig(this.recordSeparator)
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter one of { 9, 44, 124 }
+this.ignoreEmptyLines == true
+this.nullString == null
+this.quoteCharacter has only one value
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+this.recordSeparator.toString == orig(this.recordSeparator.toString)
+===========================================================================
+org.apache.commons.csv.CSVFormat.withIgnoreEmptyLines():::ENTER
+this == org.apache.commons.csv.CSVFormat.DEFAULT
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.commentMarker == this.escapeCharacter
+this has only one value
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter == 44
+this.ignoreEmptyLines == true
+this.nullString == null
+this.quoteCharacter has only one value
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+===========================================================================
+org.apache.commons.csv.CSVFormat.withIgnoreEmptyLines():::EXIT
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(this)
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(org.apache.commons.csv.CSVFormat.DEFAULT)
+org.apache.commons.csv.CSVFormat.EXCEL == orig(org.apache.commons.csv.CSVFormat.EXCEL)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV)
+org.apache.commons.csv.CSVFormat.MYSQL == orig(org.apache.commons.csv.CSVFormat.MYSQL)
+org.apache.commons.csv.CSVFormat.RFC4180 == orig(org.apache.commons.csv.CSVFormat.RFC4180)
+org.apache.commons.csv.CSVFormat.TDF == orig(org.apache.commons.csv.CSVFormat.TDF)
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == orig(this.allowMissingColumnNames)
+this.allowMissingColumnNames == orig(this.ignoreHeaderCase)
+this.allowMissingColumnNames == orig(this.ignoreSurroundingSpaces)
+this.allowMissingColumnNames == orig(this.skipHeaderRecord)
+this.allowMissingColumnNames == orig(this.trailingDelimiter)
+this.allowMissingColumnNames == orig(this.trim)
+this.commentMarker == this.escapeCharacter
+this.commentMarker == orig(this.commentMarker)
+this.commentMarker == orig(this.escapeCharacter)
+this.delimiter == orig(this.delimiter)
+this.header == orig(this.header)
+this.header == orig(this.headerComments)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.nullString == orig(this.nullString)
+this.quoteCharacter == orig(this.quoteCharacter)
+this.quoteMode == orig(this.quoteMode)
+this.recordSeparator == orig(this.recordSeparator)
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter == 44
+this.ignoreEmptyLines == true
+this.nullString == null
+this.quoteCharacter has only one value
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+return has only one value
+===========================================================================
+org.apache.commons.csv.CSVFormat.withIgnoreEmptyLines(boolean):::ENTER
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == false
+this.delimiter one of { 9, 44 }
+this.ignoreEmptyLines == true
+this.nullString == null
+this.quoteCharacter has only one value
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+===========================================================================
+org.apache.commons.csv.CSVFormat.withIgnoreEmptyLines(boolean):::EXIT
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(org.apache.commons.csv.CSVFormat.DEFAULT)
+org.apache.commons.csv.CSVFormat.EXCEL == orig(org.apache.commons.csv.CSVFormat.EXCEL)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV)
+org.apache.commons.csv.CSVFormat.MYSQL == orig(org.apache.commons.csv.CSVFormat.MYSQL)
+org.apache.commons.csv.CSVFormat.RFC4180 == orig(org.apache.commons.csv.CSVFormat.RFC4180)
+org.apache.commons.csv.CSVFormat.TDF == orig(org.apache.commons.csv.CSVFormat.TDF)
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == orig(this.allowMissingColumnNames)
+this.allowMissingColumnNames == orig(this.ignoreHeaderCase)
+this.allowMissingColumnNames == orig(this.ignoreSurroundingSpaces)
+this.allowMissingColumnNames == orig(this.skipHeaderRecord)
+this.allowMissingColumnNames == orig(this.trailingDelimiter)
+this.allowMissingColumnNames == orig(this.trim)
+this.commentMarker == orig(this.commentMarker)
+this.delimiter == orig(this.delimiter)
+this.escapeCharacter == orig(this.escapeCharacter)
+this.header == orig(this.header)
+this.header == orig(this.headerComments)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.nullString == orig(this.nullString)
+this.quoteCharacter == orig(this.quoteCharacter)
+this.quoteMode == orig(this.quoteMode)
+this.recordSeparator == orig(this.recordSeparator)
+this.allowMissingColumnNames == false
+this.delimiter one of { 9, 44 }
+this.ignoreEmptyLines == true
+this.nullString == null
+this.quoteCharacter has only one value
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+this.recordSeparator.toString == orig(this.recordSeparator.toString)
+===========================================================================
+org.apache.commons.csv.CSVFormat.withIgnoreSurroundingSpaces():::ENTER
+this == org.apache.commons.csv.CSVFormat.DEFAULT
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.commentMarker == this.escapeCharacter
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter one of { 9, 44 }
+this.ignoreEmptyLines == true
+this.nullString == null
+this.quoteCharacter has only one value
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+===========================================================================
+org.apache.commons.csv.CSVFormat.withIgnoreSurroundingSpaces():::EXIT
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(this)
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(org.apache.commons.csv.CSVFormat.DEFAULT)
+org.apache.commons.csv.CSVFormat.EXCEL == orig(org.apache.commons.csv.CSVFormat.EXCEL)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV)
+org.apache.commons.csv.CSVFormat.MYSQL == orig(org.apache.commons.csv.CSVFormat.MYSQL)
+org.apache.commons.csv.CSVFormat.RFC4180 == orig(org.apache.commons.csv.CSVFormat.RFC4180)
+org.apache.commons.csv.CSVFormat.TDF == orig(org.apache.commons.csv.CSVFormat.TDF)
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == orig(this.allowMissingColumnNames)
+this.allowMissingColumnNames == orig(this.ignoreHeaderCase)
+this.allowMissingColumnNames == orig(this.ignoreSurroundingSpaces)
+this.allowMissingColumnNames == orig(this.skipHeaderRecord)
+this.allowMissingColumnNames == orig(this.trailingDelimiter)
+this.allowMissingColumnNames == orig(this.trim)
+this.commentMarker == this.escapeCharacter
+this.commentMarker == orig(this.commentMarker)
+this.commentMarker == orig(this.escapeCharacter)
+this.delimiter == orig(this.delimiter)
+this.header == orig(this.header)
+this.header == orig(this.headerComments)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.nullString == orig(this.nullString)
+this.quoteCharacter == orig(this.quoteCharacter)
+this.quoteMode == orig(this.quoteMode)
+this.recordSeparator == orig(this.recordSeparator)
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter one of { 9, 44 }
+this.ignoreEmptyLines == true
+this.nullString == null
+this.quoteCharacter has only one value
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+this.recordSeparator.toString == orig(this.recordSeparator.toString)
+===========================================================================
+org.apache.commons.csv.CSVFormat.withIgnoreSurroundingSpaces(boolean):::ENTER
+this == org.apache.commons.csv.CSVFormat.DEFAULT
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.commentMarker == this.escapeCharacter
+this.ignoreEmptyLines == ignoreSurroundingSpaces
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter one of { 9, 44 }
+this.ignoreEmptyLines == true
+this.nullString == null
+this.quoteCharacter has only one value
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+===========================================================================
+org.apache.commons.csv.CSVFormat.withIgnoreSurroundingSpaces(boolean):::EXIT
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(this)
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(org.apache.commons.csv.CSVFormat.DEFAULT)
+org.apache.commons.csv.CSVFormat.EXCEL == orig(org.apache.commons.csv.CSVFormat.EXCEL)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV)
+org.apache.commons.csv.CSVFormat.MYSQL == orig(org.apache.commons.csv.CSVFormat.MYSQL)
+org.apache.commons.csv.CSVFormat.RFC4180 == orig(org.apache.commons.csv.CSVFormat.RFC4180)
+org.apache.commons.csv.CSVFormat.TDF == orig(org.apache.commons.csv.CSVFormat.TDF)
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == orig(this.allowMissingColumnNames)
+this.allowMissingColumnNames == orig(this.ignoreHeaderCase)
+this.allowMissingColumnNames == orig(this.ignoreSurroundingSpaces)
+this.allowMissingColumnNames == orig(this.skipHeaderRecord)
+this.allowMissingColumnNames == orig(this.trailingDelimiter)
+this.allowMissingColumnNames == orig(this.trim)
+this.commentMarker == this.escapeCharacter
+this.commentMarker == orig(this.commentMarker)
+this.commentMarker == orig(this.escapeCharacter)
+this.delimiter == orig(this.delimiter)
+this.header == orig(this.header)
+this.header == orig(this.headerComments)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.ignoreEmptyLines == orig(ignoreSurroundingSpaces)
+this.nullString == orig(this.nullString)
+this.quoteCharacter == orig(this.quoteCharacter)
+this.quoteMode == orig(this.quoteMode)
+this.recordSeparator == orig(this.recordSeparator)
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter one of { 9, 44 }
+this.ignoreEmptyLines == true
+this.nullString == null
+this.quoteCharacter has only one value
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+this.recordSeparator.toString == orig(this.recordSeparator.toString)
+===========================================================================
+org.apache.commons.csv.CSVFormat.withNullString(java.lang.String):::ENTER
+this.allowMissingColumnNames == this.ignoreEmptyLines
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.commentMarker == this.quoteCharacter
+this has only one value
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter == 9
+this.escapeCharacter has only one value
+this.nullString == null
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\n"
+nullString has only one value
+nullString.toString == "\\N"
+===========================================================================
+org.apache.commons.csv.CSVFormat.withNullString(java.lang.String):::EXIT
+this.allowMissingColumnNames == this.ignoreEmptyLines
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == orig(this.allowMissingColumnNames)
+this.allowMissingColumnNames == orig(this.ignoreEmptyLines)
+this.allowMissingColumnNames == orig(this.ignoreHeaderCase)
+this.allowMissingColumnNames == orig(this.ignoreSurroundingSpaces)
+this.allowMissingColumnNames == orig(this.skipHeaderRecord)
+this.allowMissingColumnNames == orig(this.trailingDelimiter)
+this.allowMissingColumnNames == orig(this.trim)
+this.commentMarker == this.quoteCharacter
+this.commentMarker == orig(this.commentMarker)
+this.commentMarker == orig(this.quoteCharacter)
+this.delimiter == orig(this.delimiter)
+this.escapeCharacter == orig(this.escapeCharacter)
+this.header == orig(this.header)
+this.header == orig(this.headerComments)
+this.nullString == orig(this.nullString)
+this.quoteMode == orig(this.quoteMode)
+this.recordSeparator == orig(this.recordSeparator)
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter == 9
+this.escapeCharacter has only one value
+this.nullString == null
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\n"
+nullString.toString == "\\N"
+return has only one value
+===========================================================================
+org.apache.commons.csv.CSVFormat.withQuote(char):::ENTER
+this == org.apache.commons.csv.CSVFormat.DEFAULT
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.commentMarker == this.escapeCharacter
+this has only one value
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter == 44
+this.ignoreEmptyLines == true
+this.nullString == null
+this.quoteCharacter has only one value
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+quoteChar == 39
+===========================================================================
+org.apache.commons.csv.CSVFormat.withQuote(char):::EXIT
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(this)
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(org.apache.commons.csv.CSVFormat.DEFAULT)
+org.apache.commons.csv.CSVFormat.EXCEL == orig(org.apache.commons.csv.CSVFormat.EXCEL)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV)
+org.apache.commons.csv.CSVFormat.MYSQL == orig(org.apache.commons.csv.CSVFormat.MYSQL)
+org.apache.commons.csv.CSVFormat.RFC4180 == orig(org.apache.commons.csv.CSVFormat.RFC4180)
+org.apache.commons.csv.CSVFormat.TDF == orig(org.apache.commons.csv.CSVFormat.TDF)
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == orig(this.allowMissingColumnNames)
+this.allowMissingColumnNames == orig(this.ignoreHeaderCase)
+this.allowMissingColumnNames == orig(this.ignoreSurroundingSpaces)
+this.allowMissingColumnNames == orig(this.skipHeaderRecord)
+this.allowMissingColumnNames == orig(this.trailingDelimiter)
+this.allowMissingColumnNames == orig(this.trim)
+this.commentMarker == this.escapeCharacter
+this.commentMarker == orig(this.commentMarker)
+this.commentMarker == orig(this.escapeCharacter)
+this.delimiter == orig(this.delimiter)
+this.header == orig(this.header)
+this.header == orig(this.headerComments)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.nullString == orig(this.nullString)
+this.quoteCharacter == orig(this.quoteCharacter)
+this.quoteMode == orig(this.quoteMode)
+this.recordSeparator == orig(this.recordSeparator)
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter == 44
+this.ignoreEmptyLines == true
+this.nullString == null
+this.quoteCharacter has only one value
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+return has only one value
+===========================================================================
+org.apache.commons.csv.CSVFormat.withQuote(java.lang.Character):::ENTER
+this == org.apache.commons.csv.CSVFormat.DEFAULT
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter one of { 9, 44, 124 }
+this.nullString == null
+this.quoteCharacter has only one value
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+===========================================================================
+org.apache.commons.csv.CSVFormat.withQuote(java.lang.Character):::EXIT
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(this)
+org.apache.commons.csv.CSVFormat.DEFAULT == orig(org.apache.commons.csv.CSVFormat.DEFAULT)
+org.apache.commons.csv.CSVFormat.EXCEL == orig(org.apache.commons.csv.CSVFormat.EXCEL)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD)
+org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV == orig(org.apache.commons.csv.CSVFormat.INFORMIX_UNLOAD_CSV)
+org.apache.commons.csv.CSVFormat.MYSQL == orig(org.apache.commons.csv.CSVFormat.MYSQL)
+org.apache.commons.csv.CSVFormat.RFC4180 == orig(org.apache.commons.csv.CSVFormat.RFC4180)
+org.apache.commons.csv.CSVFormat.TDF == orig(org.apache.commons.csv.CSVFormat.TDF)
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == orig(this.allowMissingColumnNames)
+this.allowMissingColumnNames == orig(this.ignoreHeaderCase)
+this.allowMissingColumnNames == orig(this.ignoreSurroundingSpaces)
+this.allowMissingColumnNames == orig(this.skipHeaderRecord)
+this.allowMissingColumnNames == orig(this.trailingDelimiter)
+this.allowMissingColumnNames == orig(this.trim)
+this.commentMarker == orig(this.commentMarker)
+this.delimiter == orig(this.delimiter)
+this.escapeCharacter == orig(this.escapeCharacter)
+this.header == orig(this.header)
+this.header == orig(this.headerComments)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.nullString == orig(this.nullString)
+this.quoteCharacter == orig(this.quoteCharacter)
+this.quoteMode == orig(this.quoteMode)
+this.recordSeparator == orig(this.recordSeparator)
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter one of { 9, 44, 124 }
+this.nullString == null
+this.quoteCharacter has only one value
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+this.recordSeparator.toString == orig(this.recordSeparator.toString)
+===========================================================================
+org.apache.commons.csv.CSVFormat.withRecordSeparator(char):::ENTER
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter one of { 9, 44, 124 }
+this.nullString == null
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+recordSeparator == 10
+===========================================================================
+org.apache.commons.csv.CSVFormat.withRecordSeparator(char):::EXIT
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == orig(this.allowMissingColumnNames)
+this.allowMissingColumnNames == orig(this.ignoreHeaderCase)
+this.allowMissingColumnNames == orig(this.ignoreSurroundingSpaces)
+this.allowMissingColumnNames == orig(this.skipHeaderRecord)
+this.allowMissingColumnNames == orig(this.trailingDelimiter)
+this.allowMissingColumnNames == orig(this.trim)
+this.commentMarker == orig(this.commentMarker)
+this.delimiter == orig(this.delimiter)
+this.escapeCharacter == orig(this.escapeCharacter)
+this.header == orig(this.header)
+this.header == orig(this.headerComments)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.nullString == orig(this.nullString)
+this.quoteCharacter == orig(this.quoteCharacter)
+this.quoteMode == orig(this.quoteMode)
+this.recordSeparator == orig(this.recordSeparator)
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter one of { 9, 44, 124 }
+this.nullString == null
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+this.recordSeparator.toString == orig(this.recordSeparator.toString)
+===========================================================================
+org.apache.commons.csv.CSVFormat.withRecordSeparator(java.lang.String):::ENTER
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter one of { 9, 44, 124 }
+this.nullString == null
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+recordSeparator.toString == "\n"
+===========================================================================
+org.apache.commons.csv.CSVFormat.withRecordSeparator(java.lang.String):::EXIT
+this.allowMissingColumnNames == this.ignoreHeaderCase
+this.allowMissingColumnNames == this.ignoreSurroundingSpaces
+this.allowMissingColumnNames == this.skipHeaderRecord
+this.allowMissingColumnNames == this.trailingDelimiter
+this.allowMissingColumnNames == this.trim
+this.allowMissingColumnNames == orig(this.allowMissingColumnNames)
+this.allowMissingColumnNames == orig(this.ignoreHeaderCase)
+this.allowMissingColumnNames == orig(this.ignoreSurroundingSpaces)
+this.allowMissingColumnNames == orig(this.skipHeaderRecord)
+this.allowMissingColumnNames == orig(this.trailingDelimiter)
+this.allowMissingColumnNames == orig(this.trim)
+this.commentMarker == orig(this.commentMarker)
+this.delimiter == orig(this.delimiter)
+this.escapeCharacter == orig(this.escapeCharacter)
+this.header == orig(this.header)
+this.header == orig(this.headerComments)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.nullString == orig(this.nullString)
+this.quoteCharacter == orig(this.quoteCharacter)
+this.quoteMode == orig(this.quoteMode)
+this.recordSeparator == orig(this.recordSeparator)
+this.allowMissingColumnNames == false
+this.commentMarker == null
+this.delimiter one of { 9, 44, 124 }
+this.nullString == null
+this.recordSeparator has only one value
+this.recordSeparator.toString == "\r\n"
+recordSeparator.toString == "\n"
+this.recordSeparator.toString == orig(this.recordSeparator.toString)
+recordSeparator.toString == orig(recordSeparator.toString)
+===========================================================================
+org.apache.commons.csv.ExtendedBufferedReader:::OBJECT
+this.lastChar != 0
+this.eolCounter one of { 0, 1 }
+this.position >= 0
+this.closed == false
+this.lastChar != this.eolCounter
+this.eolCounter <= this.position
+===========================================================================
+org.apache.commons.csv.ExtendedBufferedReader.ExtendedBufferedReader(java.io.Reader):::ENTER
+reader != null
+reader.getClass().getName() == java.io.StringReader.class
+===========================================================================
+org.apache.commons.csv.ExtendedBufferedReader.ExtendedBufferedReader(java.io.Reader):::EXIT
+this.eolCounter == this.position
+this.lastChar == -2
+this.eolCounter == 0
+===========================================================================
+org.apache.commons.csv.ExtendedBufferedReader.getLastChar():::ENTER
+this.lastChar one of { -2, 78, 97 }
+this.eolCounter == 0
+this.position one of { 0, 11 }
+this.lastChar != this.position
+===========================================================================
+org.apache.commons.csv.ExtendedBufferedReader.getLastChar():::EXIT
+this.lastChar == return
+this.eolCounter == orig(this.eolCounter)
+this.position == orig(this.position)
+this.closed == orig(this.closed)
+return == orig(this.lastChar)
+this.eolCounter == 0
+this.position one of { 0, 11 }
+return one of { -2, 78, 97 }
+this.eolCounter != return
+this.position != return
+===========================================================================
+org.apache.commons.csv.ExtendedBufferedReader.lookAhead():::ENTER
+this has only one value
+this.lastChar == 13
+this.eolCounter == 1
+this.position == 10
+===========================================================================
+org.apache.commons.csv.ExtendedBufferedReader.lookAhead():::EXIT
+this.lastChar == orig(this.lastChar)
+this.eolCounter == orig(this.eolCounter)
+this.position == orig(this.position)
+this.closed == orig(this.closed)
+this.lastChar == 13
+this.eolCounter == 1
+this.position == 10
+return == 78
+===========================================================================
+org.apache.commons.csv.ExtendedBufferedReader.read():::ENTER
+this.lastChar != this.position
+===========================================================================
+org.apache.commons.csv.ExtendedBufferedReader.read():::EXIT
+this.lastChar == return
+this.closed == orig(this.closed)
+this.position >= 1
+return != 0
+this.eolCounter < this.position
+this.eolCounter != return
+this.eolCounter != orig(this.lastChar)
+this.eolCounter >= orig(this.eolCounter)
+this.eolCounter <= orig(this.position)
+this.position > orig(this.eolCounter)
+this.position - orig(this.position) - 1 == 0
+return != orig(this.lastChar)
+return != orig(this.eolCounter)
+===========================================================================
+org.apache.commons.csv.Lexer:::CLASS
+===========================================================================
+org.apache.commons.csv.Lexer:::OBJECT
+this.delimiter one of { 9, 44, 59 }
+this.escape >= 0
+this.quoteChar one of { 0, 34, 39 }
+this.commentStart >= 0
+this.reader != null
+org.apache.commons.csv.Lexer.DISABLED > this.delimiter
+org.apache.commons.csv.Lexer.DISABLED >= this.escape
+org.apache.commons.csv.Lexer.DISABLED > this.quoteChar
+org.apache.commons.csv.Lexer.DISABLED >= this.commentStart
+this.delimiter != this.escape
+this.delimiter != this.quoteChar
+this.delimiter != this.commentStart
+===========================================================================
+org.apache.commons.csv.Lexer.Lexer(org.apache.commons.csv.CSVFormat, org.apache.commons.csv.ExtendedBufferedReader):::ENTER
+format != null
+reader != null
+===========================================================================
+org.apache.commons.csv.Lexer.Lexer(org.apache.commons.csv.CSVFormat, org.apache.commons.csv.ExtendedBufferedReader):::EXIT
+this.reader == orig(reader)
+this.escape one of { 33, 92, 65534 }
+this.quoteChar one of { 34, 39 }
+this.commentStart one of { 33, 35, 65534 }
+this.escape != this.quoteChar
+this.quoteChar != this.commentStart
+===========================================================================
+org.apache.commons.csv.Lexer.isCommentStart(int):::ENTER
+this.escape one of { 33, 92, 65534 }
+this.quoteChar one of { 34, 39 }
+this.commentStart one of { 33, 35, 65534 }
+org.apache.commons.csv.Lexer.DISABLED > ch
+this.delimiter < ch
+this.escape != this.quoteChar
+this.escape != ch
+this.quoteChar != this.commentStart
+this.quoteChar < ch
+this.commentStart != ch
+===========================================================================
+org.apache.commons.csv.Lexer.isCommentStart(int):::EXIT
+this.delimiter == orig(this.delimiter)
+this.escape == orig(this.escape)
+this.quoteChar == orig(this.quoteChar)
+this.commentStart == orig(this.commentStart)
+this.ignoreSurroundingSpaces == orig(this.ignoreSurroundingSpaces)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.reader == orig(this.reader)
+this.escape one of { 33, 92, 65534 }
+this.quoteChar one of { 34, 39 }
+this.commentStart one of { 33, 35, 65534 }
+return == false
+this.delimiter < orig(ch)
+this.escape != this.quoteChar
+this.escape != orig(ch)
+this.quoteChar != this.commentStart
+this.quoteChar < orig(ch)
+this.commentStart != orig(ch)
+===========================================================================
+org.apache.commons.csv.Lexer.isCommentStart(int):::EXIT;condition="not(return == true)"
+===========================================================================
+org.apache.commons.csv.Lexer.isDelimiter(int):::ENTER
+this.escape one of { 33, 92, 65534 }
+this.quoteChar one of { 34, 39 }
+this.commentStart one of { 33, 35, 65534 }
+ch != 0
+org.apache.commons.csv.Lexer.DISABLED > ch
+this.escape != this.quoteChar
+this.quoteChar != this.commentStart
+this.quoteChar != ch
+this.commentStart != ch
+===========================================================================
+org.apache.commons.csv.Lexer.isDelimiter(int):::EXIT
+this.delimiter == orig(this.delimiter)
+this.escape == orig(this.escape)
+this.quoteChar == orig(this.quoteChar)
+this.commentStart == orig(this.commentStart)
+this.ignoreSurroundingSpaces == orig(this.ignoreSurroundingSpaces)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.reader == orig(this.reader)
+(return == false)  <==>  (this.delimiter != orig(ch))
+(return == false)  ==>  (this.escape one of { 33, 92, 65534 })
+(return == true)  <==>  (this.delimiter == orig(ch))
+(return == true)  ==>  (orig(ch) one of { 9, 44, 59 })
+(return == true)  ==>  (this.delimiter < this.escape)
+(return == true)  ==>  (this.escape > orig(ch))
+(return == true)  ==>  (this.escape > this.quoteChar)
+(return == true)  ==>  (this.escape one of { 92, 65534 })
+this.escape one of { 33, 92, 65534 }
+this.quoteChar one of { 34, 39 }
+this.commentStart one of { 33, 35, 65534 }
+this.escape != this.quoteChar
+this.quoteChar != this.commentStart
+this.quoteChar != orig(ch)
+this.commentStart != orig(ch)
+===========================================================================
+org.apache.commons.csv.Lexer.isDelimiter(int):::EXIT;condition="return == true"
+this.delimiter == orig(ch)
+this.escape one of { 92, 65534 }
+return == true
+this.delimiter < this.escape
+this.escape > this.quoteChar
+===========================================================================
+org.apache.commons.csv.Lexer.isDelimiter(int):::EXIT;condition="not(return == true)"
+return == false
+this.delimiter != orig(ch)
+===========================================================================
+org.apache.commons.csv.Lexer.isEndOfFile(int):::ENTER
+this.escape one of { 33, 92, 65534 }
+this.quoteChar one of { 34, 39 }
+this.commentStart one of { 33, 35, 65534 }
+ch != 0
+org.apache.commons.csv.Lexer.DISABLED > ch
+this.escape != this.quoteChar
+this.quoteChar != this.commentStart
+this.quoteChar != ch
+this.commentStart != ch
+===========================================================================
+org.apache.commons.csv.Lexer.isEndOfFile(int):::EXIT
+this.delimiter == orig(this.delimiter)
+this.escape == orig(this.escape)
+this.quoteChar == orig(this.quoteChar)
+this.commentStart == orig(this.commentStart)
+this.ignoreSurroundingSpaces == orig(this.ignoreSurroundingSpaces)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.reader == orig(this.reader)
+(return == false)  ==>  (this.commentStart one of { 33, 35, 65534 })
+(return == false)  ==>  (this.delimiter one of { 9, 44, 59 })
+(return == false)  ==>  (this.escape one of { 33, 92, 65534 })
+(return == false)  ==>  (this.quoteChar one of { 34, 39 })
+(return == true)  ==>  (org.apache.commons.csv.Lexer.DISABLED == this.commentStart)
+(return == true)  ==>  (org.apache.commons.csv.Lexer.DISABLED > this.escape)
+(return == true)  ==>  (orig(ch) == -1)
+(return == true)  ==>  (this.commentStart > orig(ch))
+(return == true)  ==>  (this.delimiter < this.commentStart)
+(return == true)  ==>  (this.delimiter == 44)
+(return == true)  ==>  (this.delimiter > orig(ch))
+(return == true)  ==>  (this.delimiter > this.quoteChar)
+(return == true)  ==>  (this.escape < this.commentStart)
+(return == true)  ==>  (this.escape > orig(ch))
+(return == true)  ==>  (this.escape one of { 33, 92 })
+(return == true)  ==>  (this.ignoreEmptyLines == return)
+(return == true)  ==>  (this.ignoreEmptyLines == true)
+(return == true)  ==>  (this.ignoreSurroundingSpaces == false)
+(return == true)  ==>  (this.quoteChar < this.commentStart)
+(return == true)  ==>  (this.quoteChar == 34)
+(return == true)  ==>  (this.quoteChar > orig(ch))
+this.escape one of { 33, 92, 65534 }
+this.quoteChar one of { 34, 39 }
+this.commentStart one of { 33, 35, 65534 }
+this.escape != this.quoteChar
+this.quoteChar != this.commentStart
+this.quoteChar != orig(ch)
+this.commentStart != orig(ch)
+===========================================================================
+org.apache.commons.csv.Lexer.isEndOfFile(int):::EXIT;condition="return == true"
+org.apache.commons.csv.Lexer.DISABLED == this.commentStart
+org.apache.commons.csv.Lexer.DISABLED == orig(this.commentStart)
+this.ignoreEmptyLines == return
+return == orig(this.ignoreEmptyLines)
+this.delimiter == 44
+this.escape one of { 33, 92 }
+this.quoteChar == 34
+this.ignoreSurroundingSpaces == false
+return == true
+orig(ch) == -1
+org.apache.commons.csv.Lexer.DISABLED > this.escape
+this.escape > orig(ch)
+===========================================================================
+org.apache.commons.csv.Lexer.isEndOfFile(int):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.csv.Lexer.isEscape(int):::ENTER
+this.escape one of { 33, 92, 65534 }
+this.quoteChar one of { 34, 39 }
+this.commentStart one of { 33, 35, 65534 }
+org.apache.commons.csv.Lexer.DISABLED > ch
+this.delimiter != ch
+this.escape != this.quoteChar
+this.quoteChar != this.commentStart
+this.quoteChar != ch
+this.commentStart != ch
+===========================================================================
+org.apache.commons.csv.Lexer.isEscape(int):::EXIT
+this.delimiter == orig(this.delimiter)
+this.escape == orig(this.escape)
+this.quoteChar == orig(this.quoteChar)
+this.commentStart == orig(this.commentStart)
+this.ignoreSurroundingSpaces == orig(this.ignoreSurroundingSpaces)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.reader == orig(this.reader)
+(return == false)  <==>  (this.escape != orig(ch))
+(return == false)  ==>  (this.commentStart one of { 33, 35, 65534 })
+(return == false)  ==>  (this.delimiter one of { 9, 44, 59 })
+(return == false)  ==>  (this.escape one of { 33, 92, 65534 })
+(return == false)  ==>  (this.quoteChar one of { 34, 39 })
+(return == true)  <==>  (this.escape == orig(ch))
+(return == true)  ==>  (org.apache.commons.csv.Lexer.DISABLED == this.commentStart)
+(return == true)  ==>  (org.apache.commons.csv.Lexer.DISABLED > this.escape)
+(return == true)  ==>  (orig(ch) one of { 33, 92 })
+(return == true)  ==>  (this.commentStart > orig(ch))
+(return == true)  ==>  (this.delimiter < this.commentStart)
+(return == true)  ==>  (this.delimiter == 44)
+(return == true)  ==>  (this.delimiter > this.quoteChar)
+(return == true)  ==>  (this.escape < this.commentStart)
+(return == true)  ==>  (this.escape one of { 33, 92 })
+(return == true)  ==>  (this.ignoreEmptyLines == return)
+(return == true)  ==>  (this.ignoreEmptyLines == true)
+(return == true)  ==>  (this.ignoreSurroundingSpaces == false)
+(return == true)  ==>  (this.quoteChar < this.commentStart)
+(return == true)  ==>  (this.quoteChar == 34)
+this.escape one of { 33, 92, 65534 }
+this.quoteChar one of { 34, 39 }
+this.commentStart one of { 33, 35, 65534 }
+this.delimiter != orig(ch)
+this.escape != this.quoteChar
+this.quoteChar != this.commentStart
+this.quoteChar != orig(ch)
+this.commentStart != orig(ch)
+===========================================================================
+org.apache.commons.csv.Lexer.isEscape(int):::EXIT;condition="return == true"
+org.apache.commons.csv.Lexer.DISABLED == this.commentStart
+org.apache.commons.csv.Lexer.DISABLED == orig(this.commentStart)
+this.escape == orig(ch)
+this.ignoreEmptyLines == return
+return == orig(this.ignoreEmptyLines)
+this.delimiter == 44
+this.escape one of { 33, 92 }
+this.quoteChar == 34
+this.ignoreSurroundingSpaces == false
+return == true
+org.apache.commons.csv.Lexer.DISABLED > this.escape
+===========================================================================
+org.apache.commons.csv.Lexer.isEscape(int):::EXIT;condition="not(return == true)"
+return == false
+this.escape != orig(ch)
+===========================================================================
+org.apache.commons.csv.Lexer.isMetaChar(int):::ENTER
+org.apache.commons.csv.Lexer.DISABLED == this.commentStart
+this.delimiter == 44
+this.escape == 92
+this.quoteChar == 34
+this.ignoreSurroundingSpaces == false
+this.ignoreEmptyLines == true
+ch one of { 78, 97 }
+===========================================================================
+org.apache.commons.csv.Lexer.isMetaChar(int):::EXIT
+org.apache.commons.csv.Lexer.DISABLED == this.commentStart
+this.delimiter == orig(this.delimiter)
+this.escape == orig(this.escape)
+this.quoteChar == orig(this.quoteChar)
+this.ignoreSurroundingSpaces == return
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.reader == orig(this.reader)
+return == orig(this.ignoreSurroundingSpaces)
+this.delimiter == 44
+this.escape == 92
+this.quoteChar == 34
+this.ignoreEmptyLines == true
+return == false
+===========================================================================
+org.apache.commons.csv.Lexer.isMetaChar(int):::EXIT;condition="not(return == true)"
+===========================================================================
+org.apache.commons.csv.Lexer.isQuoteChar(int):::ENTER
+this.escape one of { 33, 92, 65534 }
+this.quoteChar one of { 34, 39 }
+this.commentStart one of { 33, 35, 65534 }
+org.apache.commons.csv.Lexer.DISABLED > ch
+this.delimiter < ch
+this.escape != this.quoteChar
+this.escape != ch
+this.quoteChar != this.commentStart
+this.quoteChar < ch
+this.commentStart != ch
+===========================================================================
+org.apache.commons.csv.Lexer.isQuoteChar(int):::EXIT
+this.delimiter == orig(this.delimiter)
+this.escape == orig(this.escape)
+this.quoteChar == orig(this.quoteChar)
+this.commentStart == orig(this.commentStart)
+this.ignoreSurroundingSpaces == orig(this.ignoreSurroundingSpaces)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.reader == orig(this.reader)
+this.escape one of { 33, 92, 65534 }
+this.quoteChar one of { 34, 39 }
+this.commentStart one of { 33, 35, 65534 }
+return == false
+this.delimiter < orig(ch)
+this.escape != this.quoteChar
+this.escape != orig(ch)
+this.quoteChar != this.commentStart
+this.quoteChar < orig(ch)
+this.commentStart != orig(ch)
+===========================================================================
+org.apache.commons.csv.Lexer.isQuoteChar(int):::EXIT;condition="not(return == true)"
+===========================================================================
+org.apache.commons.csv.Lexer.isStartOfLine(int):::ENTER
+this.escape one of { 33, 92, 65534 }
+this.quoteChar one of { 34, 39 }
+this.commentStart one of { 33, 35, 65534 }
+ch == -2
+this.delimiter > ch
+this.escape != this.quoteChar
+this.escape > ch
+this.quoteChar != this.commentStart
+this.quoteChar > ch
+this.commentStart > ch
+===========================================================================
+org.apache.commons.csv.Lexer.isStartOfLine(int):::EXIT
+this.delimiter == orig(this.delimiter)
+this.escape == orig(this.escape)
+this.quoteChar == orig(this.quoteChar)
+this.commentStart == orig(this.commentStart)
+this.ignoreSurroundingSpaces == orig(this.ignoreSurroundingSpaces)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.reader == orig(this.reader)
+this.escape one of { 33, 92, 65534 }
+this.quoteChar one of { 34, 39 }
+this.commentStart one of { 33, 35, 65534 }
+return == true
+this.delimiter > orig(ch)
+this.escape != this.quoteChar
+this.escape > orig(ch)
+this.quoteChar != this.commentStart
+this.quoteChar > orig(ch)
+this.commentStart > orig(ch)
+===========================================================================
+org.apache.commons.csv.Lexer.isStartOfLine(int):::EXIT;condition="return == true"
+===========================================================================
+org.apache.commons.csv.Lexer.isWhitespace(int):::ENTER
+org.apache.commons.csv.Lexer.DISABLED == this.escape
+org.apache.commons.csv.Lexer.DISABLED == this.commentStart
+this.ignoreSurroundingSpaces == this.ignoreEmptyLines
+this.delimiter one of { 9, 44 }
+this.quoteChar == 34
+this.ignoreSurroundingSpaces == true
+ch one of { 97, 110, 111 }
+===========================================================================
+org.apache.commons.csv.Lexer.isWhitespace(int):::EXIT
+org.apache.commons.csv.Lexer.DISABLED == this.escape
+org.apache.commons.csv.Lexer.DISABLED == this.commentStart
+this.delimiter == orig(this.delimiter)
+this.quoteChar == orig(this.quoteChar)
+this.ignoreSurroundingSpaces == this.ignoreEmptyLines
+this.ignoreSurroundingSpaces == orig(this.ignoreSurroundingSpaces)
+this.ignoreSurroundingSpaces == orig(this.ignoreEmptyLines)
+this.reader == orig(this.reader)
+this.delimiter one of { 9, 44 }
+this.quoteChar == 34
+this.ignoreSurroundingSpaces == true
+return == false
+===========================================================================
+org.apache.commons.csv.Lexer.isWhitespace(int):::EXIT;condition="not(return == true)"
+===========================================================================
+org.apache.commons.csv.Lexer.mapNullToDisabled(java.lang.Character):::ENTER
+this.ignoreSurroundingSpaces == this.ignoreEmptyLines
+this.commentStart == 0
+this.ignoreSurroundingSpaces == false
+this.delimiter > this.commentStart
+this.escape >= this.commentStart
+this.quoteChar >= this.commentStart
+===========================================================================
+org.apache.commons.csv.Lexer.mapNullToDisabled(java.lang.Character):::EXIT
+this.delimiter == orig(this.delimiter)
+this.escape == orig(this.escape)
+this.quoteChar == orig(this.quoteChar)
+this.commentStart == orig(this.commentStart)
+this.ignoreSurroundingSpaces == this.ignoreEmptyLines
+this.ignoreSurroundingSpaces == orig(this.ignoreSurroundingSpaces)
+this.ignoreSurroundingSpaces == orig(this.ignoreEmptyLines)
+this.reader == orig(this.reader)
+this.commentStart == 0
+this.ignoreSurroundingSpaces == false
+org.apache.commons.csv.Lexer.DISABLED >= return
+this.delimiter > this.commentStart
+this.delimiter != return
+this.escape >= this.commentStart
+this.quoteChar >= this.commentStart
+this.quoteChar != return
+this.commentStart < return
+===========================================================================
+org.apache.commons.csv.Lexer.nextToken(org.apache.commons.csv.Token):::ENTER
+this.escape one of { 33, 92, 65534 }
+this.quoteChar one of { 34, 39 }
+this.commentStart one of { 33, 35, 65534 }
+token != null
+this.escape != this.quoteChar
+this.quoteChar != this.commentStart
+===========================================================================
+org.apache.commons.csv.Lexer.nextToken(org.apache.commons.csv.Token):::EXIT164
+===========================================================================
+org.apache.commons.csv.Lexer.nextToken(org.apache.commons.csv.Token):::EXIT
+this.delimiter == orig(this.delimiter)
+this.escape == orig(this.escape)
+this.quoteChar == orig(this.quoteChar)
+this.commentStart == orig(this.commentStart)
+this.ignoreSurroundingSpaces == orig(this.ignoreSurroundingSpaces)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.reader == orig(this.reader)
+return == orig(token)
+this.escape one of { 33, 92, 65534 }
+this.quoteChar one of { 34, 39 }
+this.commentStart one of { 33, 35, 65534 }
+return != null
+this.escape != this.quoteChar
+this.quoteChar != this.commentStart
+===========================================================================
+org.apache.commons.csv.Lexer.parseSimpleToken(org.apache.commons.csv.Token, int):::ENTER
+this.escape one of { 33, 92, 65534 }
+this.quoteChar one of { 34, 39 }
+this.commentStart one of { 33, 35, 65534 }
+token != null
+org.apache.commons.csv.Lexer.DISABLED > ch
+this.delimiter < ch
+this.escape != this.quoteChar
+this.escape != ch
+this.quoteChar != this.commentStart
+this.quoteChar < ch
+this.commentStart != ch
+===========================================================================
+org.apache.commons.csv.Lexer.parseSimpleToken(org.apache.commons.csv.Token, int):::EXIT
+this.delimiter == orig(this.delimiter)
+this.escape == orig(this.escape)
+this.quoteChar == orig(this.quoteChar)
+this.commentStart == orig(this.commentStart)
+this.ignoreSurroundingSpaces == orig(this.ignoreSurroundingSpaces)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.reader == orig(this.reader)
+return == orig(token)
+this.escape one of { 33, 92, 65534 }
+this.quoteChar one of { 34, 39 }
+this.commentStart one of { 33, 35, 65534 }
+return != null
+this.delimiter < orig(ch)
+this.escape != this.quoteChar
+this.escape != orig(ch)
+this.quoteChar != this.commentStart
+this.quoteChar < orig(ch)
+this.commentStart != orig(ch)
+===========================================================================
+org.apache.commons.csv.Lexer.readEndOfLine(int):::ENTER
+this.escape one of { 33, 92, 65534 }
+this.quoteChar one of { 34, 39 }
+this.commentStart one of { 33, 35, 65534 }
+ch != 0
+org.apache.commons.csv.Lexer.DISABLED > ch
+this.escape != this.quoteChar
+this.quoteChar != this.commentStart
+this.quoteChar != ch
+this.commentStart != ch
+===========================================================================
+org.apache.commons.csv.Lexer.readEndOfLine(int):::EXIT
+this.delimiter == orig(this.delimiter)
+this.escape == orig(this.escape)
+this.quoteChar == orig(this.quoteChar)
+this.commentStart == orig(this.commentStart)
+this.ignoreSurroundingSpaces == orig(this.ignoreSurroundingSpaces)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.reader == orig(this.reader)
+(return == false)  ==>  (this.commentStart one of { 33, 35, 65534 })
+(return == false)  ==>  (this.delimiter one of { 9, 44, 59 })
+(return == false)  ==>  (this.escape one of { 33, 92, 65534 })
+(return == false)  ==>  (this.quoteChar one of { 34, 39 })
+(return == true)  ==>  (org.apache.commons.csv.Lexer.DISABLED == this.commentStart)
+(return == true)  ==>  (orig(ch) one of { 10, 13 })
+(return == true)  ==>  (this.delimiter == 44)
+(return == true)  ==>  (this.escape == 92)
+(return == true)  ==>  (this.ignoreEmptyLines == return)
+(return == true)  ==>  (this.ignoreEmptyLines == true)
+(return == true)  ==>  (this.ignoreSurroundingSpaces == false)
+(return == true)  ==>  (this.quoteChar == 34)
+this.escape one of { 33, 92, 65534 }
+this.quoteChar one of { 34, 39 }
+this.commentStart one of { 33, 35, 65534 }
+this.escape != this.quoteChar
+this.quoteChar != this.commentStart
+this.quoteChar != orig(ch)
+this.commentStart != orig(ch)
+===========================================================================
+org.apache.commons.csv.Lexer.readEndOfLine(int):::EXIT;condition="return == true"
+org.apache.commons.csv.Lexer.DISABLED == this.commentStart
+org.apache.commons.csv.Lexer.DISABLED == orig(this.commentStart)
+this.ignoreEmptyLines == return
+return == orig(this.ignoreEmptyLines)
+this.delimiter == 44
+this.escape == 92
+this.quoteChar == 34
+this.ignoreSurroundingSpaces == false
+return == true
+orig(ch) one of { 10, 13 }
+===========================================================================
+org.apache.commons.csv.Lexer.readEndOfLine(int):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.csv.Lexer.readEscape():::ENTER
+org.apache.commons.csv.Lexer.DISABLED == this.commentStart
+this.delimiter == 44
+this.escape one of { 33, 92 }
+this.quoteChar == 34
+this.ignoreSurroundingSpaces == false
+this.ignoreEmptyLines == true
+org.apache.commons.csv.Lexer.DISABLED > this.escape
+this.escape != this.quoteChar
+===========================================================================
+org.apache.commons.csv.Lexer.readEscape():::EXIT330
+return == 13
+===========================================================================
+org.apache.commons.csv.Lexer.readEscape():::EXIT344
+this.escape == 92
+===========================================================================
+org.apache.commons.csv.Lexer.readEscape():::EXIT353
+this.escape == 92
+return == -1
+===========================================================================
+org.apache.commons.csv.Lexer.readEscape():::EXIT
+org.apache.commons.csv.Lexer.DISABLED == this.commentStart
+this.delimiter == orig(this.delimiter)
+this.escape == orig(this.escape)
+this.quoteChar == orig(this.quoteChar)
+this.ignoreSurroundingSpaces == orig(this.ignoreSurroundingSpaces)
+this.ignoreEmptyLines == orig(this.ignoreEmptyLines)
+this.reader == orig(this.reader)
+this.delimiter == 44
+this.escape one of { 33, 92 }
+this.quoteChar == 34
+this.ignoreSurroundingSpaces == false
+this.ignoreEmptyLines == true
+return >= -1
+org.apache.commons.csv.Lexer.DISABLED > this.escape
+org.apache.commons.csv.Lexer.DISABLED > return
+this.delimiter > return
+this.escape != this.quoteChar
+this.escape > return
+this.quoteChar > return
+===========================================================================
+org.apache.commons.csv.Lexer.trimTrailingSpaces(java.lang.StringBuilder):::ENTER
+org.apache.commons.csv.Lexer.DISABLED == this.escape
+org.apache.commons.csv.Lexer.DISABLED == this.commentStart
+this.ignoreSurroundingSpaces == this.ignoreEmptyLines
+this.delimiter one of { 9, 44 }
+this.quoteChar == 34
+this.ignoreSurroundingSpaces == true
+===========================================================================
+org.apache.commons.csv.Lexer.trimTrailingSpaces(java.lang.StringBuilder):::EXIT
+org.apache.commons.csv.Lexer.DISABLED == this.escape
+org.apache.commons.csv.Lexer.DISABLED == this.commentStart
+this.delimiter == orig(this.delimiter)
+this.quoteChar == orig(this.quoteChar)
+this.ignoreSurroundingSpaces == this.ignoreEmptyLines
+this.ignoreSurroundingSpaces == orig(this.ignoreSurroundingSpaces)
+this.ignoreSurroundingSpaces == orig(this.ignoreEmptyLines)
+this.reader == orig(this.reader)
+this.delimiter one of { 9, 44 }
+this.quoteChar == 34
+this.ignoreSurroundingSpaces == true
+===========================================================================
+org.apache.commons.csv.LexerTest:::OBJECT
+this has only one value
+===========================================================================
+org.apache.commons.csv.LexerTest.LexerTest():::EXIT
+this.formatWithEscaping == null
+===========================================================================
+org.apache.commons.csv.LexerTest.getLexer(java.lang.String, org.apache.commons.csv.CSVFormat):::ENTER
+this.formatWithEscaping has only one value
+this.formatWithEscaping != null
+input != null
+format != null
+===========================================================================
+org.apache.commons.csv.LexerTest.getLexer(java.lang.String, org.apache.commons.csv.CSVFormat):::EXIT
+this.formatWithEscaping == orig(this.formatWithEscaping)
+this.formatWithEscaping has only one value
+this.formatWithEscaping != null
+return != null
+input.toString == orig(input.toString)
+===========================================================================
+org.apache.commons.csv.LexerTest.setUp():::ENTER
+this.formatWithEscaping == null
+===========================================================================
+org.apache.commons.csv.LexerTest.setUp():::EXIT
+this.formatWithEscaping has only one value
+===========================================================================
+org.apache.commons.csv.QuoteMode:::OBJECT
+===========================================================================
+org.apache.commons.csv.QuoteMode.QuoteMode(java.lang.String, int):::ENTER
+===========================================================================
+org.apache.commons.csv.QuoteMode.QuoteMode(java.lang.String, int):::EXIT
+$hidden$1.toString == orig($hidden$1.toString)
+===========================================================================
+org.apache.commons.csv.Token$Type:::OBJECT
+===========================================================================
+org.apache.commons.csv.Token$Type.Type(java.lang.String, int):::ENTER
+===========================================================================
+org.apache.commons.csv.Token$Type.Type(java.lang.String, int):::EXIT
+$hidden$1.toString == orig($hidden$1.toString)
+===========================================================================
+org.apache.commons.csv.Token:::CLASS
+===========================================================================
+org.apache.commons.csv.Token:::OBJECT
+this.type has only one value
+this.type != null
+this.content != null
+this.isReady == false
+===========================================================================
+org.apache.commons.csv.Token.Token():::EXIT
+===========================================================================
+org.apache.commons.csv.TokenMatchers$1:::OBJECT
+this.val$expectedType has only one value
+===========================================================================
+org.apache.commons.csv.TokenMatchers$1.(org.apache.commons.csv.Token$Type):::ENTER
+$hidden$1 has only one value
+===========================================================================
+org.apache.commons.csv.TokenMatchers$1.(org.apache.commons.csv.Token$Type):::EXIT
+this.val$expectedType == orig($hidden$1)
+===========================================================================
+org.apache.commons.csv.TokenMatchers$2:::OBJECT
+this.val$expectedContent != null
+===========================================================================
+org.apache.commons.csv.TokenMatchers$2.(java.lang.String):::ENTER
+$hidden$1 != null
+===========================================================================
+org.apache.commons.csv.TokenMatchers$2.(java.lang.String):::EXIT
+this.val$expectedContent == orig($hidden$1)
+this.val$expectedContent.toString == $hidden$1.toString
+$hidden$1.toString == orig($hidden$1.toString)
+===========================================================================
+org.apache.commons.csv.TokenMatchers.hasContent(java.lang.String):::ENTER
+expectedContent != null
+===========================================================================
+org.apache.commons.csv.TokenMatchers.hasContent(java.lang.String):::EXIT
+return != null
+return.getClass().getName() == org.apache.commons.csv.TokenMatchers$2.class
+expectedContent.toString == orig(expectedContent.toString)
+===========================================================================
+org.apache.commons.csv.TokenMatchers.hasType(org.apache.commons.csv.Token$Type):::ENTER
+expectedType has only one value
+===========================================================================
+org.apache.commons.csv.TokenMatchers.hasType(org.apache.commons.csv.Token$Type):::EXIT
+return.getClass().getName() == org.apache.commons.csv.TokenMatchers$1.class
+===========================================================================
+org.apache.commons.csv.test.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+===========================================================================
+org.apache.commons.csv.test.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+===========================================================================
+org.hamcrest.BaseMatcher:::OBJECT
+===========================================================================
+org.hamcrest.BaseMatcher.BaseMatcher():::EXIT
+===========================================================================
+org.hamcrest.TypeSafeDiagnosingMatcher:::CLASS
+org.hamcrest.TypeSafeDiagnosingMatcher.TYPE_FINDER has only one value
+org.hamcrest.TypeSafeDiagnosingMatcher.TYPE_FINDER != null
+===========================================================================
+org.hamcrest.TypeSafeDiagnosingMatcher:::OBJECT
+this.expectedType has only one value
+this.expectedType != null
+===========================================================================
+org.hamcrest.TypeSafeDiagnosingMatcher.TypeSafeDiagnosingMatcher():::EXIT
+===========================================================================
+org.hamcrest.TypeSafeDiagnosingMatcher.TypeSafeDiagnosingMatcher(org.hamcrest.internal.ReflectiveTypeFinder):::ENTER
+typeFinder has only one value
+typeFinder != null
+===========================================================================
+org.hamcrest.TypeSafeDiagnosingMatcher.TypeSafeDiagnosingMatcher(org.hamcrest.internal.ReflectiveTypeFinder):::EXIT
+org.hamcrest.TypeSafeDiagnosingMatcher.TYPE_FINDER == orig(typeFinder)
+===========================================================================
+org.hamcrest.internal.ReflectiveTypeFinder:::OBJECT
+this has only one value
+this.methodName has only one value
+this.methodName != null
+this.methodName.toString == "matchesSafely"
+this.expectedNumberOfParameters == 2
+this.typedParameter == 0
+===========================================================================
+org.hamcrest.internal.ReflectiveTypeFinder.ReflectiveTypeFinder(java.lang.String, int, int):::ENTER
+methodName has only one value
+methodName.toString == "matchesSafely"
+expectedNumberOfParameters == 2
+typedParameter == 0
+===========================================================================
+org.hamcrest.internal.ReflectiveTypeFinder.ReflectiveTypeFinder(java.lang.String, int, int):::EXIT
+this.methodName == orig(methodName)
+this.expectedNumberOfParameters == orig(expectedNumberOfParameters)
+this.typedParameter == orig(typedParameter)
+methodName.toString == "matchesSafely"
+this.methodName.toString == methodName.toString
+methodName.toString == orig(methodName.toString)
+===========================================================================
+org.hamcrest.internal.ReflectiveTypeFinder.canObtainExpectedTypeFrom(java.lang.reflect.Method):::ENTER
+method != null
+===========================================================================
+org.hamcrest.internal.ReflectiveTypeFinder.canObtainExpectedTypeFrom(java.lang.reflect.Method):::EXIT
+this.methodName == orig(this.methodName)
+this.expectedNumberOfParameters == orig(this.expectedNumberOfParameters)
+this.typedParameter == orig(this.typedParameter)
+return == true
+this.methodName.toString == orig(this.methodName.toString)
+===========================================================================
+org.hamcrest.internal.ReflectiveTypeFinder.canObtainExpectedTypeFrom(java.lang.reflect.Method):::EXIT;condition="return == true"
+===========================================================================
+org.hamcrest.internal.ReflectiveTypeFinder.expectedTypeFrom(java.lang.reflect.Method):::ENTER
+method != null
+===========================================================================
+org.hamcrest.internal.ReflectiveTypeFinder.expectedTypeFrom(java.lang.reflect.Method):::EXIT
+this.methodName == orig(this.methodName)
+this.expectedNumberOfParameters == orig(this.expectedNumberOfParameters)
+this.typedParameter == orig(this.typedParameter)
+return has only one value
+return != null
+this.methodName.toString == orig(this.methodName.toString)
+===========================================================================
+org.hamcrest.internal.ReflectiveTypeFinder.findExpectedType(java.lang.Class):::ENTER
+fromClass != null
+===========================================================================
+org.hamcrest.internal.ReflectiveTypeFinder.findExpectedType(java.lang.Class):::EXIT
+this.methodName == orig(this.methodName)
+this.expectedNumberOfParameters == orig(this.expectedNumberOfParameters)
+this.typedParameter == orig(this.typedParameter)
+return has only one value
+return != null
+this.methodName.toString == orig(this.methodName.toString)
+===========================================================================
+org.junit.Assert.assertFalse(boolean):::ENTER
+condition == false
+===========================================================================
+org.junit.Assert.assertFalse(boolean):::EXIT
+===========================================================================
+org.junit.Assert.assertFalse(java.lang.String, boolean):::ENTER
+message.toString == "Should not ignore empty lines"
+condition == false
+===========================================================================
+org.junit.Assert.assertFalse(java.lang.String, boolean):::EXIT
+message.toString == "Should not ignore empty lines"
+message.toString == orig(message.toString)
+===========================================================================
+org.junit.Assert.assertTrue(boolean):::ENTER
+condition == true
+===========================================================================
+org.junit.Assert.assertTrue(boolean):::EXIT
+===========================================================================
+org.junit.Assert.assertTrue(java.lang.String, boolean):::ENTER
+message.toString == "Should not ignore empty lines"
+condition == true
+===========================================================================
+org.junit.Assert.assertTrue(java.lang.String, boolean):::EXIT
+message.toString == "Should not ignore empty lines"
+message.toString == orig(message.toString)

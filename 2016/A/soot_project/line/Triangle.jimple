@@ -1,0 +1,114 @@
+public class Triangle extends java.lang.Object
+{
+
+    public static void main(java.lang.String[])
+    {
+        java.util.Scanner $r0, l0;
+        java.io.InputStream $r1;
+        int l1, l2, $i0, l0;
+        java.lang.String[] l0;
+        java.lang.StringBuffer l3;
+        java.io.PrintStream $r2;
+        java.lang.String $r3;
+
+        l0 := @parameter0: java.lang.String[];
+        $r0 = new java.util.Scanner;
+        $r1 = <java.lang.System: java.io.InputStream in>;
+        specialinvoke $r0.<java.util.Scanner: void <init>(java.io.InputStream)>($r1);
+        l0 = $r0;
+        $r2 = <java.lang.System: java.io.PrintStream out>;
+        virtualinvoke $r2.<java.io.PrintStream: void print(java.lang.String)>("Input the x: ");
+        l1 = virtualinvoke l0.<java.util.Scanner: int nextInt()>();
+        $r2 = <java.lang.System: java.io.PrintStream out>;
+        virtualinvoke $r2.<java.io.PrintStream: void print(java.lang.String)>("Input the y: ");
+        l2 = virtualinvoke l0.<java.util.Scanner: int nextInt()>();
+        $r2 = <java.lang.System: java.io.PrintStream out>;
+        virtualinvoke $r2.<java.io.PrintStream: void print(java.lang.String)>("Input the z: ");
+        l0 = virtualinvoke l0.<java.util.Scanner: int nextInt()>();
+        $r2 = <java.lang.System: java.io.PrintStream out>;
+        l3 = new java.lang.StringBuffer;
+        specialinvoke l3.<java.lang.StringBuffer: void <init>()>();
+        virtualinvoke l3.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>("x: ");
+        virtualinvoke l3.<java.lang.StringBuffer: java.lang.StringBuffer append(int)>(l1);
+        virtualinvoke l3.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(" y: ");
+        virtualinvoke l3.<java.lang.StringBuffer: java.lang.StringBuffer append(int)>(l2);
+        virtualinvoke l3.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(" z: ");
+        virtualinvoke l3.<java.lang.StringBuffer: java.lang.StringBuffer append(int)>(l0);
+        $r3 = virtualinvoke l3.<java.lang.StringBuffer: java.lang.String toString()>();
+        virtualinvoke $r2.<java.io.PrintStream: void println(java.lang.String)>($r3);
+        $i0 = l1 + l2;
+        if $i0 > l0 goto label0;
+
+        goto label11;
+
+     label0:
+        $i0 = l2 + l0;
+        if $i0 > l1 goto label1;
+
+        goto label11;
+
+     label1:
+        $i0 = l1 + l0;
+        if $i0 > l2 goto label2;
+
+        goto label11;
+
+     label2:
+        if l1 == l2 goto label3;
+
+        goto label5;
+
+     label3:
+        if l2 == l0 goto label4;
+
+        goto label5;
+
+     label4:
+        $r2 = <java.lang.System: java.io.PrintStream out>;
+        virtualinvoke $r2.<java.io.PrintStream: void println(java.lang.String)>("0");
+        goto label10;
+
+     label5:
+        if l1 == l2 goto label8;
+
+        goto label6;
+
+     label6:
+        if l1 == l0 goto label8;
+
+        goto label7;
+
+     label7:
+        if l2 == l0 goto label8;
+
+        goto label9;
+
+     label8:
+        $r2 = <java.lang.System: java.io.PrintStream out>;
+        virtualinvoke $r2.<java.io.PrintStream: void println(java.lang.String)>("1");
+        goto label10;
+
+     label9:
+        $r2 = <java.lang.System: java.io.PrintStream out>;
+        virtualinvoke $r2.<java.io.PrintStream: void println(java.lang.String)>("2");
+
+     label10:
+        goto label12;
+
+     label11:
+        $r2 = <java.lang.System: java.io.PrintStream out>;
+        virtualinvoke $r2.<java.io.PrintStream: void println(java.lang.String)>("3");
+
+     label12:
+        return;
+    }
+
+    public void <init>()
+    {
+        Triangle l0;
+
+        l0 := @this: Triangle;
+        specialinvoke l0.<java.lang.Object: void <init>()>();
+        return;
+    }
+}

@@ -1,0 +1,13 @@
+<project name="first" default="first.class">
+        <property file="build.properties"/>
+        <property name="first.dir" location="first"/>
+
+<target name="first.class">
+
+	<junit haltonfailure="true" printsummary="true">
+	<test name="first.class"/>
+	</junit>
+
+</target>
+
+</project>

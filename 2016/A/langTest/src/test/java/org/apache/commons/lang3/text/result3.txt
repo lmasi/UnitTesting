@@ -1,0 +1,46 @@
+Daikon version 5.3.10, released September 1, 2016; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+No return from procedure observed 3 times.  Unmatched entries are ignored!
+Unterminated calls:
+  org.junit.runner.JUnitCore.main(java.lang.String[]) : 1 invocation
+  org.junit.runner.JUnitCore.runMain(org.junit.internal.JUnitSystem, java.lang.String[]) : 1 invocation
+  org.junit.runner.JUnitCore.runMainAndExit(org.junit.internal.JUnitSystem, java.lang.String[]) : 1 invocation
+End of report for procedures not returned from.  Unmatched entries are ignored!
+
+===========================================================================
+junit.runner.Version.id():::EXIT
+return has only one value
+return.toString == "4.8"
+===========================================================================
+org.junit.internal.RealSystem:::OBJECT
+this has only one value
+===========================================================================
+org.junit.internal.RealSystem.RealSystem():::EXIT
+===========================================================================
+org.junit.internal.RealSystem.out():::ENTER
+===========================================================================
+org.junit.internal.RealSystem.out():::EXIT
+return has only one value
+===========================================================================
+org.junit.runner.JUnitCore:::OBJECT
+this has only one value
+this.fNotifier has only one value
+this.fNotifier.fListeners has only one value
+this.fNotifier.fListeners[] == []
+this.fNotifier.fListeners[].getClass().getName() == []
+this.fNotifier.fListeners.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+this.fNotifier.fPleaseStop == false
+===========================================================================
+org.junit.runner.JUnitCore.JUnitCore():::EXIT
+===========================================================================
+org.junit.runner.notification.RunNotifier:::OBJECT
+this has only one value
+this.fListeners has only one value
+this.fListeners[] == []
+this.fListeners[].getClass().getName() == []
+this.fListeners.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+this.fPleaseStop == false
+===========================================================================
+org.junit.runner.notification.RunNotifier.RunNotifier():::EXIT
+Exiting Daikon.

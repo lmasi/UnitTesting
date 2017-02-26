@@ -1,0 +1,2576 @@
+===========================================================================
+junit.runner.Version.id():::EXIT
+return has only one value
+return.toString == "4.8"
+===========================================================================
+org.junit.internal.RealSystem:::OBJECT
+this has only one value
+===========================================================================
+org.junit.internal.RealSystem.RealSystem():::EXIT
+===========================================================================
+org.junit.internal.RealSystem.out():::ENTER
+===========================================================================
+org.junit.internal.RealSystem.out():::EXIT
+return has only one value
+===========================================================================
+org.junit.internal.TextListener:::OBJECT
+this has only one value
+this.fWriter has only one value
+this.fWriter != null
+===========================================================================
+org.junit.internal.TextListener.TextListener(java.io.PrintStream):::ENTER
+writer has only one value
+===========================================================================
+org.junit.internal.TextListener.TextListener(java.io.PrintStream):::EXIT
+this.fWriter == orig(writer)
+===========================================================================
+org.junit.internal.TextListener.TextListener(org.junit.internal.JUnitSystem):::ENTER
+system has only one value
+system.getClass().getName() == org.junit.internal.RealSystem.class
+===========================================================================
+org.junit.internal.TextListener.TextListener(org.junit.internal.JUnitSystem):::EXIT
+===========================================================================
+org.junit.internal.TextListener.elapsedTimeAsString(long):::ENTER
+runTime == 12
+===========================================================================
+org.junit.internal.TextListener.elapsedTimeAsString(long):::EXIT
+this.fWriter == orig(this.fWriter)
+return has only one value
+return.toString == "0.012"
+===========================================================================
+org.junit.internal.TextListener.getWriter():::ENTER
+===========================================================================
+org.junit.internal.TextListener.getWriter():::EXIT
+this.fWriter == return
+return == orig(this.fWriter)
+return has only one value
+===========================================================================
+org.junit.internal.TextListener.printFailures(org.junit.runner.Result):::ENTER
+result has only one value
+result.fCount has only one value
+result.fIgnoreCount has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fFailures.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+result.fRunTime == 12
+result.fStartTime == 1475739464438L
+===========================================================================
+org.junit.internal.TextListener.printFailures(org.junit.runner.Result):::EXIT62
+===========================================================================
+org.junit.internal.TextListener.printFailures(org.junit.runner.Result):::EXIT
+this.fWriter == orig(this.fWriter)
+result.fCount == orig(result.fCount)
+result.fIgnoreCount == orig(result.fIgnoreCount)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == orig(result.fFailures[])
+result.fRunTime == orig(result.fRunTime)
+result.fStartTime == orig(result.fStartTime)
+result.fCount has only one value
+result.fIgnoreCount has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fFailures.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+result.fRunTime == 12
+result.fStartTime == 1475739464438L
+result.fFailures.getClass().getName() == orig(result.fFailures.getClass().getName())
+===========================================================================
+org.junit.internal.TextListener.printFooter(org.junit.runner.Result):::ENTER
+result has only one value
+result.fCount has only one value
+result.fIgnoreCount has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fFailures.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+result.fRunTime == 12
+result.fStartTime == 1475739464438L
+===========================================================================
+org.junit.internal.TextListener.printFooter(org.junit.runner.Result):::EXIT
+this.fWriter == orig(this.fWriter)
+result.fCount == orig(result.fCount)
+result.fIgnoreCount == orig(result.fIgnoreCount)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == orig(result.fFailures[])
+result.fRunTime == orig(result.fRunTime)
+result.fStartTime == orig(result.fStartTime)
+result.fCount has only one value
+result.fIgnoreCount has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fFailures.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+result.fRunTime == 12
+result.fStartTime == 1475739464438L
+result.fFailures.getClass().getName() == orig(result.fFailures.getClass().getName())
+===========================================================================
+org.junit.internal.TextListener.printHeader(long):::ENTER
+runTime == 12
+===========================================================================
+org.junit.internal.TextListener.printHeader(long):::EXIT
+this.fWriter == orig(this.fWriter)
+===========================================================================
+org.junit.internal.TextListener.testRunFinished(org.junit.runner.Result):::ENTER
+result has only one value
+result.fCount has only one value
+result.fIgnoreCount has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fFailures.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+result.fRunTime == 12
+result.fStartTime == 1475739464438L
+===========================================================================
+org.junit.internal.TextListener.testRunFinished(org.junit.runner.Result):::EXIT
+this.fWriter == orig(this.fWriter)
+result.fCount == orig(result.fCount)
+result.fIgnoreCount == orig(result.fIgnoreCount)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == orig(result.fFailures[])
+result.fRunTime == orig(result.fRunTime)
+result.fStartTime == orig(result.fStartTime)
+result.fCount has only one value
+result.fIgnoreCount has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fFailures.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+result.fRunTime == 12
+result.fStartTime == 1475739464438L
+result.fFailures.getClass().getName() == orig(result.fFailures.getClass().getName())
+===========================================================================
+org.junit.internal.builders.AllDefaultPossibilitiesBuilder:::OBJECT
+this has only one value
+this.fCanUseSuiteMethod == true
+===========================================================================
+org.junit.internal.builders.AllDefaultPossibilitiesBuilder.AllDefaultPossibilitiesBuilder(boolean):::ENTER
+canUseSuiteMethod == true
+===========================================================================
+org.junit.internal.builders.AllDefaultPossibilitiesBuilder.AllDefaultPossibilitiesBuilder(boolean):::EXIT
+this.fCanUseSuiteMethod == orig(canUseSuiteMethod)
+===========================================================================
+org.junit.internal.runners.model.EachTestNotifier:::OBJECT
+org.junit.runner.Description.EMPTY.fChildren[] == org.junit.runner.Description.TEST_MECHANISM.fChildren[]
+org.junit.runner.Description.EMPTY.fChildren[] == this.fDescription.fChildren[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == org.junit.runner.Description.TEST_MECHANISM.fAnnotations[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == this.fDescription.fAnnotations[]
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.EMPTY.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(this.fDescription.fAnnotations[])
+this has only one value
+this.fNotifier has only one value
+this.fNotifier.fListeners has only one value
+this.fNotifier.fListeners[] contains no nulls and has only one value, of length 2
+this.fNotifier.fListeners[].getClass().getName() == [org.junit.runner.Result.Listener, org.junit.internal.TextListener]
+this.fNotifier.fListeners.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+this.fNotifier.fPleaseStop == false
+this.fDescription has only one value
+org.junit.runner.Description.EMPTY has only one value
+org.junit.runner.Description.TEST_MECHANISM has only one value
+org.junit.runner.Description.EMPTY.fChildren has only one value
+org.junit.runner.Description.EMPTY.fChildren[] == []
+org.junit.runner.Description.EMPTY.fChildren[].getClass().getName() == []
+org.junit.runner.Description.EMPTY.fDisplayName has only one value
+org.junit.runner.Description.EMPTY.fDisplayName.toString == "No Tests"
+org.junit.runner.Description.EMPTY.fAnnotations has only one value
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == java.lang.annotation.Annotation[].class
+org.junit.runner.Description.EMPTY.fAnnotations[] == []
+org.junit.runner.Description.TEST_MECHANISM.fChildren has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString == "Test mechanism"
+org.junit.runner.Description.TEST_MECHANISM.fAnnotations has only one value
+this.fDescription.fChildren has only one value
+this.fDescription.fDisplayName has only one value
+this.fDescription.fDisplayName.toString == "null"
+this.fDescription.fAnnotations has only one value
+size(this.fNotifier.fListeners[]) == 2
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == org.junit.runner.Description.TEST_MECHANISM.fAnnotations.getClass().getName()
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == this.fDescription.fAnnotations.getClass().getName()
+===========================================================================
+org.junit.internal.runners.model.EachTestNotifier.EachTestNotifier(org.junit.runner.notification.RunNotifier, org.junit.runner.Description):::ENTER
+org.junit.runner.Description.EMPTY.fChildren[] == org.junit.runner.Description.TEST_MECHANISM.fChildren[]
+org.junit.runner.Description.EMPTY.fChildren[] == description.fChildren[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == org.junit.runner.Description.TEST_MECHANISM.fAnnotations[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == description.fAnnotations[]
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.EMPTY.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(description.fAnnotations[])
+notifier has only one value
+notifier.fListeners has only one value
+notifier.fListeners[] contains no nulls and has only one value, of length 2
+notifier.fListeners[].getClass().getName() == [org.junit.runner.Result.Listener, org.junit.internal.TextListener]
+notifier.fListeners.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+notifier.fPleaseStop == false
+description has only one value
+org.junit.runner.Description.EMPTY has only one value
+org.junit.runner.Description.TEST_MECHANISM has only one value
+org.junit.runner.Description.EMPTY.fChildren has only one value
+org.junit.runner.Description.EMPTY.fChildren[] == []
+org.junit.runner.Description.EMPTY.fChildren[].getClass().getName() == []
+org.junit.runner.Description.EMPTY.fDisplayName has only one value
+org.junit.runner.Description.EMPTY.fDisplayName.toString == "No Tests"
+org.junit.runner.Description.EMPTY.fAnnotations has only one value
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == java.lang.annotation.Annotation[].class
+org.junit.runner.Description.EMPTY.fAnnotations[] == []
+org.junit.runner.Description.TEST_MECHANISM.fChildren has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString == "Test mechanism"
+org.junit.runner.Description.TEST_MECHANISM.fAnnotations has only one value
+description.fChildren has only one value
+description.fDisplayName has only one value
+description.fDisplayName.toString == "null"
+description.fAnnotations has only one value
+size(notifier.fListeners[]) == 2
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == org.junit.runner.Description.TEST_MECHANISM.fAnnotations.getClass().getName()
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == description.fAnnotations.getClass().getName()
+===========================================================================
+org.junit.internal.runners.model.EachTestNotifier.EachTestNotifier(org.junit.runner.notification.RunNotifier, org.junit.runner.Description):::EXIT
+this.fNotifier == orig(notifier)
+this.fNotifier.fListeners == notifier.fListeners
+this.fNotifier.fListeners[] == notifier.fListeners[]
+this.fNotifier.fPleaseStop == notifier.fPleaseStop
+this.fDescription == orig(description)
+org.junit.runner.Description.EMPTY == orig(org.junit.runner.Description.EMPTY)
+org.junit.runner.Description.TEST_MECHANISM == orig(org.junit.runner.Description.TEST_MECHANISM)
+org.junit.runner.Description.EMPTY.fChildren == orig(org.junit.runner.Description.EMPTY.fChildren)
+org.junit.runner.Description.EMPTY.fChildren[] == description.fChildren[]
+org.junit.runner.Description.EMPTY.fChildren[] == orig(org.junit.runner.Description.EMPTY.fChildren[])
+org.junit.runner.Description.EMPTY.fChildren[] == orig(org.junit.runner.Description.TEST_MECHANISM.fChildren[])
+org.junit.runner.Description.EMPTY.fChildren[] == orig(description.fChildren[])
+org.junit.runner.Description.EMPTY.fDisplayName == orig(org.junit.runner.Description.EMPTY.fDisplayName)
+org.junit.runner.Description.EMPTY.fAnnotations == orig(org.junit.runner.Description.EMPTY.fAnnotations)
+org.junit.runner.Description.EMPTY.fAnnotations[] == description.fAnnotations[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == orig(org.junit.runner.Description.EMPTY.fAnnotations[])
+org.junit.runner.Description.EMPTY.fAnnotations[] == orig(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[])
+org.junit.runner.Description.EMPTY.fAnnotations[] == orig(description.fAnnotations[])
+org.junit.runner.Description.TEST_MECHANISM.fChildren == orig(org.junit.runner.Description.TEST_MECHANISM.fChildren)
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName == orig(org.junit.runner.Description.TEST_MECHANISM.fDisplayName)
+org.junit.runner.Description.TEST_MECHANISM.fAnnotations == orig(org.junit.runner.Description.TEST_MECHANISM.fAnnotations)
+this.fDescription.fChildren == description.fChildren
+this.fDescription.fDisplayName == description.fDisplayName
+this.fDescription.fAnnotations == description.fAnnotations
+notifier.fListeners == orig(notifier.fListeners)
+notifier.fListeners[] == orig(notifier.fListeners[])
+notifier.fPleaseStop == orig(notifier.fPleaseStop)
+description.fChildren == orig(description.fChildren)
+description.fDisplayName == orig(description.fDisplayName)
+description.fAnnotations == orig(description.fAnnotations)
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(description.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == orig(size(org.junit.runner.Description.EMPTY.fAnnotations[]))
+size(org.junit.runner.Description.EMPTY.fChildren[]) == orig(size(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[]))
+size(org.junit.runner.Description.EMPTY.fChildren[]) == orig(size(description.fAnnotations[]))
+notifier.fListeners has only one value
+notifier.fListeners[] contains no nulls and has only one value, of length 2
+notifier.fListeners[].getClass().getName() == [org.junit.runner.Result.Listener, org.junit.internal.TextListener]
+notifier.fListeners.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+notifier.fPleaseStop == false
+description.fChildren has only one value
+description.fDisplayName has only one value
+description.fDisplayName.toString == "null"
+description.fAnnotations has only one value
+size(notifier.fListeners[]) == 2
+this.fNotifier.fListeners.getClass().getName() == notifier.fListeners.getClass().getName()
+org.junit.runner.Description.EMPTY.fDisplayName.toString == orig(org.junit.runner.Description.EMPTY.fDisplayName.toString)
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == description.fAnnotations.getClass().getName()
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == orig(org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName())
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == orig(org.junit.runner.Description.TEST_MECHANISM.fAnnotations.getClass().getName())
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == orig(description.fAnnotations.getClass().getName())
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString == orig(org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString)
+this.fDescription.fDisplayName.toString == description.fDisplayName.toString
+notifier.fListeners.getClass().getName() == orig(notifier.fListeners.getClass().getName())
+description.fDisplayName.toString == orig(description.fDisplayName.toString)
+===========================================================================
+org.junit.runner.Computer$1:::OBJECT
+this has only one value
+this.val$builder has only one value
+this.val$builder.getClass().getName() == org.junit.internal.builders.AllDefaultPossibilitiesBuilder.class
+this.val$builder.parents has only one value
+this.val$builder.parents.getClass().getName() == java.util.HashSet.class
+org.junit.runner.Computer.this has only one value
+===========================================================================
+org.junit.runner.Computer$1.(org.junit.runner.Computer, org.junit.runners.model.RunnerBuilder):::ENTER
+org.junit.runner.Computer.this has only one value
+$hidden$2 has only one value
+$hidden$2.getClass().getName() == org.junit.internal.builders.AllDefaultPossibilitiesBuilder.class
+$hidden$2.parents has only one value
+$hidden$2.parents.getClass().getName() == java.util.HashSet.class
+===========================================================================
+org.junit.runner.Computer$1.(org.junit.runner.Computer, org.junit.runners.model.RunnerBuilder):::EXIT
+this.val$builder == orig($hidden$2)
+this.val$builder.parents == orig($hidden$2.parents)
+org.junit.runner.Computer.this == orig(org.junit.runner.Computer.this)
+this.val$builder.getClass().getName() == orig($hidden$2.getClass().getName())
+this.val$builder.parents.getClass().getName() == orig($hidden$2.parents.getClass().getName())
+===========================================================================
+org.junit.runner.Computer:::OBJECT
+this has only one value
+===========================================================================
+org.junit.runner.Computer.Computer():::EXIT
+===========================================================================
+org.junit.runner.Computer.getSuite(org.junit.runners.model.RunnerBuilder, java.lang.Class[]):::ENTER
+builder has only one value
+builder.getClass().getName() == org.junit.internal.builders.AllDefaultPossibilitiesBuilder.class
+builder.parents has only one value
+builder.parents.getClass().getName() == java.util.HashSet.class
+classes has only one value
+classes.getClass().getName() == java.lang.Class[].class
+classes[] == []
+===========================================================================
+org.junit.runner.Computer.getSuite(org.junit.runners.model.RunnerBuilder, java.lang.Class[]):::EXIT
+builder.parents == orig(builder.parents)
+classes[] == orig(classes[])
+builder.parents has only one value
+builder.parents.getClass().getName() == java.util.HashSet.class
+classes[] == []
+return has only one value
+return.getClass().getName() == org.junit.runners.Suite.class
+builder.parents.getClass().getName() == orig(builder.parents.getClass().getName())
+===========================================================================
+org.junit.runner.Description:::CLASS
+org.junit.runner.Description.EMPTY.fChildren[] == org.junit.runner.Description.TEST_MECHANISM.fChildren[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == org.junit.runner.Description.TEST_MECHANISM.fAnnotations[]
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.EMPTY.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[])
+org.junit.runner.Description.EMPTY has only one value
+org.junit.runner.Description.TEST_MECHANISM has only one value
+org.junit.runner.Description.EMPTY.fChildren has only one value
+org.junit.runner.Description.EMPTY.fChildren[] == []
+org.junit.runner.Description.EMPTY.fChildren[].getClass().getName() == []
+org.junit.runner.Description.EMPTY.fDisplayName has only one value
+org.junit.runner.Description.EMPTY.fDisplayName.toString == "No Tests"
+org.junit.runner.Description.EMPTY.fAnnotations has only one value
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == java.lang.annotation.Annotation[].class
+org.junit.runner.Description.EMPTY.fAnnotations[] == []
+org.junit.runner.Description.TEST_MECHANISM.fChildren has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString == "Test mechanism"
+org.junit.runner.Description.TEST_MECHANISM.fAnnotations has only one value
+org.junit.runner.Description.EMPTY.fDisplayName.toString < org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == org.junit.runner.Description.TEST_MECHANISM.fAnnotations.getClass().getName()
+===========================================================================
+org.junit.runner.Description:::OBJECT
+org.junit.runner.Description.EMPTY.fChildren[] == this.fChildren[]
+org.junit.runner.Description.EMPTY.fChildren[].getClass().getName() == this.fChildren[].getClass().getName()
+org.junit.runner.Description.EMPTY.fAnnotations[] == this.fAnnotations[]
+size(this.fChildren[]) == size(this.fAnnotations[])
+this.fChildren[] == []
+this.fChildren[].getClass().getName() == []
+this.fAnnotations.getClass().getName() == java.lang.annotation.Annotation[].class
+this.fAnnotations[] == []
+org.junit.runner.Description.EMPTY.fChildren[] is the reverse of this.fChildren[]
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == this.fAnnotations.getClass().getName()
+org.junit.runner.Description.EMPTY.fAnnotations[] is the reverse of this.fAnnotations[]
+===========================================================================
+org.junit.runner.Description.Description(java.lang.String, java.lang.annotation.Annotation[]):::ENTER
+annotations.getClass().getName() == java.lang.annotation.Annotation[].class
+annotations[] == []
+===========================================================================
+org.junit.runner.Description.Description(java.lang.String, java.lang.annotation.Annotation[]):::EXIT
+org.junit.runner.Description.EMPTY.fAnnotations[] == annotations[]
+this.fDisplayName == orig(displayName)
+this.fAnnotations == orig(annotations)
+this.fAnnotations[] == annotations[]
+annotations[] == orig(annotations[])
+size(this.fChildren[]) == orig(size(annotations[]))
+annotations[] == []
+org.junit.runner.Description.EMPTY.fAnnotations[] is the reverse of annotations[]
+this.fDisplayName.toString == displayName.toString
+this.fAnnotations.getClass().getName() == orig(annotations.getClass().getName())
+displayName.toString == orig(displayName.toString)
+===========================================================================
+org.junit.runner.Description.createSuiteDescription(java.lang.String, java.lang.annotation.Annotation[]):::ENTER
+org.junit.runner.Description.EMPTY.fAnnotations[] == annotations[]
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(annotations[])
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == annotations.getClass().getName()
+===========================================================================
+org.junit.runner.Description.createSuiteDescription(java.lang.String, java.lang.annotation.Annotation[]):::EXIT
+org.junit.runner.Description.EMPTY == orig(org.junit.runner.Description.EMPTY)
+org.junit.runner.Description.TEST_MECHANISM == orig(org.junit.runner.Description.TEST_MECHANISM)
+org.junit.runner.Description.EMPTY.fChildren == orig(org.junit.runner.Description.EMPTY.fChildren)
+org.junit.runner.Description.EMPTY.fChildren[] == return.fChildren[]
+org.junit.runner.Description.EMPTY.fChildren[] == orig(org.junit.runner.Description.EMPTY.fChildren[])
+org.junit.runner.Description.EMPTY.fChildren[] == orig(org.junit.runner.Description.TEST_MECHANISM.fChildren[])
+org.junit.runner.Description.EMPTY.fDisplayName == orig(org.junit.runner.Description.EMPTY.fDisplayName)
+org.junit.runner.Description.EMPTY.fAnnotations == orig(org.junit.runner.Description.EMPTY.fAnnotations)
+org.junit.runner.Description.EMPTY.fAnnotations[] == annotations[]
+org.junit.runner.Description.TEST_MECHANISM.fChildren == orig(org.junit.runner.Description.TEST_MECHANISM.fChildren)
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName == orig(org.junit.runner.Description.TEST_MECHANISM.fDisplayName)
+org.junit.runner.Description.TEST_MECHANISM.fAnnotations == orig(org.junit.runner.Description.TEST_MECHANISM.fAnnotations)
+org.junit.runner.Description.TEST_MECHANISM.fAnnotations[] == annotations[]
+annotations[] == return.fAnnotations[]
+annotations[] == orig(org.junit.runner.Description.EMPTY.fAnnotations[])
+annotations[] == orig(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[])
+annotations[] == orig(annotations[])
+return.fDisplayName == orig(name)
+return.fAnnotations == orig(annotations)
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(return.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == orig(size(org.junit.runner.Description.EMPTY.fAnnotations[]))
+size(org.junit.runner.Description.EMPTY.fChildren[]) == orig(size(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[]))
+size(org.junit.runner.Description.EMPTY.fChildren[]) == orig(size(annotations[]))
+annotations[] == []
+org.junit.runner.Description.EMPTY.fDisplayName.toString == orig(org.junit.runner.Description.EMPTY.fDisplayName.toString)
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == return.fAnnotations.getClass().getName()
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == orig(org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName())
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == orig(org.junit.runner.Description.TEST_MECHANISM.fAnnotations.getClass().getName())
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == orig(annotations.getClass().getName())
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString == orig(org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString)
+name.toString == return.fDisplayName.toString
+name.toString == orig(name.toString)
+===========================================================================
+org.junit.runner.JUnitCore:::OBJECT
+this has only one value
+this.fNotifier has only one value
+this.fNotifier != null
+this.fNotifier.fListeners has only one value
+this.fNotifier.fListeners != null
+this.fNotifier.fListeners[] elements != null
+this.fNotifier.fListeners.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+this.fNotifier.fPleaseStop == false
+size(this.fNotifier.fListeners[]) one of { 0, 1, 2 }
+===========================================================================
+org.junit.runner.JUnitCore.JUnitCore():::EXIT
+this.fNotifier.fListeners[] == []
+this.fNotifier.fListeners[].getClass().getName() == []
+===========================================================================
+org.junit.runner.JUnitCore.addListener(org.junit.runner.notification.RunListener):::ENTER
+this.fNotifier.fListeners[] == []
+this.fNotifier.fListeners[].getClass().getName() == []
+listener has only one value
+===========================================================================
+org.junit.runner.JUnitCore.addListener(org.junit.runner.notification.RunListener):::EXIT
+this.fNotifier == orig(this.fNotifier)
+this.fNotifier.fListeners == orig(this.fNotifier.fListeners)
+this.fNotifier.fPleaseStop == orig(this.fNotifier.fPleaseStop)
+size(this.fNotifier.fListeners[])-1 == orig(size(this.fNotifier.fListeners[]))
+this.fNotifier.fListeners[] contains no nulls and has only one value, of length 1
+this.fNotifier.fListeners[] elements has only one value
+this.fNotifier.fListeners[].getClass().getName() == [org.junit.internal.TextListener]
+this.fNotifier.fListeners[].getClass().getName() elements == org.junit.internal.TextListener.class
+size(this.fNotifier.fListeners[]) == 1
+orig(listener) in this.fNotifier.fListeners[]
+this.fNotifier.fListeners[] elements == orig(listener)
+this.fNotifier.fListeners.getClass().getName() == orig(this.fNotifier.fListeners.getClass().getName())
+===========================================================================
+org.junit.runner.JUnitCore.defaultComputer():::EXIT
+return has only one value
+===========================================================================
+org.junit.runner.JUnitCore.removeListener(org.junit.runner.notification.RunListener):::ENTER
+this.fNotifier.fListeners[] contains no nulls and has only one value, of length 2
+this.fNotifier.fListeners[].getClass().getName() == [org.junit.runner.Result.Listener, org.junit.internal.TextListener]
+listener has only one value
+size(this.fNotifier.fListeners[]) == 2
+listener in this.fNotifier.fListeners[]
+===========================================================================
+org.junit.runner.JUnitCore.removeListener(org.junit.runner.notification.RunListener):::EXIT
+this.fNotifier == orig(this.fNotifier)
+this.fNotifier.fListeners == orig(this.fNotifier.fListeners)
+this.fNotifier.fPleaseStop == orig(this.fNotifier.fPleaseStop)
+size(this.fNotifier.fListeners[]) == orig(size(this.fNotifier.fListeners[]))-1
+this.fNotifier.fListeners[] contains no nulls and has only one value, of length 1
+this.fNotifier.fListeners[] elements has only one value
+this.fNotifier.fListeners[].getClass().getName() == [org.junit.internal.TextListener]
+this.fNotifier.fListeners[].getClass().getName() elements == org.junit.internal.TextListener.class
+this.fNotifier.fListeners.getClass().getName() == orig(this.fNotifier.fListeners.getClass().getName())
+===========================================================================
+org.junit.runner.JUnitCore.run(java.lang.Class[]):::ENTER
+size(this.fNotifier.fListeners[])-1 == size(classes[])
+this.fNotifier.fListeners[] contains no nulls and has only one value, of length 1
+this.fNotifier.fListeners[] elements has only one value
+this.fNotifier.fListeners[].getClass().getName() == [org.junit.internal.TextListener]
+this.fNotifier.fListeners[].getClass().getName() elements == org.junit.internal.TextListener.class
+classes has only one value
+classes.getClass().getName() == java.lang.Class[].class
+classes[] == []
+size(this.fNotifier.fListeners[]) == 1
+===========================================================================
+org.junit.runner.JUnitCore.run(java.lang.Class[]):::EXIT
+this.fNotifier == orig(this.fNotifier)
+this.fNotifier.fListeners == orig(this.fNotifier.fListeners)
+this.fNotifier.fListeners[] == orig(this.fNotifier.fListeners[])
+this.fNotifier.fPleaseStop == orig(this.fNotifier.fPleaseStop)
+classes[] == orig(classes[])
+size(this.fNotifier.fListeners[])-1 == size(return.fFailures[])
+size(return.fFailures[]) == orig(size(this.fNotifier.fListeners[]))-1
+size(return.fFailures[]) == orig(size(classes[]))
+this.fNotifier.fListeners[] contains no nulls and has only one value, of length 1
+this.fNotifier.fListeners[] elements has only one value
+this.fNotifier.fListeners[].getClass().getName() == [org.junit.internal.TextListener]
+this.fNotifier.fListeners[].getClass().getName() elements == org.junit.internal.TextListener.class
+classes[] == []
+return has only one value
+return.fCount has only one value
+return.fIgnoreCount has only one value
+return.fFailures has only one value
+return.fFailures[] == []
+return.fFailures[].getClass().getName() == []
+return.fFailures.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+return.fRunTime == 12
+return.fStartTime == 1475739464438L
+size(this.fNotifier.fListeners[]) == 1
+this.fNotifier.fListeners.getClass().getName() == return.fFailures.getClass().getName()
+return.fFailures.getClass().getName() == orig(this.fNotifier.fListeners.getClass().getName())
+===========================================================================
+org.junit.runner.JUnitCore.run(org.junit.runner.Request):::ENTER
+this.fNotifier.fListeners[] contains no nulls and has only one value, of length 1
+this.fNotifier.fListeners[] elements has only one value
+this.fNotifier.fListeners[].getClass().getName() == [org.junit.internal.TextListener]
+this.fNotifier.fListeners[].getClass().getName() elements == org.junit.internal.TextListener.class
+request has only one value
+request.getClass().getName() == org.junit.runner.Request$1.class
+size(this.fNotifier.fListeners[]) == 1
+===========================================================================
+org.junit.runner.JUnitCore.run(org.junit.runner.Request):::EXIT
+this.fNotifier == orig(this.fNotifier)
+this.fNotifier.fListeners == orig(this.fNotifier.fListeners)
+this.fNotifier.fListeners[] == orig(this.fNotifier.fListeners[])
+this.fNotifier.fPleaseStop == orig(this.fNotifier.fPleaseStop)
+size(this.fNotifier.fListeners[])-1 == size(return.fFailures[])
+size(return.fFailures[]) == orig(size(this.fNotifier.fListeners[]))-1
+this.fNotifier.fListeners[] contains no nulls and has only one value, of length 1
+this.fNotifier.fListeners[] elements has only one value
+this.fNotifier.fListeners[].getClass().getName() == [org.junit.internal.TextListener]
+this.fNotifier.fListeners[].getClass().getName() elements == org.junit.internal.TextListener.class
+return has only one value
+return.fCount has only one value
+return.fIgnoreCount has only one value
+return.fFailures has only one value
+return.fFailures[] == []
+return.fFailures[].getClass().getName() == []
+return.fFailures.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+return.fRunTime == 12
+return.fStartTime == 1475739464438L
+size(this.fNotifier.fListeners[]) == 1
+this.fNotifier.fListeners.getClass().getName() == return.fFailures.getClass().getName()
+return.fFailures.getClass().getName() == orig(this.fNotifier.fListeners.getClass().getName())
+===========================================================================
+org.junit.runner.JUnitCore.run(org.junit.runner.Runner):::ENTER
+this.fNotifier.fListeners[] contains no nulls and has only one value, of length 1
+this.fNotifier.fListeners[] elements has only one value
+this.fNotifier.fListeners[].getClass().getName() == [org.junit.internal.TextListener]
+this.fNotifier.fListeners[].getClass().getName() elements == org.junit.internal.TextListener.class
+runner has only one value
+runner.getClass().getName() == org.junit.runners.Suite.class
+size(this.fNotifier.fListeners[]) == 1
+===========================================================================
+org.junit.runner.JUnitCore.run(org.junit.runner.Runner):::EXIT
+this.fNotifier == orig(this.fNotifier)
+this.fNotifier.fListeners == orig(this.fNotifier.fListeners)
+this.fNotifier.fListeners[] == orig(this.fNotifier.fListeners[])
+this.fNotifier.fPleaseStop == orig(this.fNotifier.fPleaseStop)
+size(this.fNotifier.fListeners[])-1 == size(return.fFailures[])
+size(return.fFailures[]) == orig(size(this.fNotifier.fListeners[]))-1
+this.fNotifier.fListeners[] contains no nulls and has only one value, of length 1
+this.fNotifier.fListeners[] elements has only one value
+this.fNotifier.fListeners[].getClass().getName() == [org.junit.internal.TextListener]
+this.fNotifier.fListeners[].getClass().getName() elements == org.junit.internal.TextListener.class
+return has only one value
+return.fCount has only one value
+return.fIgnoreCount has only one value
+return.fFailures has only one value
+return.fFailures[] == []
+return.fFailures[].getClass().getName() == []
+return.fFailures.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+return.fRunTime == 12
+return.fStartTime == 1475739464438L
+size(this.fNotifier.fListeners[]) == 1
+this.fNotifier.fListeners.getClass().getName() == return.fFailures.getClass().getName()
+return.fFailures.getClass().getName() == orig(this.fNotifier.fListeners.getClass().getName())
+===========================================================================
+org.junit.runner.JUnitCore.runMain(org.junit.internal.JUnitSystem, java.lang.String[]):::ENTER
+this.fNotifier.fListeners[] == []
+this.fNotifier.fListeners[].getClass().getName() == []
+system has only one value
+system.getClass().getName() == org.junit.internal.RealSystem.class
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] contains no nulls and has only one value, of length 3
+args[].toString == [StrBuilderTest$1.class, StrBuilderTest.class, StrBuilderTest$MockReadable.class]
+args[].toString elements one of { "StrBuilderTest$1.class", "StrBuilderTest$MockReadable.class", "StrBuilderTest.class" }
+size(args[]) == 3
+===========================================================================
+org.junit.runner.JUnitCore.runMain(org.junit.internal.JUnitSystem, java.lang.String[]):::EXIT
+this.fNotifier == orig(this.fNotifier)
+this.fNotifier.fListeners == orig(this.fNotifier.fListeners)
+this.fNotifier.fPleaseStop == orig(this.fNotifier.fPleaseStop)
+args[] == orig(args[])
+size(this.fNotifier.fListeners[])-1 == orig(size(this.fNotifier.fListeners[]))
+size(return.fFailures[]) == orig(size(args[]))
+this.fNotifier.fListeners[] contains no nulls and has only one value, of length 1
+this.fNotifier.fListeners[] elements has only one value
+this.fNotifier.fListeners[].getClass().getName() == [org.junit.internal.TextListener]
+this.fNotifier.fListeners[].getClass().getName() elements == org.junit.internal.TextListener.class
+args[] contains no nulls and has only one value, of length 3
+args[].toString == [StrBuilderTest$1.class, StrBuilderTest.class, StrBuilderTest$MockReadable.class]
+args[].toString elements one of { "StrBuilderTest$1.class", "StrBuilderTest$MockReadable.class", "StrBuilderTest.class" }
+return has only one value
+return.fCount has only one value
+return.fIgnoreCount has only one value
+return.fFailures has only one value
+return.fFailures[] contains no nulls and has only one value, of length 3
+return.fFailures[].getClass().getName() == [org.junit.runner.notification.Failure, org.junit.runner.notification.Failure, org.junit.runner.notification.Failure]
+return.fFailures[].getClass().getName() elements == org.junit.runner.notification.Failure.class
+return.fFailures.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+return.fRunTime == 12
+return.fStartTime == 1475739464438L
+size(this.fNotifier.fListeners[]) == 1
+size(return.fFailures[]) == 3
+this.fNotifier.fListeners.getClass().getName() == return.fFailures.getClass().getName()
+return.fFailures.getClass().getName() == orig(this.fNotifier.fListeners.getClass().getName())
+===========================================================================
+org.junit.runner.Request$1:::OBJECT
+this has only one value
+this.val$runner has only one value
+this.val$runner.getClass().getName() == org.junit.runners.Suite.class
+===========================================================================
+org.junit.runner.Request$1.(org.junit.runner.Runner):::ENTER
+$hidden$1 has only one value
+$hidden$1.getClass().getName() == org.junit.runners.Suite.class
+===========================================================================
+org.junit.runner.Request$1.(org.junit.runner.Runner):::EXIT
+this.val$runner == orig($hidden$1)
+this.val$runner.getClass().getName() == orig($hidden$1.getClass().getName())
+===========================================================================
+org.junit.runner.Request$1.getRunner():::ENTER
+===========================================================================
+org.junit.runner.Request$1.getRunner():::EXIT
+this.val$runner == return
+return == orig(this.val$runner)
+return has only one value
+return.getClass().getName() == org.junit.runners.Suite.class
+this.val$runner.getClass().getName() == return.getClass().getName()
+return.getClass().getName() == orig(this.val$runner.getClass().getName())
+===========================================================================
+org.junit.runner.Request:::OBJECT
+this has only one value
+this.getClass().getName() == org.junit.runner.Request$1.class
+===========================================================================
+org.junit.runner.Request.Request():::EXIT
+===========================================================================
+org.junit.runner.Request.classes(org.junit.runner.Computer, java.lang.Class[]):::ENTER
+computer has only one value
+classes has only one value
+classes.getClass().getName() == java.lang.Class[].class
+classes[] == []
+===========================================================================
+org.junit.runner.Request.classes(org.junit.runner.Computer, java.lang.Class[]):::EXIT
+classes[] == orig(classes[])
+classes[] == []
+return has only one value
+return.getClass().getName() == org.junit.runner.Request$1.class
+===========================================================================
+org.junit.runner.Request.runner(org.junit.runner.Runner):::ENTER
+runner has only one value
+runner.getClass().getName() == org.junit.runners.Suite.class
+===========================================================================
+org.junit.runner.Request.runner(org.junit.runner.Runner):::EXIT
+return has only one value
+return.getClass().getName() == org.junit.runner.Request$1.class
+===========================================================================
+org.junit.runner.Result$Listener:::OBJECT
+this has only one value
+org.junit.runner.Result.this has only one value
+org.junit.runner.Result.this.fCount has only one value
+org.junit.runner.Result.this.fIgnoreCount has only one value
+org.junit.runner.Result.this.fFailures has only one value
+org.junit.runner.Result.this.fFailures[] == []
+org.junit.runner.Result.this.fFailures[].getClass().getName() == []
+org.junit.runner.Result.this.fFailures.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+org.junit.runner.Result.this.fRunTime one of { 0, 12 }
+org.junit.runner.Result.this.fStartTime one of { 0, 1475739464438L }
+===========================================================================
+org.junit.runner.Result$Listener.Listener(org.junit.runner.Result):::ENTER
+org.junit.runner.Result.this.fRunTime == org.junit.runner.Result.this.fStartTime
+org.junit.runner.Result.this.fRunTime == size(org.junit.runner.Result.this.fFailures[])
+org.junit.runner.Result.this has only one value
+org.junit.runner.Result.this.fCount has only one value
+org.junit.runner.Result.this.fIgnoreCount has only one value
+org.junit.runner.Result.this.fFailures has only one value
+org.junit.runner.Result.this.fFailures[] == []
+org.junit.runner.Result.this.fFailures[].getClass().getName() == []
+org.junit.runner.Result.this.fFailures.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+org.junit.runner.Result.this.fRunTime == 0
+===========================================================================
+org.junit.runner.Result$Listener.Listener(org.junit.runner.Result):::EXIT
+org.junit.runner.Result.this == orig(org.junit.runner.Result.this)
+org.junit.runner.Result.this.fCount == orig(org.junit.runner.Result.this.fCount)
+org.junit.runner.Result.this.fIgnoreCount == orig(org.junit.runner.Result.this.fIgnoreCount)
+org.junit.runner.Result.this.fFailures == orig(org.junit.runner.Result.this.fFailures)
+org.junit.runner.Result.this.fFailures[] == orig(org.junit.runner.Result.this.fFailures[])
+org.junit.runner.Result.this.fRunTime == org.junit.runner.Result.this.fStartTime
+org.junit.runner.Result.this.fRunTime == orig(org.junit.runner.Result.this.fRunTime)
+org.junit.runner.Result.this.fRunTime == orig(org.junit.runner.Result.this.fStartTime)
+org.junit.runner.Result.this.fRunTime == size(org.junit.runner.Result.this.fFailures[])
+org.junit.runner.Result.this.fRunTime == 0
+org.junit.runner.Result.this.fFailures.getClass().getName() == orig(org.junit.runner.Result.this.fFailures.getClass().getName())
+===========================================================================
+org.junit.runner.Result$Listener.testRunFinished(org.junit.runner.Result):::ENTER
+org.junit.runner.Result.this == result
+org.junit.runner.Result.this.fCount == result.fCount
+org.junit.runner.Result.this.fIgnoreCount == result.fIgnoreCount
+org.junit.runner.Result.this.fFailures == result.fFailures
+org.junit.runner.Result.this.fFailures[] == result.fFailures[]
+org.junit.runner.Result.this.fRunTime == result.fRunTime
+org.junit.runner.Result.this.fRunTime == size(org.junit.runner.Result.this.fFailures[])
+org.junit.runner.Result.this.fStartTime == result.fStartTime
+org.junit.runner.Result.this.fRunTime == 0
+org.junit.runner.Result.this.fStartTime == 1475739464438L
+org.junit.runner.Result.this.fFailures.getClass().getName() == result.fFailures.getClass().getName()
+===========================================================================
+org.junit.runner.Result$Listener.testRunFinished(org.junit.runner.Result):::EXIT
+org.junit.runner.Result.this == orig(org.junit.runner.Result.this)
+org.junit.runner.Result.this == orig(result)
+org.junit.runner.Result.this.fCount == result.fCount
+org.junit.runner.Result.this.fIgnoreCount == result.fIgnoreCount
+org.junit.runner.Result.this.fFailures == result.fFailures
+org.junit.runner.Result.this.fFailures[] == result.fFailures[]
+org.junit.runner.Result.this.fRunTime == result.fRunTime
+org.junit.runner.Result.this.fStartTime == result.fStartTime
+result.fCount == orig(org.junit.runner.Result.this.fCount)
+result.fCount == orig(result.fCount)
+result.fIgnoreCount == orig(org.junit.runner.Result.this.fIgnoreCount)
+result.fIgnoreCount == orig(result.fIgnoreCount)
+result.fFailures == orig(org.junit.runner.Result.this.fFailures)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == orig(org.junit.runner.Result.this.fFailures[])
+result.fFailures[] == orig(result.fFailures[])
+result.fStartTime == orig(org.junit.runner.Result.this.fStartTime)
+result.fStartTime == orig(result.fStartTime)
+orig(result.fRunTime) == size(result.fFailures[])
+result.fCount has only one value
+result.fIgnoreCount has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fFailures.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+result.fRunTime == 12
+result.fStartTime == 1475739464438L
+orig(result.fRunTime) == 0
+org.junit.runner.Result.this.fFailures.getClass().getName() == result.fFailures.getClass().getName()
+result.fFailures.getClass().getName() == orig(org.junit.runner.Result.this.fFailures.getClass().getName())
+result.fFailures.getClass().getName() == orig(result.fFailures.getClass().getName())
+===========================================================================
+org.junit.runner.Result$Listener.testRunStarted(org.junit.runner.Description):::ENTER
+org.junit.runner.Result.this.fRunTime == org.junit.runner.Result.this.fStartTime
+org.junit.runner.Result.this.fRunTime == size(org.junit.runner.Description.EMPTY.fChildren[])
+org.junit.runner.Description.EMPTY.fChildren[] == org.junit.runner.Description.TEST_MECHANISM.fChildren[]
+org.junit.runner.Description.EMPTY.fChildren[] == description.fChildren[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == org.junit.runner.Description.TEST_MECHANISM.fAnnotations[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == description.fAnnotations[]
+size(org.junit.runner.Result.this.fFailures[]) == size(org.junit.runner.Description.EMPTY.fChildren[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.EMPTY.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(description.fAnnotations[])
+org.junit.runner.Result.this.fRunTime == 0
+description has only one value
+org.junit.runner.Description.EMPTY has only one value
+org.junit.runner.Description.TEST_MECHANISM has only one value
+org.junit.runner.Description.EMPTY.fChildren has only one value
+org.junit.runner.Description.EMPTY.fChildren[] == []
+org.junit.runner.Description.EMPTY.fChildren[].getClass().getName() == []
+org.junit.runner.Description.EMPTY.fDisplayName has only one value
+org.junit.runner.Description.EMPTY.fDisplayName.toString == "No Tests"
+org.junit.runner.Description.EMPTY.fAnnotations has only one value
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == java.lang.annotation.Annotation[].class
+org.junit.runner.Description.EMPTY.fAnnotations[] == []
+org.junit.runner.Description.TEST_MECHANISM.fChildren has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString == "Test mechanism"
+org.junit.runner.Description.TEST_MECHANISM.fAnnotations has only one value
+description.fChildren has only one value
+description.fDisplayName has only one value
+description.fDisplayName.toString == "null"
+description.fAnnotations has only one value
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == org.junit.runner.Description.TEST_MECHANISM.fAnnotations.getClass().getName()
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == description.fAnnotations.getClass().getName()
+===========================================================================
+org.junit.runner.Result$Listener.testRunStarted(org.junit.runner.Description):::EXIT
+org.junit.runner.Result.this == orig(org.junit.runner.Result.this)
+org.junit.runner.Result.this.fCount == orig(org.junit.runner.Result.this.fCount)
+org.junit.runner.Result.this.fIgnoreCount == orig(org.junit.runner.Result.this.fIgnoreCount)
+org.junit.runner.Result.this.fFailures == orig(org.junit.runner.Result.this.fFailures)
+org.junit.runner.Result.this.fFailures[] == orig(org.junit.runner.Result.this.fFailures[])
+org.junit.runner.Result.this.fRunTime == orig(org.junit.runner.Result.this.fRunTime)
+org.junit.runner.Result.this.fRunTime == orig(org.junit.runner.Result.this.fStartTime)
+org.junit.runner.Result.this.fRunTime == size(org.junit.runner.Description.EMPTY.fChildren[])
+org.junit.runner.Description.EMPTY == orig(org.junit.runner.Description.EMPTY)
+org.junit.runner.Description.TEST_MECHANISM == orig(org.junit.runner.Description.TEST_MECHANISM)
+org.junit.runner.Description.EMPTY.fChildren == orig(org.junit.runner.Description.EMPTY.fChildren)
+org.junit.runner.Description.EMPTY.fChildren[] == org.junit.runner.Description.TEST_MECHANISM.fChildren[]
+org.junit.runner.Description.EMPTY.fChildren[] == description.fChildren[]
+org.junit.runner.Description.EMPTY.fChildren[] == orig(org.junit.runner.Description.EMPTY.fChildren[])
+org.junit.runner.Description.EMPTY.fChildren[] == orig(org.junit.runner.Description.TEST_MECHANISM.fChildren[])
+org.junit.runner.Description.EMPTY.fChildren[] == orig(description.fChildren[])
+org.junit.runner.Description.EMPTY.fDisplayName == orig(org.junit.runner.Description.EMPTY.fDisplayName)
+org.junit.runner.Description.EMPTY.fAnnotations == orig(org.junit.runner.Description.EMPTY.fAnnotations)
+org.junit.runner.Description.EMPTY.fAnnotations[] == org.junit.runner.Description.TEST_MECHANISM.fAnnotations[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == description.fAnnotations[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == orig(org.junit.runner.Description.EMPTY.fAnnotations[])
+org.junit.runner.Description.EMPTY.fAnnotations[] == orig(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[])
+org.junit.runner.Description.EMPTY.fAnnotations[] == orig(description.fAnnotations[])
+org.junit.runner.Description.TEST_MECHANISM.fChildren == orig(org.junit.runner.Description.TEST_MECHANISM.fChildren)
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName == orig(org.junit.runner.Description.TEST_MECHANISM.fDisplayName)
+org.junit.runner.Description.TEST_MECHANISM.fAnnotations == orig(org.junit.runner.Description.TEST_MECHANISM.fAnnotations)
+description.fChildren == orig(description.fChildren)
+description.fDisplayName == orig(description.fDisplayName)
+description.fAnnotations == orig(description.fAnnotations)
+size(org.junit.runner.Result.this.fFailures[]) == size(org.junit.runner.Description.EMPTY.fChildren[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.EMPTY.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(description.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == orig(size(org.junit.runner.Result.this.fFailures[]))
+size(org.junit.runner.Description.EMPTY.fChildren[]) == orig(size(org.junit.runner.Description.EMPTY.fAnnotations[]))
+size(org.junit.runner.Description.EMPTY.fChildren[]) == orig(size(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[]))
+size(org.junit.runner.Description.EMPTY.fChildren[]) == orig(size(description.fAnnotations[]))
+org.junit.runner.Result.this.fRunTime == 0
+org.junit.runner.Result.this.fStartTime == 1475739464438L
+org.junit.runner.Description.EMPTY has only one value
+org.junit.runner.Description.TEST_MECHANISM has only one value
+org.junit.runner.Description.EMPTY.fChildren has only one value
+org.junit.runner.Description.EMPTY.fChildren[] == []
+org.junit.runner.Description.EMPTY.fChildren[].getClass().getName() == []
+org.junit.runner.Description.EMPTY.fDisplayName has only one value
+org.junit.runner.Description.EMPTY.fDisplayName.toString == "No Tests"
+org.junit.runner.Description.EMPTY.fAnnotations has only one value
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == java.lang.annotation.Annotation[].class
+org.junit.runner.Description.EMPTY.fAnnotations[] == []
+org.junit.runner.Description.TEST_MECHANISM.fChildren has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString == "Test mechanism"
+org.junit.runner.Description.TEST_MECHANISM.fAnnotations has only one value
+description.fChildren has only one value
+description.fDisplayName has only one value
+description.fDisplayName.toString == "null"
+description.fAnnotations has only one value
+org.junit.runner.Result.this.fFailures.getClass().getName() == orig(org.junit.runner.Result.this.fFailures.getClass().getName())
+org.junit.runner.Description.EMPTY.fDisplayName.toString == orig(org.junit.runner.Description.EMPTY.fDisplayName.toString)
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == org.junit.runner.Description.TEST_MECHANISM.fAnnotations.getClass().getName()
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == description.fAnnotations.getClass().getName()
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == orig(org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName())
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == orig(org.junit.runner.Description.TEST_MECHANISM.fAnnotations.getClass().getName())
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == orig(description.fAnnotations.getClass().getName())
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString == orig(org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString)
+description.fDisplayName.toString == orig(description.fDisplayName.toString)
+===========================================================================
+org.junit.runner.Result:::OBJECT
+this has only one value
+this.fCount has only one value
+this.fCount != null
+this.fIgnoreCount has only one value
+this.fIgnoreCount != null
+this.fFailures has only one value
+this.fFailures != null
+this.fFailures[] elements != null
+this.fFailures[].getClass().getName() elements == org.junit.runner.notification.Failure.class
+this.fFailures.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+this.fRunTime one of { 0, 12 }
+this.fStartTime one of { 0, 1475739464438L }
+this.fRunTime <= this.fStartTime
+this.fRunTime >= size(this.fFailures[])
+this.fStartTime >= size(this.fFailures[])
+===========================================================================
+org.junit.runner.Result.Result():::EXIT
+this.fRunTime == this.fStartTime
+this.fRunTime == size(this.fFailures[])
+this.fFailures[] == []
+this.fFailures[].getClass().getName() == []
+===========================================================================
+org.junit.runner.Result.createListener():::ENTER
+this.fRunTime == this.fStartTime
+this.fRunTime == size(this.fFailures[])
+this.fFailures[] == []
+this.fFailures[].getClass().getName() == []
+===========================================================================
+org.junit.runner.Result.createListener():::EXIT
+this.fCount == orig(this.fCount)
+this.fIgnoreCount == orig(this.fIgnoreCount)
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fRunTime == this.fStartTime
+this.fRunTime == orig(this.fRunTime)
+this.fRunTime == orig(this.fStartTime)
+this.fRunTime == size(this.fFailures[])
+this.fRunTime == orig(size(this.fFailures[]))
+this.fFailures[] == []
+this.fFailures[].getClass().getName() == []
+return has only one value
+this.fFailures.getClass().getName() == orig(this.fFailures.getClass().getName())
+===========================================================================
+org.junit.runner.Result.getFailureCount():::ENTER
+this.fFailures[].getClass().getName() one of { [], [org.junit.runner.notification.Failure, org.junit.runner.notification.Failure, org.junit.runner.notification.Failure] }
+this.fRunTime == 12
+this.fStartTime == 1475739464438L
+size(this.fFailures[]) one of { 0, 3 }
+===========================================================================
+org.junit.runner.Result.getFailureCount():::EXIT
+this.fCount == orig(this.fCount)
+this.fIgnoreCount == orig(this.fIgnoreCount)
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fRunTime == orig(this.fRunTime)
+this.fStartTime == orig(this.fStartTime)
+return == size(this.fFailures[])
+return == orig(size(this.fFailures[]))
+this.fFailures[].getClass().getName() one of { [], [org.junit.runner.notification.Failure, org.junit.runner.notification.Failure, org.junit.runner.notification.Failure] }
+this.fRunTime == 12
+this.fStartTime == 1475739464438L
+return one of { 0, 3 }
+this.fFailures.getClass().getName() == orig(this.fFailures.getClass().getName())
+===========================================================================
+org.junit.runner.Result.getFailures():::ENTER
+this.fRunTime == 12
+this.fStartTime == 1475739464438L
+size(this.fFailures[]) one of { 0, 1, 2 }
+===========================================================================
+org.junit.runner.Result.getFailures():::EXIT
+this.fCount == orig(this.fCount)
+this.fIgnoreCount == orig(this.fIgnoreCount)
+this.fFailures == return
+this.fFailures[] == return[]
+this.fRunTime == orig(this.fRunTime)
+this.fStartTime == orig(this.fStartTime)
+return == orig(this.fFailures)
+return[] == orig(this.fFailures[])
+this.fRunTime == 12
+this.fStartTime == 1475739464438L
+return has only one value
+return[].getClass().getName() elements == org.junit.runner.notification.Failure.class
+return.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+size(return[]) one of { 0, 1, 2 }
+this.fFailures.getClass().getName() == return.getClass().getName()
+return.getClass().getName() == orig(this.fFailures.getClass().getName())
+===========================================================================
+org.junit.runner.Result.getRunCount():::ENTER
+this.fFailures[] == []
+this.fFailures[].getClass().getName() == []
+this.fRunTime == 12
+this.fStartTime == 1475739464438L
+===========================================================================
+org.junit.runner.Result.getRunCount():::EXIT
+this.fCount == orig(this.fCount)
+this.fIgnoreCount == orig(this.fIgnoreCount)
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fRunTime == orig(this.fRunTime)
+this.fStartTime == orig(this.fStartTime)
+return == size(this.fFailures[])
+return == orig(size(this.fFailures[]))
+this.fFailures[] == []
+this.fFailures[].getClass().getName() == []
+this.fRunTime == 12
+this.fStartTime == 1475739464438L
+this.fFailures.getClass().getName() == orig(this.fFailures.getClass().getName())
+===========================================================================
+org.junit.runner.Result.getRunTime():::ENTER
+this.fFailures[] == []
+this.fFailures[].getClass().getName() == []
+this.fRunTime == 12
+this.fStartTime == 1475739464438L
+===========================================================================
+org.junit.runner.Result.getRunTime():::EXIT
+this.fCount == orig(this.fCount)
+this.fIgnoreCount == orig(this.fIgnoreCount)
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fRunTime == return
+this.fStartTime == orig(this.fStartTime)
+return == orig(this.fRunTime)
+this.fFailures[] == []
+this.fFailures[].getClass().getName() == []
+this.fStartTime == 1475739464438L
+return == 12
+this.fFailures.getClass().getName() == orig(this.fFailures.getClass().getName())
+===========================================================================
+org.junit.runner.Result.wasSuccessful():::ENTER
+this.fFailures[].getClass().getName() one of { [], [org.junit.runner.notification.Failure, org.junit.runner.notification.Failure, org.junit.runner.notification.Failure] }
+this.fRunTime == 12
+this.fStartTime == 1475739464438L
+size(this.fFailures[]) one of { 0, 3 }
+===========================================================================
+org.junit.runner.Result.wasSuccessful():::EXIT
+this.fCount == orig(this.fCount)
+this.fIgnoreCount == orig(this.fIgnoreCount)
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fRunTime == orig(this.fRunTime)
+this.fStartTime == orig(this.fStartTime)
+(this.fFailures[] == [])  <==>  (return == true)
+(this.fFailures[] == [])  <==>  (this.fFailures[].getClass().getName() == [])
+(this.fFailures[] contains no nulls and has only one value, of length 3)  <==>  (return == false)
+(this.fFailures[] contains no nulls and has only one value, of length 3)  <==>  (size(this.fFailures[]) == 3)
+(this.fFailures[] contains no nulls and has only one value, of length 3)  <==>  (this.fFailures[].getClass().getName() == [org.junit.runner.notification.Failure, org.junit.runner.notification.Failure, org.junit.runner.notification.Failure])
+(this.fFailures[] contains no nulls and has only one value, of length 3)  ==>  (this.fFailures[].getClass().getName() elements == org.junit.runner.notification.Failure.class)
+this.fFailures[].getClass().getName() one of { [], [org.junit.runner.notification.Failure, org.junit.runner.notification.Failure, org.junit.runner.notification.Failure] }
+this.fRunTime == 12
+this.fStartTime == 1475739464438L
+size(this.fFailures[]) one of { 0, 3 }
+this.fFailures.getClass().getName() == orig(this.fFailures.getClass().getName())
+===========================================================================
+org.junit.runner.Result.wasSuccessful():::EXIT;condition="return == true"
+this.fFailures[] == []
+this.fFailures[].getClass().getName() == []
+return == true
+===========================================================================
+org.junit.runner.Result.wasSuccessful():::EXIT;condition="not(return == true)"
+this.fFailures[] contains no nulls and has only one value, of length 3
+this.fFailures[].getClass().getName() == [org.junit.runner.notification.Failure, org.junit.runner.notification.Failure, org.junit.runner.notification.Failure]
+return == false
+size(this.fFailures[]) == 3
+===========================================================================
+org.junit.runner.Runner:::OBJECT
+this has only one value
+this.getClass().getName() == org.junit.runners.Suite.class
+===========================================================================
+org.junit.runner.Runner.Runner():::EXIT
+===========================================================================
+org.junit.runner.manipulation.Sorter$1:::OBJECT
+this has only one value
+===========================================================================
+org.junit.runner.manipulation.Sorter$1.():::EXIT
+===========================================================================
+org.junit.runner.manipulation.Sorter:::OBJECT
+this has only one value
+this.fComparator has only one value
+this.fComparator.getClass().getName() == org.junit.runner.manipulation.Sorter$1.class
+===========================================================================
+org.junit.runner.manipulation.Sorter.Sorter(java.util.Comparator):::ENTER
+comparator has only one value
+comparator.getClass().getName() == org.junit.runner.manipulation.Sorter$1.class
+===========================================================================
+org.junit.runner.manipulation.Sorter.Sorter(java.util.Comparator):::EXIT
+===========================================================================
+org.junit.runner.notification.Failure:::OBJECT
+org.junit.runner.Description.EMPTY.fChildren[] == org.junit.runner.Description.TEST_MECHANISM.fChildren[]
+org.junit.runner.Description.EMPTY.fChildren[] == this.fDescription.fChildren[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == org.junit.runner.Description.TEST_MECHANISM.fAnnotations[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == this.fDescription.fAnnotations[]
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.EMPTY.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(this.fDescription.fAnnotations[])
+org.junit.runner.Description.EMPTY has only one value
+org.junit.runner.Description.TEST_MECHANISM has only one value
+org.junit.runner.Description.EMPTY.fChildren has only one value
+org.junit.runner.Description.EMPTY.fChildren[] == []
+org.junit.runner.Description.EMPTY.fChildren[].getClass().getName() == []
+org.junit.runner.Description.EMPTY.fDisplayName has only one value
+org.junit.runner.Description.EMPTY.fDisplayName.toString == "No Tests"
+org.junit.runner.Description.EMPTY.fAnnotations has only one value
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == java.lang.annotation.Annotation[].class
+org.junit.runner.Description.EMPTY.fAnnotations[] == []
+org.junit.runner.Description.TEST_MECHANISM.fChildren has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString == "Test mechanism"
+org.junit.runner.Description.TEST_MECHANISM.fAnnotations has only one value
+this.fDescription.fDisplayName.toString one of { "StrBuilderTest$1.class", "StrBuilderTest$MockReadable.class", "StrBuilderTest.class" }
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == org.junit.runner.Description.TEST_MECHANISM.fAnnotations.getClass().getName()
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == this.fDescription.fAnnotations.getClass().getName()
+===========================================================================
+org.junit.runner.notification.Failure.Failure(org.junit.runner.Description, java.lang.Throwable):::ENTER
+org.junit.runner.Description.EMPTY.fChildren[] == org.junit.runner.Description.TEST_MECHANISM.fChildren[]
+org.junit.runner.Description.EMPTY.fChildren[] == description.fChildren[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == org.junit.runner.Description.TEST_MECHANISM.fAnnotations[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == description.fAnnotations[]
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.EMPTY.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(description.fAnnotations[])
+org.junit.runner.Description.EMPTY has only one value
+org.junit.runner.Description.TEST_MECHANISM has only one value
+org.junit.runner.Description.EMPTY.fChildren has only one value
+org.junit.runner.Description.EMPTY.fChildren[] == []
+org.junit.runner.Description.EMPTY.fChildren[].getClass().getName() == []
+org.junit.runner.Description.EMPTY.fDisplayName has only one value
+org.junit.runner.Description.EMPTY.fDisplayName.toString == "No Tests"
+org.junit.runner.Description.EMPTY.fAnnotations has only one value
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == java.lang.annotation.Annotation[].class
+org.junit.runner.Description.EMPTY.fAnnotations[] == []
+org.junit.runner.Description.TEST_MECHANISM.fChildren has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString == "Test mechanism"
+org.junit.runner.Description.TEST_MECHANISM.fAnnotations has only one value
+description.fDisplayName.toString one of { "StrBuilderTest$1.class", "StrBuilderTest$MockReadable.class", "StrBuilderTest.class" }
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == org.junit.runner.Description.TEST_MECHANISM.fAnnotations.getClass().getName()
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == description.fAnnotations.getClass().getName()
+===========================================================================
+org.junit.runner.notification.Failure.Failure(org.junit.runner.Description, java.lang.Throwable):::EXIT
+this.fDescription == orig(description)
+org.junit.runner.Description.EMPTY == orig(org.junit.runner.Description.EMPTY)
+org.junit.runner.Description.TEST_MECHANISM == orig(org.junit.runner.Description.TEST_MECHANISM)
+org.junit.runner.Description.EMPTY.fChildren == orig(org.junit.runner.Description.EMPTY.fChildren)
+org.junit.runner.Description.EMPTY.fChildren[] == description.fChildren[]
+org.junit.runner.Description.EMPTY.fChildren[] == orig(org.junit.runner.Description.EMPTY.fChildren[])
+org.junit.runner.Description.EMPTY.fChildren[] == orig(org.junit.runner.Description.TEST_MECHANISM.fChildren[])
+org.junit.runner.Description.EMPTY.fChildren[] == orig(description.fChildren[])
+org.junit.runner.Description.EMPTY.fDisplayName == orig(org.junit.runner.Description.EMPTY.fDisplayName)
+org.junit.runner.Description.EMPTY.fAnnotations == orig(org.junit.runner.Description.EMPTY.fAnnotations)
+org.junit.runner.Description.EMPTY.fAnnotations[] == description.fAnnotations[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == orig(org.junit.runner.Description.EMPTY.fAnnotations[])
+org.junit.runner.Description.EMPTY.fAnnotations[] == orig(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[])
+org.junit.runner.Description.EMPTY.fAnnotations[] == orig(description.fAnnotations[])
+org.junit.runner.Description.TEST_MECHANISM.fChildren == orig(org.junit.runner.Description.TEST_MECHANISM.fChildren)
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName == orig(org.junit.runner.Description.TEST_MECHANISM.fDisplayName)
+org.junit.runner.Description.TEST_MECHANISM.fAnnotations == orig(org.junit.runner.Description.TEST_MECHANISM.fAnnotations)
+this.fDescription.fChildren == description.fChildren
+this.fDescription.fDisplayName == description.fDisplayName
+this.fDescription.fAnnotations == description.fAnnotations
+this.fThrownException == orig(thrownException)
+description.fChildren == orig(description.fChildren)
+description.fDisplayName == orig(description.fDisplayName)
+description.fAnnotations == orig(description.fAnnotations)
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(description.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == orig(size(org.junit.runner.Description.EMPTY.fAnnotations[]))
+size(org.junit.runner.Description.EMPTY.fChildren[]) == orig(size(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[]))
+size(org.junit.runner.Description.EMPTY.fChildren[]) == orig(size(description.fAnnotations[]))
+description.fDisplayName.toString one of { "StrBuilderTest$1.class", "StrBuilderTest$MockReadable.class", "StrBuilderTest.class" }
+org.junit.runner.Description.EMPTY.fDisplayName.toString == orig(org.junit.runner.Description.EMPTY.fDisplayName.toString)
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == description.fAnnotations.getClass().getName()
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == orig(org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName())
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == orig(org.junit.runner.Description.TEST_MECHANISM.fAnnotations.getClass().getName())
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == orig(description.fAnnotations.getClass().getName())
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString == orig(org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString)
+this.fDescription.fDisplayName.toString == description.fDisplayName.toString
+description.fDisplayName.toString == orig(description.fDisplayName.toString)
+===========================================================================
+org.junit.runner.notification.RunListener:::OBJECT
+===========================================================================
+org.junit.runner.notification.RunListener.RunListener():::EXIT
+===========================================================================
+org.junit.runner.notification.RunListener.testRunStarted(org.junit.runner.Description):::ENTER
+org.junit.runner.Description.EMPTY.fChildren[] == org.junit.runner.Description.TEST_MECHANISM.fChildren[]
+org.junit.runner.Description.EMPTY.fChildren[] == description.fChildren[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == org.junit.runner.Description.TEST_MECHANISM.fAnnotations[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == description.fAnnotations[]
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.EMPTY.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(description.fAnnotations[])
+this has only one value
+description has only one value
+org.junit.runner.Description.EMPTY has only one value
+org.junit.runner.Description.TEST_MECHANISM has only one value
+org.junit.runner.Description.EMPTY.fChildren has only one value
+org.junit.runner.Description.EMPTY.fChildren[] == []
+org.junit.runner.Description.EMPTY.fChildren[].getClass().getName() == []
+org.junit.runner.Description.EMPTY.fDisplayName has only one value
+org.junit.runner.Description.EMPTY.fDisplayName.toString == "No Tests"
+org.junit.runner.Description.EMPTY.fAnnotations has only one value
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == java.lang.annotation.Annotation[].class
+org.junit.runner.Description.EMPTY.fAnnotations[] == []
+org.junit.runner.Description.TEST_MECHANISM.fChildren has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString == "Test mechanism"
+org.junit.runner.Description.TEST_MECHANISM.fAnnotations has only one value
+description.fChildren has only one value
+description.fDisplayName has only one value
+description.fDisplayName.toString == "null"
+description.fAnnotations has only one value
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == org.junit.runner.Description.TEST_MECHANISM.fAnnotations.getClass().getName()
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == description.fAnnotations.getClass().getName()
+===========================================================================
+org.junit.runner.notification.RunListener.testRunStarted(org.junit.runner.Description):::EXIT
+org.junit.runner.Description.EMPTY == orig(org.junit.runner.Description.EMPTY)
+org.junit.runner.Description.TEST_MECHANISM == orig(org.junit.runner.Description.TEST_MECHANISM)
+org.junit.runner.Description.EMPTY.fChildren == orig(org.junit.runner.Description.EMPTY.fChildren)
+org.junit.runner.Description.EMPTY.fChildren[] == org.junit.runner.Description.TEST_MECHANISM.fChildren[]
+org.junit.runner.Description.EMPTY.fChildren[] == description.fChildren[]
+org.junit.runner.Description.EMPTY.fChildren[] == orig(org.junit.runner.Description.EMPTY.fChildren[])
+org.junit.runner.Description.EMPTY.fChildren[] == orig(org.junit.runner.Description.TEST_MECHANISM.fChildren[])
+org.junit.runner.Description.EMPTY.fChildren[] == orig(description.fChildren[])
+org.junit.runner.Description.EMPTY.fDisplayName == orig(org.junit.runner.Description.EMPTY.fDisplayName)
+org.junit.runner.Description.EMPTY.fAnnotations == orig(org.junit.runner.Description.EMPTY.fAnnotations)
+org.junit.runner.Description.EMPTY.fAnnotations[] == org.junit.runner.Description.TEST_MECHANISM.fAnnotations[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == description.fAnnotations[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == orig(org.junit.runner.Description.EMPTY.fAnnotations[])
+org.junit.runner.Description.EMPTY.fAnnotations[] == orig(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[])
+org.junit.runner.Description.EMPTY.fAnnotations[] == orig(description.fAnnotations[])
+org.junit.runner.Description.TEST_MECHANISM.fChildren == orig(org.junit.runner.Description.TEST_MECHANISM.fChildren)
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName == orig(org.junit.runner.Description.TEST_MECHANISM.fDisplayName)
+org.junit.runner.Description.TEST_MECHANISM.fAnnotations == orig(org.junit.runner.Description.TEST_MECHANISM.fAnnotations)
+description.fChildren == orig(description.fChildren)
+description.fDisplayName == orig(description.fDisplayName)
+description.fAnnotations == orig(description.fAnnotations)
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.EMPTY.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(description.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == orig(size(org.junit.runner.Description.EMPTY.fAnnotations[]))
+size(org.junit.runner.Description.EMPTY.fChildren[]) == orig(size(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[]))
+size(org.junit.runner.Description.EMPTY.fChildren[]) == orig(size(description.fAnnotations[]))
+org.junit.runner.Description.EMPTY has only one value
+org.junit.runner.Description.TEST_MECHANISM has only one value
+org.junit.runner.Description.EMPTY.fChildren has only one value
+org.junit.runner.Description.EMPTY.fChildren[] == []
+org.junit.runner.Description.EMPTY.fChildren[].getClass().getName() == []
+org.junit.runner.Description.EMPTY.fDisplayName has only one value
+org.junit.runner.Description.EMPTY.fDisplayName.toString == "No Tests"
+org.junit.runner.Description.EMPTY.fAnnotations has only one value
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == java.lang.annotation.Annotation[].class
+org.junit.runner.Description.EMPTY.fAnnotations[] == []
+org.junit.runner.Description.TEST_MECHANISM.fChildren has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString == "Test mechanism"
+org.junit.runner.Description.TEST_MECHANISM.fAnnotations has only one value
+description.fChildren has only one value
+description.fDisplayName has only one value
+description.fDisplayName.toString == "null"
+description.fAnnotations has only one value
+org.junit.runner.Description.EMPTY.fDisplayName.toString == orig(org.junit.runner.Description.EMPTY.fDisplayName.toString)
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == org.junit.runner.Description.TEST_MECHANISM.fAnnotations.getClass().getName()
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == description.fAnnotations.getClass().getName()
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == orig(org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName())
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == orig(org.junit.runner.Description.TEST_MECHANISM.fAnnotations.getClass().getName())
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == orig(description.fAnnotations.getClass().getName())
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString == orig(org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString)
+description.fDisplayName.toString == orig(description.fDisplayName.toString)
+===========================================================================
+org.junit.runner.notification.RunNotifier$1:::OBJECT
+org.junit.runner.Description.EMPTY.fChildren[] == org.junit.runner.Description.TEST_MECHANISM.fChildren[]
+org.junit.runner.Description.EMPTY.fChildren[] == this.val$description.fChildren[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == org.junit.runner.Description.TEST_MECHANISM.fAnnotations[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == this.val$description.fAnnotations[]
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.EMPTY.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(this.val$description.fAnnotations[])
+this has only one value
+this.val$description has only one value
+org.junit.runner.Description.EMPTY has only one value
+org.junit.runner.Description.TEST_MECHANISM has only one value
+org.junit.runner.Description.EMPTY.fChildren has only one value
+org.junit.runner.Description.EMPTY.fChildren[] == []
+org.junit.runner.Description.EMPTY.fChildren[].getClass().getName() == []
+org.junit.runner.Description.EMPTY.fDisplayName has only one value
+org.junit.runner.Description.EMPTY.fDisplayName.toString == "No Tests"
+org.junit.runner.Description.EMPTY.fAnnotations has only one value
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == java.lang.annotation.Annotation[].class
+org.junit.runner.Description.EMPTY.fAnnotations[] == []
+org.junit.runner.Description.TEST_MECHANISM.fChildren has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString == "Test mechanism"
+org.junit.runner.Description.TEST_MECHANISM.fAnnotations has only one value
+this.val$description.fChildren has only one value
+this.val$description.fDisplayName has only one value
+this.val$description.fDisplayName.toString == "null"
+this.val$description.fAnnotations has only one value
+org.junit.runner.notification.RunNotifier.this has only one value
+org.junit.runner.notification.RunNotifier.this.fListeners has only one value
+org.junit.runner.notification.RunNotifier.this.fListeners[] contains no nulls and has only one value, of length 2
+org.junit.runner.notification.RunNotifier.this.fListeners[].getClass().getName() == [org.junit.runner.Result.Listener, org.junit.internal.TextListener]
+org.junit.runner.notification.RunNotifier.this.fListeners.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+org.junit.runner.notification.RunNotifier.this.fPleaseStop == false
+size(org.junit.runner.notification.RunNotifier.this.fListeners[]) == 2
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == org.junit.runner.Description.TEST_MECHANISM.fAnnotations.getClass().getName()
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == this.val$description.fAnnotations.getClass().getName()
+===========================================================================
+org.junit.runner.notification.RunNotifier$1.(org.junit.runner.notification.RunNotifier, org.junit.runner.Description):::ENTER
+org.junit.runner.Description.EMPTY.fChildren[] == org.junit.runner.Description.TEST_MECHANISM.fChildren[]
+org.junit.runner.Description.EMPTY.fChildren[] == $hidden$2.fChildren[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == org.junit.runner.Description.TEST_MECHANISM.fAnnotations[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == $hidden$2.fAnnotations[]
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.EMPTY.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size($hidden$2.fAnnotations[])
+org.junit.runner.notification.RunNotifier.this has only one value
+org.junit.runner.notification.RunNotifier.this.fListeners has only one value
+org.junit.runner.notification.RunNotifier.this.fListeners[] contains no nulls and has only one value, of length 2
+org.junit.runner.notification.RunNotifier.this.fListeners[].getClass().getName() == [org.junit.runner.Result.Listener, org.junit.internal.TextListener]
+org.junit.runner.notification.RunNotifier.this.fListeners.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+org.junit.runner.notification.RunNotifier.this.fPleaseStop == false
+$hidden$2 has only one value
+org.junit.runner.Description.EMPTY has only one value
+org.junit.runner.Description.TEST_MECHANISM has only one value
+org.junit.runner.Description.EMPTY.fChildren has only one value
+org.junit.runner.Description.EMPTY.fChildren[] == []
+org.junit.runner.Description.EMPTY.fChildren[].getClass().getName() == []
+org.junit.runner.Description.EMPTY.fDisplayName has only one value
+org.junit.runner.Description.EMPTY.fDisplayName.toString == "No Tests"
+org.junit.runner.Description.EMPTY.fAnnotations has only one value
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == java.lang.annotation.Annotation[].class
+org.junit.runner.Description.EMPTY.fAnnotations[] == []
+org.junit.runner.Description.TEST_MECHANISM.fChildren has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString == "Test mechanism"
+org.junit.runner.Description.TEST_MECHANISM.fAnnotations has only one value
+$hidden$2.fChildren has only one value
+$hidden$2.fDisplayName has only one value
+$hidden$2.fDisplayName.toString == "null"
+$hidden$2.fAnnotations has only one value
+size(org.junit.runner.notification.RunNotifier.this.fListeners[]) == 2
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == org.junit.runner.Description.TEST_MECHANISM.fAnnotations.getClass().getName()
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == $hidden$2.fAnnotations.getClass().getName()
+===========================================================================
+org.junit.runner.notification.RunNotifier$1.(org.junit.runner.notification.RunNotifier, org.junit.runner.Description):::EXIT
+this.val$description == orig($hidden$2)
+org.junit.runner.Description.EMPTY == orig(org.junit.runner.Description.EMPTY)
+org.junit.runner.Description.TEST_MECHANISM == orig(org.junit.runner.Description.TEST_MECHANISM)
+org.junit.runner.Description.EMPTY.fChildren == orig(org.junit.runner.Description.EMPTY.fChildren)
+org.junit.runner.Description.EMPTY.fChildren[] == $hidden$2.fChildren[]
+org.junit.runner.Description.EMPTY.fChildren[] == orig(org.junit.runner.Description.EMPTY.fChildren[])
+org.junit.runner.Description.EMPTY.fChildren[] == orig(org.junit.runner.Description.TEST_MECHANISM.fChildren[])
+org.junit.runner.Description.EMPTY.fChildren[] == orig($hidden$2.fChildren[])
+org.junit.runner.Description.EMPTY.fDisplayName == orig(org.junit.runner.Description.EMPTY.fDisplayName)
+org.junit.runner.Description.EMPTY.fAnnotations == orig(org.junit.runner.Description.EMPTY.fAnnotations)
+org.junit.runner.Description.EMPTY.fAnnotations[] == $hidden$2.fAnnotations[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == orig(org.junit.runner.Description.EMPTY.fAnnotations[])
+org.junit.runner.Description.EMPTY.fAnnotations[] == orig(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[])
+org.junit.runner.Description.EMPTY.fAnnotations[] == orig($hidden$2.fAnnotations[])
+org.junit.runner.Description.TEST_MECHANISM.fChildren == orig(org.junit.runner.Description.TEST_MECHANISM.fChildren)
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName == orig(org.junit.runner.Description.TEST_MECHANISM.fDisplayName)
+org.junit.runner.Description.TEST_MECHANISM.fAnnotations == orig(org.junit.runner.Description.TEST_MECHANISM.fAnnotations)
+this.val$description.fChildren == $hidden$2.fChildren
+this.val$description.fDisplayName == $hidden$2.fDisplayName
+this.val$description.fAnnotations == $hidden$2.fAnnotations
+org.junit.runner.notification.RunNotifier.this == orig(org.junit.runner.notification.RunNotifier.this)
+org.junit.runner.notification.RunNotifier.this.fListeners == orig(org.junit.runner.notification.RunNotifier.this.fListeners)
+org.junit.runner.notification.RunNotifier.this.fListeners[] == orig(org.junit.runner.notification.RunNotifier.this.fListeners[])
+org.junit.runner.notification.RunNotifier.this.fPleaseStop == orig(org.junit.runner.notification.RunNotifier.this.fPleaseStop)
+$hidden$2.fChildren == orig($hidden$2.fChildren)
+$hidden$2.fDisplayName == orig($hidden$2.fDisplayName)
+$hidden$2.fAnnotations == orig($hidden$2.fAnnotations)
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size($hidden$2.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == orig(size(org.junit.runner.Description.EMPTY.fAnnotations[]))
+size(org.junit.runner.Description.EMPTY.fChildren[]) == orig(size(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[]))
+size(org.junit.runner.Description.EMPTY.fChildren[]) == orig(size($hidden$2.fAnnotations[]))
+$hidden$2.fChildren has only one value
+$hidden$2.fDisplayName has only one value
+$hidden$2.fDisplayName.toString == "null"
+$hidden$2.fAnnotations has only one value
+org.junit.runner.Description.EMPTY.fDisplayName.toString == orig(org.junit.runner.Description.EMPTY.fDisplayName.toString)
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == $hidden$2.fAnnotations.getClass().getName()
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == orig(org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName())
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == orig(org.junit.runner.Description.TEST_MECHANISM.fAnnotations.getClass().getName())
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == orig($hidden$2.fAnnotations.getClass().getName())
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString == orig(org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString)
+this.val$description.fDisplayName.toString == $hidden$2.fDisplayName.toString
+org.junit.runner.notification.RunNotifier.this.fListeners.getClass().getName() == orig(org.junit.runner.notification.RunNotifier.this.fListeners.getClass().getName())
+$hidden$2.fDisplayName.toString == orig($hidden$2.fDisplayName.toString)
+===========================================================================
+org.junit.runner.notification.RunNotifier$1.notifyListener(org.junit.runner.notification.RunListener):::ENTER
+each in org.junit.runner.notification.RunNotifier.this.fListeners[]
+===========================================================================
+org.junit.runner.notification.RunNotifier$1.notifyListener(org.junit.runner.notification.RunListener):::EXIT
+this.val$description == orig(this.val$description)
+org.junit.runner.Description.EMPTY == orig(org.junit.runner.Description.EMPTY)
+org.junit.runner.Description.TEST_MECHANISM == orig(org.junit.runner.Description.TEST_MECHANISM)
+org.junit.runner.Description.EMPTY.fChildren == orig(org.junit.runner.Description.EMPTY.fChildren)
+org.junit.runner.Description.EMPTY.fChildren[] == orig(org.junit.runner.Description.EMPTY.fChildren[])
+org.junit.runner.Description.EMPTY.fChildren[] == orig(org.junit.runner.Description.TEST_MECHANISM.fChildren[])
+org.junit.runner.Description.EMPTY.fChildren[] == orig(this.val$description.fChildren[])
+org.junit.runner.Description.EMPTY.fDisplayName == orig(org.junit.runner.Description.EMPTY.fDisplayName)
+org.junit.runner.Description.EMPTY.fAnnotations == orig(org.junit.runner.Description.EMPTY.fAnnotations)
+org.junit.runner.Description.EMPTY.fAnnotations[] == orig(org.junit.runner.Description.EMPTY.fAnnotations[])
+org.junit.runner.Description.EMPTY.fAnnotations[] == orig(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[])
+org.junit.runner.Description.EMPTY.fAnnotations[] == orig(this.val$description.fAnnotations[])
+org.junit.runner.Description.TEST_MECHANISM.fChildren == orig(org.junit.runner.Description.TEST_MECHANISM.fChildren)
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName == orig(org.junit.runner.Description.TEST_MECHANISM.fDisplayName)
+org.junit.runner.Description.TEST_MECHANISM.fAnnotations == orig(org.junit.runner.Description.TEST_MECHANISM.fAnnotations)
+this.val$description.fChildren == orig(this.val$description.fChildren)
+this.val$description.fDisplayName == orig(this.val$description.fDisplayName)
+this.val$description.fAnnotations == orig(this.val$description.fAnnotations)
+org.junit.runner.notification.RunNotifier.this == orig(org.junit.runner.notification.RunNotifier.this)
+org.junit.runner.notification.RunNotifier.this.fListeners == orig(org.junit.runner.notification.RunNotifier.this.fListeners)
+org.junit.runner.notification.RunNotifier.this.fListeners[] == orig(org.junit.runner.notification.RunNotifier.this.fListeners[])
+org.junit.runner.notification.RunNotifier.this.fPleaseStop == orig(org.junit.runner.notification.RunNotifier.this.fPleaseStop)
+size(org.junit.runner.Description.EMPTY.fChildren[]) == orig(size(org.junit.runner.Description.EMPTY.fAnnotations[]))
+size(org.junit.runner.Description.EMPTY.fChildren[]) == orig(size(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[]))
+size(org.junit.runner.Description.EMPTY.fChildren[]) == orig(size(this.val$description.fAnnotations[]))
+org.junit.runner.Description.EMPTY.fDisplayName.toString == orig(org.junit.runner.Description.EMPTY.fDisplayName.toString)
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == orig(org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName())
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == orig(org.junit.runner.Description.TEST_MECHANISM.fAnnotations.getClass().getName())
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == orig(this.val$description.fAnnotations.getClass().getName())
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString == orig(org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString)
+this.val$description.fDisplayName.toString == orig(this.val$description.fDisplayName.toString)
+orig(each) in org.junit.runner.notification.RunNotifier.this.fListeners[]
+org.junit.runner.notification.RunNotifier.this.fListeners.getClass().getName() == orig(org.junit.runner.notification.RunNotifier.this.fListeners.getClass().getName())
+===========================================================================
+org.junit.runner.notification.RunNotifier$2:::OBJECT
+this has only one value
+this.val$result has only one value
+this.val$result.fCount has only one value
+this.val$result.fIgnoreCount has only one value
+this.val$result.fFailures has only one value
+this.val$result.fFailures[] == []
+this.val$result.fFailures[].getClass().getName() == []
+this.val$result.fFailures.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+this.val$result.fRunTime one of { 0, 12 }
+this.val$result.fStartTime == 1475739464438L
+org.junit.runner.notification.RunNotifier.this has only one value
+org.junit.runner.notification.RunNotifier.this.fListeners has only one value
+org.junit.runner.notification.RunNotifier.this.fListeners[] contains no nulls and has only one value, of length 2
+org.junit.runner.notification.RunNotifier.this.fListeners[].getClass().getName() == [org.junit.runner.Result.Listener, org.junit.internal.TextListener]
+org.junit.runner.notification.RunNotifier.this.fPleaseStop == false
+size(org.junit.runner.notification.RunNotifier.this.fListeners[]) == 2
+this.val$result.fFailures.getClass().getName() == org.junit.runner.notification.RunNotifier.this.fListeners.getClass().getName()
+===========================================================================
+org.junit.runner.notification.RunNotifier$2.(org.junit.runner.notification.RunNotifier, org.junit.runner.Result):::ENTER
+$hidden$2.fRunTime == size($hidden$2.fFailures[])
+org.junit.runner.notification.RunNotifier.this has only one value
+org.junit.runner.notification.RunNotifier.this.fListeners has only one value
+org.junit.runner.notification.RunNotifier.this.fListeners[] contains no nulls and has only one value, of length 2
+org.junit.runner.notification.RunNotifier.this.fListeners[].getClass().getName() == [org.junit.runner.Result.Listener, org.junit.internal.TextListener]
+org.junit.runner.notification.RunNotifier.this.fListeners.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+org.junit.runner.notification.RunNotifier.this.fPleaseStop == false
+$hidden$2 has only one value
+$hidden$2.fCount has only one value
+$hidden$2.fIgnoreCount has only one value
+$hidden$2.fFailures has only one value
+$hidden$2.fFailures[] == []
+$hidden$2.fFailures[].getClass().getName() == []
+$hidden$2.fRunTime == 0
+$hidden$2.fStartTime == 1475739464438L
+size(org.junit.runner.notification.RunNotifier.this.fListeners[]) == 2
+org.junit.runner.notification.RunNotifier.this.fListeners[$hidden$2.fRunTime] has only one value
+org.junit.runner.notification.RunNotifier.this.fListeners.getClass().getName() == $hidden$2.fFailures.getClass().getName()
+===========================================================================
+org.junit.runner.notification.RunNotifier$2.(org.junit.runner.notification.RunNotifier, org.junit.runner.Result):::EXIT
+this.val$result == orig($hidden$2)
+this.val$result.fCount == $hidden$2.fCount
+this.val$result.fIgnoreCount == $hidden$2.fIgnoreCount
+this.val$result.fFailures == $hidden$2.fFailures
+this.val$result.fFailures[] == $hidden$2.fFailures[]
+this.val$result.fRunTime == $hidden$2.fRunTime
+this.val$result.fStartTime == $hidden$2.fStartTime
+org.junit.runner.notification.RunNotifier.this == orig(org.junit.runner.notification.RunNotifier.this)
+org.junit.runner.notification.RunNotifier.this.fListeners == orig(org.junit.runner.notification.RunNotifier.this.fListeners)
+org.junit.runner.notification.RunNotifier.this.fListeners[] == orig(org.junit.runner.notification.RunNotifier.this.fListeners[])
+org.junit.runner.notification.RunNotifier.this.fPleaseStop == orig(org.junit.runner.notification.RunNotifier.this.fPleaseStop)
+$hidden$2.fCount == orig($hidden$2.fCount)
+$hidden$2.fIgnoreCount == orig($hidden$2.fIgnoreCount)
+$hidden$2.fFailures == orig($hidden$2.fFailures)
+$hidden$2.fFailures[] == orig($hidden$2.fFailures[])
+$hidden$2.fRunTime == orig($hidden$2.fRunTime)
+$hidden$2.fRunTime == size($hidden$2.fFailures[])
+$hidden$2.fStartTime == orig($hidden$2.fStartTime)
+$hidden$2.fCount has only one value
+$hidden$2.fIgnoreCount has only one value
+$hidden$2.fFailures has only one value
+$hidden$2.fFailures[] == []
+$hidden$2.fFailures[].getClass().getName() == []
+$hidden$2.fFailures.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+$hidden$2.fRunTime == 0
+$hidden$2.fStartTime == 1475739464438L
+org.junit.runner.notification.RunNotifier.this.fListeners[$hidden$2.fRunTime] has only one value
+this.val$result.fFailures.getClass().getName() == $hidden$2.fFailures.getClass().getName()
+org.junit.runner.notification.RunNotifier.this.fListeners.getClass().getName() == $hidden$2.fFailures.getClass().getName()
+$hidden$2.fFailures.getClass().getName() == orig(org.junit.runner.notification.RunNotifier.this.fListeners.getClass().getName())
+$hidden$2.fFailures.getClass().getName() == orig($hidden$2.fFailures.getClass().getName())
+===========================================================================
+org.junit.runner.notification.RunNotifier$2.notifyListener(org.junit.runner.notification.RunListener):::ENTER
+each in org.junit.runner.notification.RunNotifier.this.fListeners[]
+===========================================================================
+org.junit.runner.notification.RunNotifier$2.notifyListener(org.junit.runner.notification.RunListener):::EXIT
+this.val$result == orig(this.val$result)
+this.val$result.fCount == orig(this.val$result.fCount)
+this.val$result.fIgnoreCount == orig(this.val$result.fIgnoreCount)
+this.val$result.fFailures == orig(this.val$result.fFailures)
+this.val$result.fFailures[] == orig(this.val$result.fFailures[])
+this.val$result.fStartTime == orig(this.val$result.fStartTime)
+org.junit.runner.notification.RunNotifier.this == orig(org.junit.runner.notification.RunNotifier.this)
+org.junit.runner.notification.RunNotifier.this.fListeners == orig(org.junit.runner.notification.RunNotifier.this.fListeners)
+org.junit.runner.notification.RunNotifier.this.fListeners[] == orig(org.junit.runner.notification.RunNotifier.this.fListeners[])
+org.junit.runner.notification.RunNotifier.this.fPleaseStop == orig(org.junit.runner.notification.RunNotifier.this.fPleaseStop)
+this.val$result.fRunTime == 12
+this.val$result.fFailures.getClass().getName() == orig(this.val$result.fFailures.getClass().getName())
+this.val$result.fFailures.getClass().getName() == orig(org.junit.runner.notification.RunNotifier.this.fListeners.getClass().getName())
+orig(each) in org.junit.runner.notification.RunNotifier.this.fListeners[]
+===========================================================================
+org.junit.runner.notification.RunNotifier$SafeNotifier:::OBJECT
+org.junit.runner.notification.RunNotifier.this has only one value
+org.junit.runner.notification.RunNotifier.this.fListeners has only one value
+org.junit.runner.notification.RunNotifier.this.fListeners[] contains no nulls and has only one value, of length 2
+org.junit.runner.notification.RunNotifier.this.fListeners[].getClass().getName() == [org.junit.runner.Result.Listener, org.junit.internal.TextListener]
+org.junit.runner.notification.RunNotifier.this.fListeners.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+org.junit.runner.notification.RunNotifier.this.fPleaseStop == false
+size(org.junit.runner.notification.RunNotifier.this.fListeners[]) == 2
+===========================================================================
+org.junit.runner.notification.RunNotifier$SafeNotifier.SafeNotifier(org.junit.runner.notification.RunNotifier):::ENTER
+org.junit.runner.notification.RunNotifier.this has only one value
+org.junit.runner.notification.RunNotifier.this.fListeners has only one value
+org.junit.runner.notification.RunNotifier.this.fListeners[] contains no nulls and has only one value, of length 2
+org.junit.runner.notification.RunNotifier.this.fListeners[].getClass().getName() == [org.junit.runner.Result.Listener, org.junit.internal.TextListener]
+org.junit.runner.notification.RunNotifier.this.fListeners.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+org.junit.runner.notification.RunNotifier.this.fPleaseStop == false
+size(org.junit.runner.notification.RunNotifier.this.fListeners[]) == 2
+===========================================================================
+org.junit.runner.notification.RunNotifier$SafeNotifier.SafeNotifier(org.junit.runner.notification.RunNotifier):::EXIT
+org.junit.runner.notification.RunNotifier.this == orig(org.junit.runner.notification.RunNotifier.this)
+org.junit.runner.notification.RunNotifier.this.fListeners == orig(org.junit.runner.notification.RunNotifier.this.fListeners)
+org.junit.runner.notification.RunNotifier.this.fListeners[] == orig(org.junit.runner.notification.RunNotifier.this.fListeners[])
+org.junit.runner.notification.RunNotifier.this.fPleaseStop == orig(org.junit.runner.notification.RunNotifier.this.fPleaseStop)
+org.junit.runner.notification.RunNotifier.this.fListeners.getClass().getName() == orig(org.junit.runner.notification.RunNotifier.this.fListeners.getClass().getName())
+===========================================================================
+org.junit.runner.notification.RunNotifier$SafeNotifier.run():::ENTER
+===========================================================================
+org.junit.runner.notification.RunNotifier$SafeNotifier.run():::EXIT
+org.junit.runner.notification.RunNotifier.this == orig(org.junit.runner.notification.RunNotifier.this)
+org.junit.runner.notification.RunNotifier.this.fListeners == orig(org.junit.runner.notification.RunNotifier.this.fListeners)
+org.junit.runner.notification.RunNotifier.this.fListeners[] == orig(org.junit.runner.notification.RunNotifier.this.fListeners[])
+org.junit.runner.notification.RunNotifier.this.fPleaseStop == orig(org.junit.runner.notification.RunNotifier.this.fPleaseStop)
+org.junit.runner.notification.RunNotifier.this.fListeners.getClass().getName() == orig(org.junit.runner.notification.RunNotifier.this.fListeners.getClass().getName())
+===========================================================================
+org.junit.runner.notification.RunNotifier:::OBJECT
+this has only one value
+this.fListeners has only one value
+this.fListeners.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+this.fPleaseStop == false
+size(this.fListeners[]) one of { 0, 1, 2 }
+===========================================================================
+org.junit.runner.notification.RunNotifier.RunNotifier():::EXIT
+this.fListeners[] == []
+this.fListeners[].getClass().getName() == []
+===========================================================================
+org.junit.runner.notification.RunNotifier.addFirstListener(org.junit.runner.notification.RunListener):::ENTER
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[] elements has only one value
+this.fListeners[].getClass().getName() == [org.junit.internal.TextListener]
+this.fListeners[].getClass().getName() elements == org.junit.internal.TextListener.class
+listener has only one value
+size(this.fListeners[]) == 1
+===========================================================================
+org.junit.runner.notification.RunNotifier.addFirstListener(org.junit.runner.notification.RunListener):::EXIT
+this.fListeners == orig(this.fListeners)
+this.fPleaseStop == orig(this.fPleaseStop)
+size(this.fListeners[])-1 == orig(size(this.fListeners[]))
+this.fListeners[] contains no nulls and has only one value, of length 2
+this.fListeners[].getClass().getName() == [org.junit.runner.Result.Listener, org.junit.internal.TextListener]
+size(this.fListeners[]) == 2
+orig(listener) in this.fListeners[]
+this.fListeners.getClass().getName() == orig(this.fListeners.getClass().getName())
+===========================================================================
+org.junit.runner.notification.RunNotifier.addListener(org.junit.runner.notification.RunListener):::ENTER
+this.fListeners[] == []
+this.fListeners[].getClass().getName() == []
+listener has only one value
+===========================================================================
+org.junit.runner.notification.RunNotifier.addListener(org.junit.runner.notification.RunListener):::EXIT
+this.fListeners == orig(this.fListeners)
+this.fPleaseStop == orig(this.fPleaseStop)
+size(this.fListeners[])-1 == orig(size(this.fListeners[]))
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[] elements has only one value
+this.fListeners[].getClass().getName() == [org.junit.internal.TextListener]
+this.fListeners[].getClass().getName() elements == org.junit.internal.TextListener.class
+size(this.fListeners[]) == 1
+orig(listener) in this.fListeners[]
+this.fListeners[] elements == orig(listener)
+this.fListeners.getClass().getName() == orig(this.fListeners.getClass().getName())
+===========================================================================
+org.junit.runner.notification.RunNotifier.fireTestRunFinished(org.junit.runner.Result):::ENTER
+result.fRunTime == size(result.fFailures[])
+this.fListeners[] contains no nulls and has only one value, of length 2
+this.fListeners[].getClass().getName() == [org.junit.runner.Result.Listener, org.junit.internal.TextListener]
+result has only one value
+result.fCount has only one value
+result.fIgnoreCount has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fStartTime == 1475739464438L
+size(this.fListeners[]) == 2
+this.fListeners[result.fRunTime] has only one value
+this.fListeners.getClass().getName() == result.fFailures.getClass().getName()
+===========================================================================
+org.junit.runner.notification.RunNotifier.fireTestRunFinished(org.junit.runner.Result):::EXIT
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fPleaseStop == orig(this.fPleaseStop)
+result.fCount == orig(result.fCount)
+result.fIgnoreCount == orig(result.fIgnoreCount)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == orig(result.fFailures[])
+result.fStartTime == orig(result.fStartTime)
+orig(result.fRunTime) == size(result.fFailures[])
+this.fListeners[] contains no nulls and has only one value, of length 2
+this.fListeners[].getClass().getName() == [org.junit.runner.Result.Listener, org.junit.internal.TextListener]
+result.fCount has only one value
+result.fIgnoreCount has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fRunTime == 12
+result.fStartTime == 1475739464438L
+size(this.fListeners[]) == 2
+this.fListeners[orig(result.fRunTime)] has only one value
+this.fListeners.getClass().getName() == result.fFailures.getClass().getName()
+this.fListeners.getClass().getName() == orig(this.fListeners.getClass().getName())
+this.fListeners.getClass().getName() == orig(result.fFailures.getClass().getName())
+===========================================================================
+org.junit.runner.notification.RunNotifier.fireTestRunStarted(org.junit.runner.Description):::ENTER
+org.junit.runner.Description.EMPTY.fChildren[] == org.junit.runner.Description.TEST_MECHANISM.fChildren[]
+org.junit.runner.Description.EMPTY.fChildren[] == description.fChildren[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == org.junit.runner.Description.TEST_MECHANISM.fAnnotations[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == description.fAnnotations[]
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.EMPTY.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(description.fAnnotations[])
+this.fListeners[] contains no nulls and has only one value, of length 2
+this.fListeners[].getClass().getName() == [org.junit.runner.Result.Listener, org.junit.internal.TextListener]
+description has only one value
+org.junit.runner.Description.EMPTY has only one value
+org.junit.runner.Description.TEST_MECHANISM has only one value
+org.junit.runner.Description.EMPTY.fChildren has only one value
+org.junit.runner.Description.EMPTY.fChildren[] == []
+org.junit.runner.Description.EMPTY.fChildren[].getClass().getName() == []
+org.junit.runner.Description.EMPTY.fDisplayName has only one value
+org.junit.runner.Description.EMPTY.fDisplayName.toString == "No Tests"
+org.junit.runner.Description.EMPTY.fAnnotations has only one value
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == java.lang.annotation.Annotation[].class
+org.junit.runner.Description.EMPTY.fAnnotations[] == []
+org.junit.runner.Description.TEST_MECHANISM.fChildren has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString == "Test mechanism"
+org.junit.runner.Description.TEST_MECHANISM.fAnnotations has only one value
+description.fChildren has only one value
+description.fDisplayName has only one value
+description.fDisplayName.toString == "null"
+description.fAnnotations has only one value
+size(this.fListeners[]) == 2
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == org.junit.runner.Description.TEST_MECHANISM.fAnnotations.getClass().getName()
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == description.fAnnotations.getClass().getName()
+===========================================================================
+org.junit.runner.notification.RunNotifier.fireTestRunStarted(org.junit.runner.Description):::EXIT
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fPleaseStop == orig(this.fPleaseStop)
+org.junit.runner.Description.EMPTY == orig(org.junit.runner.Description.EMPTY)
+org.junit.runner.Description.TEST_MECHANISM == orig(org.junit.runner.Description.TEST_MECHANISM)
+org.junit.runner.Description.EMPTY.fChildren == orig(org.junit.runner.Description.EMPTY.fChildren)
+org.junit.runner.Description.EMPTY.fChildren[] == org.junit.runner.Description.TEST_MECHANISM.fChildren[]
+org.junit.runner.Description.EMPTY.fChildren[] == description.fChildren[]
+org.junit.runner.Description.EMPTY.fChildren[] == orig(org.junit.runner.Description.EMPTY.fChildren[])
+org.junit.runner.Description.EMPTY.fChildren[] == orig(org.junit.runner.Description.TEST_MECHANISM.fChildren[])
+org.junit.runner.Description.EMPTY.fChildren[] == orig(description.fChildren[])
+org.junit.runner.Description.EMPTY.fDisplayName == orig(org.junit.runner.Description.EMPTY.fDisplayName)
+org.junit.runner.Description.EMPTY.fAnnotations == orig(org.junit.runner.Description.EMPTY.fAnnotations)
+org.junit.runner.Description.EMPTY.fAnnotations[] == org.junit.runner.Description.TEST_MECHANISM.fAnnotations[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == description.fAnnotations[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == orig(org.junit.runner.Description.EMPTY.fAnnotations[])
+org.junit.runner.Description.EMPTY.fAnnotations[] == orig(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[])
+org.junit.runner.Description.EMPTY.fAnnotations[] == orig(description.fAnnotations[])
+org.junit.runner.Description.TEST_MECHANISM.fChildren == orig(org.junit.runner.Description.TEST_MECHANISM.fChildren)
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName == orig(org.junit.runner.Description.TEST_MECHANISM.fDisplayName)
+org.junit.runner.Description.TEST_MECHANISM.fAnnotations == orig(org.junit.runner.Description.TEST_MECHANISM.fAnnotations)
+description.fChildren == orig(description.fChildren)
+description.fDisplayName == orig(description.fDisplayName)
+description.fAnnotations == orig(description.fAnnotations)
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.EMPTY.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(description.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == orig(size(org.junit.runner.Description.EMPTY.fAnnotations[]))
+size(org.junit.runner.Description.EMPTY.fChildren[]) == orig(size(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[]))
+size(org.junit.runner.Description.EMPTY.fChildren[]) == orig(size(description.fAnnotations[]))
+this.fListeners[] contains no nulls and has only one value, of length 2
+this.fListeners[].getClass().getName() == [org.junit.runner.Result.Listener, org.junit.internal.TextListener]
+org.junit.runner.Description.EMPTY has only one value
+org.junit.runner.Description.TEST_MECHANISM has only one value
+org.junit.runner.Description.EMPTY.fChildren has only one value
+org.junit.runner.Description.EMPTY.fChildren[] == []
+org.junit.runner.Description.EMPTY.fChildren[].getClass().getName() == []
+org.junit.runner.Description.EMPTY.fDisplayName has only one value
+org.junit.runner.Description.EMPTY.fDisplayName.toString == "No Tests"
+org.junit.runner.Description.EMPTY.fAnnotations has only one value
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == java.lang.annotation.Annotation[].class
+org.junit.runner.Description.EMPTY.fAnnotations[] == []
+org.junit.runner.Description.TEST_MECHANISM.fChildren has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString == "Test mechanism"
+org.junit.runner.Description.TEST_MECHANISM.fAnnotations has only one value
+description.fChildren has only one value
+description.fDisplayName has only one value
+description.fDisplayName.toString == "null"
+description.fAnnotations has only one value
+size(this.fListeners[]) == 2
+this.fListeners.getClass().getName() == orig(this.fListeners.getClass().getName())
+org.junit.runner.Description.EMPTY.fDisplayName.toString == orig(org.junit.runner.Description.EMPTY.fDisplayName.toString)
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == org.junit.runner.Description.TEST_MECHANISM.fAnnotations.getClass().getName()
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == description.fAnnotations.getClass().getName()
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == orig(org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName())
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == orig(org.junit.runner.Description.TEST_MECHANISM.fAnnotations.getClass().getName())
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == orig(description.fAnnotations.getClass().getName())
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString == orig(org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString)
+description.fDisplayName.toString == orig(description.fDisplayName.toString)
+===========================================================================
+org.junit.runner.notification.RunNotifier.removeListener(org.junit.runner.notification.RunListener):::ENTER
+this.fListeners[] contains no nulls and has only one value, of length 2
+this.fListeners[].getClass().getName() == [org.junit.runner.Result.Listener, org.junit.internal.TextListener]
+listener has only one value
+size(this.fListeners[]) == 2
+listener in this.fListeners[]
+===========================================================================
+org.junit.runner.notification.RunNotifier.removeListener(org.junit.runner.notification.RunListener):::EXIT
+this.fListeners == orig(this.fListeners)
+this.fPleaseStop == orig(this.fPleaseStop)
+size(this.fListeners[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[] elements has only one value
+this.fListeners[].getClass().getName() == [org.junit.internal.TextListener]
+this.fListeners[].getClass().getName() elements == org.junit.internal.TextListener.class
+this.fListeners.getClass().getName() == orig(this.fListeners.getClass().getName())
+===========================================================================
+org.junit.runners.ParentRunner$1:::OBJECT
+org.junit.runners.ParentRunner.this.fSorter == org.junit.runner.manipulation.Sorter.NULL
+this has only one value
+org.junit.runners.ParentRunner.this has only one value
+org.junit.runners.ParentRunner.this.getClass().getName() == org.junit.runners.Suite.class
+org.junit.runners.ParentRunner.this.fTestClass.fClass == null
+org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations has only one value
+org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations.getClass().getName() == java.util.HashMap.class
+org.junit.runners.ParentRunner.this.fTestClass.fFieldsForAnnotations has only one value
+org.junit.runners.ParentRunner.this.fFilter == null
+org.junit.runner.manipulation.Sorter.NULL has only one value
+org.junit.runners.ParentRunner.this.fSorter.fComparator has only one value
+org.junit.runners.ParentRunner.this.fSorter.fComparator.getClass().getName() == org.junit.runner.manipulation.Sorter$1.class
+org.junit.runners.ParentRunner.this.fScheduler.getClass().getName() == org.junit.runners.ParentRunner$1.class
+org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations.getClass().getName() == org.junit.runners.ParentRunner.this.fTestClass.fFieldsForAnnotations.getClass().getName()
+===========================================================================
+org.junit.runners.ParentRunner$1.(org.junit.runners.ParentRunner):::ENTER
+org.junit.runners.ParentRunner.this.fSorter == org.junit.runner.manipulation.Sorter.NULL
+org.junit.runners.ParentRunner.this has only one value
+org.junit.runners.ParentRunner.this.getClass().getName() == org.junit.runners.Suite.class
+org.junit.runners.ParentRunner.this.fTestClass == null
+org.junit.runners.ParentRunner.this.fFilter == null
+org.junit.runner.manipulation.Sorter.NULL has only one value
+org.junit.runners.ParentRunner.this.fSorter.fComparator has only one value
+org.junit.runners.ParentRunner.this.fSorter.fComparator.getClass().getName() == org.junit.runner.manipulation.Sorter$1.class
+org.junit.runners.ParentRunner.this.fScheduler == null
+===========================================================================
+org.junit.runners.ParentRunner$1.(org.junit.runners.ParentRunner):::EXIT
+org.junit.runners.ParentRunner.this == orig(org.junit.runners.ParentRunner.this)
+org.junit.runners.ParentRunner.this.fTestClass == orig(org.junit.runners.ParentRunner.this.fTestClass)
+org.junit.runners.ParentRunner.this.fFilter == orig(org.junit.runners.ParentRunner.this.fFilter)
+org.junit.runner.manipulation.Sorter.NULL == orig(org.junit.runners.ParentRunner.this.fSorter)
+org.junit.runner.manipulation.Sorter.NULL == orig(org.junit.runner.manipulation.Sorter.NULL)
+org.junit.runners.ParentRunner.this.fSorter.fComparator == orig(org.junit.runners.ParentRunner.this.fSorter.fComparator)
+org.junit.runners.ParentRunner.this.fScheduler == orig(org.junit.runners.ParentRunner.this.fScheduler)
+org.junit.runners.ParentRunner.this.fTestClass == null
+org.junit.runners.ParentRunner.this.fScheduler == null
+org.junit.runners.ParentRunner.this.getClass().getName() == orig(org.junit.runners.ParentRunner.this.getClass().getName())
+org.junit.runners.ParentRunner.this.fSorter.fComparator.getClass().getName() == orig(org.junit.runners.ParentRunner.this.fSorter.fComparator.getClass().getName())
+===========================================================================
+org.junit.runners.ParentRunner$1.finished():::ENTER
+org.junit.runners.ParentRunner.this.fTestClass has only one value
+org.junit.runners.ParentRunner.this.fScheduler has only one value
+===========================================================================
+org.junit.runners.ParentRunner$1.finished():::EXIT
+org.junit.runners.ParentRunner.this == orig(org.junit.runners.ParentRunner.this)
+org.junit.runners.ParentRunner.this.fTestClass == orig(org.junit.runners.ParentRunner.this.fTestClass)
+org.junit.runners.ParentRunner.this.fTestClass.fClass == orig(org.junit.runners.ParentRunner.this.fTestClass.fClass)
+org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations == orig(org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations)
+org.junit.runners.ParentRunner.this.fTestClass.fFieldsForAnnotations == orig(org.junit.runners.ParentRunner.this.fTestClass.fFieldsForAnnotations)
+org.junit.runners.ParentRunner.this.fFilter == orig(org.junit.runners.ParentRunner.this.fFilter)
+org.junit.runner.manipulation.Sorter.NULL == orig(org.junit.runners.ParentRunner.this.fSorter)
+org.junit.runner.manipulation.Sorter.NULL == orig(org.junit.runner.manipulation.Sorter.NULL)
+org.junit.runners.ParentRunner.this.fSorter.fComparator == orig(org.junit.runners.ParentRunner.this.fSorter.fComparator)
+org.junit.runners.ParentRunner.this.fScheduler == orig(org.junit.runners.ParentRunner.this.fScheduler)
+org.junit.runners.ParentRunner.this.fTestClass has only one value
+org.junit.runners.ParentRunner.this.fScheduler has only one value
+org.junit.runners.ParentRunner.this.getClass().getName() == orig(org.junit.runners.ParentRunner.this.getClass().getName())
+org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations.getClass().getName())
+org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(org.junit.runners.ParentRunner.this.fTestClass.fFieldsForAnnotations.getClass().getName())
+org.junit.runners.ParentRunner.this.fSorter.fComparator.getClass().getName() == orig(org.junit.runners.ParentRunner.this.fSorter.fComparator.getClass().getName())
+org.junit.runners.ParentRunner.this.fScheduler.getClass().getName() == orig(org.junit.runners.ParentRunner.this.fScheduler.getClass().getName())
+===========================================================================
+org.junit.runners.ParentRunner$2:::OBJECT
+org.junit.runners.ParentRunner.this.fSorter == org.junit.runner.manipulation.Sorter.NULL
+this has only one value
+this.val$notifier has only one value
+this.val$notifier.fListeners has only one value
+this.val$notifier.fListeners[] contains no nulls and has only one value, of length 2
+this.val$notifier.fListeners[].getClass().getName() == [org.junit.runner.Result.Listener, org.junit.internal.TextListener]
+this.val$notifier.fListeners.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+this.val$notifier.fPleaseStop == false
+org.junit.runners.ParentRunner.this has only one value
+org.junit.runners.ParentRunner.this.getClass().getName() == org.junit.runners.Suite.class
+org.junit.runners.ParentRunner.this.fTestClass has only one value
+org.junit.runners.ParentRunner.this.fTestClass.fClass == null
+org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations has only one value
+org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations.getClass().getName() == java.util.HashMap.class
+org.junit.runners.ParentRunner.this.fTestClass.fFieldsForAnnotations has only one value
+org.junit.runners.ParentRunner.this.fFilter == null
+org.junit.runner.manipulation.Sorter.NULL has only one value
+org.junit.runners.ParentRunner.this.fSorter.fComparator has only one value
+org.junit.runners.ParentRunner.this.fSorter.fComparator.getClass().getName() == org.junit.runner.manipulation.Sorter$1.class
+org.junit.runners.ParentRunner.this.fScheduler has only one value
+org.junit.runners.ParentRunner.this.fScheduler.getClass().getName() == org.junit.runners.ParentRunner$1.class
+size(this.val$notifier.fListeners[]) == 2
+org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations.getClass().getName() == org.junit.runners.ParentRunner.this.fTestClass.fFieldsForAnnotations.getClass().getName()
+===========================================================================
+org.junit.runners.ParentRunner$2.(org.junit.runners.ParentRunner, org.junit.runner.notification.RunNotifier):::ENTER
+org.junit.runners.ParentRunner.this.fSorter == org.junit.runner.manipulation.Sorter.NULL
+org.junit.runners.ParentRunner.this has only one value
+org.junit.runners.ParentRunner.this.getClass().getName() == org.junit.runners.Suite.class
+org.junit.runners.ParentRunner.this.fTestClass has only one value
+org.junit.runners.ParentRunner.this.fTestClass.fClass == null
+org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations has only one value
+org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations.getClass().getName() == java.util.HashMap.class
+org.junit.runners.ParentRunner.this.fTestClass.fFieldsForAnnotations has only one value
+org.junit.runners.ParentRunner.this.fFilter == null
+org.junit.runner.manipulation.Sorter.NULL has only one value
+org.junit.runners.ParentRunner.this.fSorter.fComparator has only one value
+org.junit.runners.ParentRunner.this.fSorter.fComparator.getClass().getName() == org.junit.runner.manipulation.Sorter$1.class
+org.junit.runners.ParentRunner.this.fScheduler has only one value
+org.junit.runners.ParentRunner.this.fScheduler.getClass().getName() == org.junit.runners.ParentRunner$1.class
+$hidden$2 has only one value
+$hidden$2.fListeners has only one value
+$hidden$2.fListeners[] contains no nulls and has only one value, of length 2
+$hidden$2.fListeners[].getClass().getName() == [org.junit.runner.Result.Listener, org.junit.internal.TextListener]
+$hidden$2.fListeners.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+$hidden$2.fPleaseStop == false
+size($hidden$2.fListeners[]) == 2
+org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations.getClass().getName() == org.junit.runners.ParentRunner.this.fTestClass.fFieldsForAnnotations.getClass().getName()
+===========================================================================
+org.junit.runners.ParentRunner$2.(org.junit.runners.ParentRunner, org.junit.runner.notification.RunNotifier):::EXIT
+this.val$notifier == orig($hidden$2)
+this.val$notifier.fListeners == $hidden$2.fListeners
+this.val$notifier.fListeners[] == $hidden$2.fListeners[]
+this.val$notifier.fPleaseStop == $hidden$2.fPleaseStop
+org.junit.runners.ParentRunner.this == orig(org.junit.runners.ParentRunner.this)
+org.junit.runners.ParentRunner.this.fTestClass == orig(org.junit.runners.ParentRunner.this.fTestClass)
+org.junit.runners.ParentRunner.this.fTestClass.fClass == orig(org.junit.runners.ParentRunner.this.fTestClass.fClass)
+org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations == orig(org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations)
+org.junit.runners.ParentRunner.this.fTestClass.fFieldsForAnnotations == orig(org.junit.runners.ParentRunner.this.fTestClass.fFieldsForAnnotations)
+org.junit.runners.ParentRunner.this.fFilter == orig(org.junit.runners.ParentRunner.this.fFilter)
+org.junit.runner.manipulation.Sorter.NULL == orig(org.junit.runners.ParentRunner.this.fSorter)
+org.junit.runner.manipulation.Sorter.NULL == orig(org.junit.runner.manipulation.Sorter.NULL)
+org.junit.runners.ParentRunner.this.fSorter.fComparator == orig(org.junit.runners.ParentRunner.this.fSorter.fComparator)
+org.junit.runners.ParentRunner.this.fScheduler == orig(org.junit.runners.ParentRunner.this.fScheduler)
+$hidden$2.fListeners == orig($hidden$2.fListeners)
+$hidden$2.fListeners[] == orig($hidden$2.fListeners[])
+$hidden$2.fPleaseStop == orig($hidden$2.fPleaseStop)
+$hidden$2.fListeners has only one value
+$hidden$2.fListeners[] contains no nulls and has only one value, of length 2
+$hidden$2.fListeners[].getClass().getName() == [org.junit.runner.Result.Listener, org.junit.internal.TextListener]
+$hidden$2.fListeners.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+$hidden$2.fPleaseStop == false
+size($hidden$2.fListeners[]) == 2
+this.val$notifier.fListeners.getClass().getName() == $hidden$2.fListeners.getClass().getName()
+org.junit.runners.ParentRunner.this.getClass().getName() == orig(org.junit.runners.ParentRunner.this.getClass().getName())
+org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations.getClass().getName())
+org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(org.junit.runners.ParentRunner.this.fTestClass.fFieldsForAnnotations.getClass().getName())
+org.junit.runners.ParentRunner.this.fSorter.fComparator.getClass().getName() == orig(org.junit.runners.ParentRunner.this.fSorter.fComparator.getClass().getName())
+org.junit.runners.ParentRunner.this.fScheduler.getClass().getName() == orig(org.junit.runners.ParentRunner.this.fScheduler.getClass().getName())
+$hidden$2.fListeners.getClass().getName() == orig($hidden$2.fListeners.getClass().getName())
+===========================================================================
+org.junit.runners.ParentRunner$2.evaluate():::ENTER
+===========================================================================
+org.junit.runners.ParentRunner$2.evaluate():::EXIT
+this.val$notifier == orig(this.val$notifier)
+this.val$notifier.fListeners == orig(this.val$notifier.fListeners)
+this.val$notifier.fListeners[] == orig(this.val$notifier.fListeners[])
+this.val$notifier.fPleaseStop == orig(this.val$notifier.fPleaseStop)
+org.junit.runners.ParentRunner.this == orig(org.junit.runners.ParentRunner.this)
+org.junit.runners.ParentRunner.this.fTestClass == orig(org.junit.runners.ParentRunner.this.fTestClass)
+org.junit.runners.ParentRunner.this.fTestClass.fClass == orig(org.junit.runners.ParentRunner.this.fTestClass.fClass)
+org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations == orig(org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations)
+org.junit.runners.ParentRunner.this.fTestClass.fFieldsForAnnotations == orig(org.junit.runners.ParentRunner.this.fTestClass.fFieldsForAnnotations)
+org.junit.runners.ParentRunner.this.fFilter == orig(org.junit.runners.ParentRunner.this.fFilter)
+org.junit.runner.manipulation.Sorter.NULL == orig(org.junit.runners.ParentRunner.this.fSorter)
+org.junit.runner.manipulation.Sorter.NULL == orig(org.junit.runner.manipulation.Sorter.NULL)
+org.junit.runners.ParentRunner.this.fSorter.fComparator == orig(org.junit.runners.ParentRunner.this.fSorter.fComparator)
+org.junit.runners.ParentRunner.this.fScheduler == orig(org.junit.runners.ParentRunner.this.fScheduler)
+this.val$notifier.fListeners.getClass().getName() == orig(this.val$notifier.fListeners.getClass().getName())
+org.junit.runners.ParentRunner.this.getClass().getName() == orig(org.junit.runners.ParentRunner.this.getClass().getName())
+org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations.getClass().getName())
+org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(org.junit.runners.ParentRunner.this.fTestClass.fFieldsForAnnotations.getClass().getName())
+org.junit.runners.ParentRunner.this.fSorter.fComparator.getClass().getName() == orig(org.junit.runners.ParentRunner.this.fSorter.fComparator.getClass().getName())
+org.junit.runners.ParentRunner.this.fScheduler.getClass().getName() == orig(org.junit.runners.ParentRunner.this.fScheduler.getClass().getName())
+===========================================================================
+org.junit.runners.ParentRunner$4:::OBJECT
+org.junit.runners.ParentRunner.this.fSorter == org.junit.runner.manipulation.Sorter.NULL
+org.junit.runners.ParentRunner.this has only one value
+org.junit.runners.ParentRunner.this.getClass().getName() == org.junit.runners.Suite.class
+org.junit.runners.ParentRunner.this.fTestClass has only one value
+org.junit.runners.ParentRunner.this.fTestClass.fClass == null
+org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations has only one value
+org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations.getClass().getName() == java.util.HashMap.class
+org.junit.runners.ParentRunner.this.fTestClass.fFieldsForAnnotations has only one value
+org.junit.runners.ParentRunner.this.fFilter == null
+org.junit.runner.manipulation.Sorter.NULL has only one value
+org.junit.runners.ParentRunner.this.fSorter.fComparator has only one value
+org.junit.runners.ParentRunner.this.fSorter.fComparator.getClass().getName() == org.junit.runner.manipulation.Sorter$1.class
+org.junit.runners.ParentRunner.this.fScheduler has only one value
+org.junit.runners.ParentRunner.this.fScheduler.getClass().getName() == org.junit.runners.ParentRunner$1.class
+org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations.getClass().getName() == org.junit.runners.ParentRunner.this.fTestClass.fFieldsForAnnotations.getClass().getName()
+===========================================================================
+org.junit.runners.ParentRunner$4.(org.junit.runners.ParentRunner):::ENTER
+org.junit.runners.ParentRunner.this.fSorter == org.junit.runner.manipulation.Sorter.NULL
+org.junit.runners.ParentRunner.this has only one value
+org.junit.runners.ParentRunner.this.getClass().getName() == org.junit.runners.Suite.class
+org.junit.runners.ParentRunner.this.fTestClass has only one value
+org.junit.runners.ParentRunner.this.fTestClass.fClass == null
+org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations has only one value
+org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations.getClass().getName() == java.util.HashMap.class
+org.junit.runners.ParentRunner.this.fTestClass.fFieldsForAnnotations has only one value
+org.junit.runners.ParentRunner.this.fFilter == null
+org.junit.runner.manipulation.Sorter.NULL has only one value
+org.junit.runners.ParentRunner.this.fSorter.fComparator has only one value
+org.junit.runners.ParentRunner.this.fSorter.fComparator.getClass().getName() == org.junit.runner.manipulation.Sorter$1.class
+org.junit.runners.ParentRunner.this.fScheduler has only one value
+org.junit.runners.ParentRunner.this.fScheduler.getClass().getName() == org.junit.runners.ParentRunner$1.class
+org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations.getClass().getName() == org.junit.runners.ParentRunner.this.fTestClass.fFieldsForAnnotations.getClass().getName()
+===========================================================================
+org.junit.runners.ParentRunner$4.(org.junit.runners.ParentRunner):::EXIT
+org.junit.runners.ParentRunner.this == orig(org.junit.runners.ParentRunner.this)
+org.junit.runners.ParentRunner.this.fTestClass == orig(org.junit.runners.ParentRunner.this.fTestClass)
+org.junit.runners.ParentRunner.this.fTestClass.fClass == orig(org.junit.runners.ParentRunner.this.fTestClass.fClass)
+org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations == orig(org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations)
+org.junit.runners.ParentRunner.this.fTestClass.fFieldsForAnnotations == orig(org.junit.runners.ParentRunner.this.fTestClass.fFieldsForAnnotations)
+org.junit.runners.ParentRunner.this.fFilter == orig(org.junit.runners.ParentRunner.this.fFilter)
+org.junit.runner.manipulation.Sorter.NULL == orig(org.junit.runners.ParentRunner.this.fSorter)
+org.junit.runner.manipulation.Sorter.NULL == orig(org.junit.runner.manipulation.Sorter.NULL)
+org.junit.runners.ParentRunner.this.fSorter.fComparator == orig(org.junit.runners.ParentRunner.this.fSorter.fComparator)
+org.junit.runners.ParentRunner.this.fScheduler == orig(org.junit.runners.ParentRunner.this.fScheduler)
+org.junit.runners.ParentRunner.this.getClass().getName() == orig(org.junit.runners.ParentRunner.this.getClass().getName())
+org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations.getClass().getName())
+org.junit.runners.ParentRunner.this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(org.junit.runners.ParentRunner.this.fTestClass.fFieldsForAnnotations.getClass().getName())
+org.junit.runners.ParentRunner.this.fSorter.fComparator.getClass().getName() == orig(org.junit.runners.ParentRunner.this.fSorter.fComparator.getClass().getName())
+org.junit.runners.ParentRunner.this.fScheduler.getClass().getName() == orig(org.junit.runners.ParentRunner.this.fScheduler.getClass().getName())
+===========================================================================
+org.junit.runners.ParentRunner:::OBJECT
+this.fSorter == org.junit.runner.manipulation.Sorter.NULL
+org.junit.runner.manipulation.Sorter.NULL.fComparator == this.fSorter.fComparator
+this has only one value
+this.getClass().getName() == org.junit.runners.Suite.class
+this.fTestClass has only one value
+this.fTestClass.fClass == null
+this.fTestClass.fMethodsForAnnotations has only one value
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == java.util.HashMap.class
+this.fTestClass.fFieldsForAnnotations has only one value
+this.fFilter == null
+org.junit.runner.manipulation.Sorter.NULL has only one value
+org.junit.runner.manipulation.Sorter.NULL.fComparator has only one value
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == org.junit.runner.manipulation.Sorter$1.class
+this.fScheduler has only one value
+this.fScheduler.getClass().getName() == org.junit.runners.ParentRunner$1.class
+this.getClass().getName() != this.fTestClass.fMethodsForAnnotations.getClass().getName()
+this.getClass().getName() != org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName()
+this.getClass().getName() != this.fScheduler.getClass().getName()
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == this.fTestClass.fFieldsForAnnotations.getClass().getName()
+this.fTestClass.fMethodsForAnnotations.getClass().getName() != org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName()
+this.fTestClass.fMethodsForAnnotations.getClass().getName() != this.fScheduler.getClass().getName()
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == this.fSorter.fComparator.getClass().getName()
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() != this.fScheduler.getClass().getName()
+===========================================================================
+org.junit.runners.ParentRunner.ParentRunner(java.lang.Class):::ENTER
+testClass == null
+===========================================================================
+org.junit.runners.ParentRunner.ParentRunner(java.lang.Class):::EXIT
+this.fTestClass.fClass == orig(testClass)
+===========================================================================
+org.junit.runners.ParentRunner.childrenInvoker(org.junit.runner.notification.RunNotifier):::ENTER
+notifier has only one value
+notifier.fListeners has only one value
+notifier.fListeners[] contains no nulls and has only one value, of length 2
+notifier.fListeners[].getClass().getName() == [org.junit.runner.Result.Listener, org.junit.internal.TextListener]
+notifier.fListeners.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+notifier.fPleaseStop == false
+size(notifier.fListeners[]) == 2
+===========================================================================
+org.junit.runners.ParentRunner.childrenInvoker(org.junit.runner.notification.RunNotifier):::EXIT
+this.fTestClass == orig(this.fTestClass)
+this.fTestClass.fClass == orig(this.fTestClass.fClass)
+this.fTestClass.fMethodsForAnnotations == orig(this.fTestClass.fMethodsForAnnotations)
+this.fTestClass.fFieldsForAnnotations == orig(this.fTestClass.fFieldsForAnnotations)
+this.fFilter == orig(this.fFilter)
+org.junit.runner.manipulation.Sorter.NULL == orig(this.fSorter)
+org.junit.runner.manipulation.Sorter.NULL == orig(org.junit.runner.manipulation.Sorter.NULL)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(this.fSorter.fComparator)
+this.fScheduler == orig(this.fScheduler)
+notifier.fListeners == orig(notifier.fListeners)
+notifier.fListeners[] == orig(notifier.fListeners[])
+notifier.fPleaseStop == orig(notifier.fPleaseStop)
+notifier.fListeners has only one value
+notifier.fListeners[] contains no nulls and has only one value, of length 2
+notifier.fListeners[].getClass().getName() == [org.junit.runner.Result.Listener, org.junit.internal.TextListener]
+notifier.fListeners.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+notifier.fPleaseStop == false
+return has only one value
+return.getClass().getName() == org.junit.runners.ParentRunner$2.class
+size(notifier.fListeners[]) == 2
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fMethodsForAnnotations.getClass().getName())
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fFieldsForAnnotations.getClass().getName())
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName())
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(this.fSorter.fComparator.getClass().getName())
+this.fScheduler.getClass().getName() == orig(this.fScheduler.getClass().getName())
+notifier.fListeners.getClass().getName() == orig(notifier.fListeners.getClass().getName())
+===========================================================================
+org.junit.runners.ParentRunner.classBlock(org.junit.runner.notification.RunNotifier):::ENTER
+notifier has only one value
+notifier.fListeners has only one value
+notifier.fListeners[] contains no nulls and has only one value, of length 2
+notifier.fListeners[].getClass().getName() == [org.junit.runner.Result.Listener, org.junit.internal.TextListener]
+notifier.fListeners.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+notifier.fPleaseStop == false
+size(notifier.fListeners[]) == 2
+===========================================================================
+org.junit.runners.ParentRunner.classBlock(org.junit.runner.notification.RunNotifier):::EXIT
+this.fTestClass == orig(this.fTestClass)
+this.fTestClass.fClass == orig(this.fTestClass.fClass)
+this.fTestClass.fMethodsForAnnotations == orig(this.fTestClass.fMethodsForAnnotations)
+this.fTestClass.fFieldsForAnnotations == orig(this.fTestClass.fFieldsForAnnotations)
+this.fFilter == orig(this.fFilter)
+org.junit.runner.manipulation.Sorter.NULL == orig(this.fSorter)
+org.junit.runner.manipulation.Sorter.NULL == orig(org.junit.runner.manipulation.Sorter.NULL)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(this.fSorter.fComparator)
+this.fScheduler == orig(this.fScheduler)
+notifier.fListeners == orig(notifier.fListeners)
+notifier.fListeners[] == orig(notifier.fListeners[])
+notifier.fPleaseStop == orig(notifier.fPleaseStop)
+notifier.fListeners has only one value
+notifier.fListeners[] contains no nulls and has only one value, of length 2
+notifier.fListeners[].getClass().getName() == [org.junit.runner.Result.Listener, org.junit.internal.TextListener]
+notifier.fListeners.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+notifier.fPleaseStop == false
+return has only one value
+return.getClass().getName() == org.junit.runners.ParentRunner$2.class
+size(notifier.fListeners[]) == 2
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fMethodsForAnnotations.getClass().getName())
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fFieldsForAnnotations.getClass().getName())
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName())
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(this.fSorter.fComparator.getClass().getName())
+this.fScheduler.getClass().getName() == orig(this.fScheduler.getClass().getName())
+notifier.fListeners.getClass().getName() == orig(notifier.fListeners.getClass().getName())
+===========================================================================
+org.junit.runners.ParentRunner.collectInitializationErrors(java.util.List):::ENTER
+errors has only one value
+errors[] == []
+errors[].getClass().getName() == []
+errors.getClass().getName() == java.util.ArrayList.class
+===========================================================================
+org.junit.runners.ParentRunner.collectInitializationErrors(java.util.List):::EXIT
+this.fTestClass == orig(this.fTestClass)
+this.fTestClass.fClass == orig(this.fTestClass.fClass)
+this.fTestClass.fMethodsForAnnotations == orig(this.fTestClass.fMethodsForAnnotations)
+this.fTestClass.fFieldsForAnnotations == orig(this.fTestClass.fFieldsForAnnotations)
+this.fFilter == orig(this.fFilter)
+org.junit.runner.manipulation.Sorter.NULL == orig(this.fSorter)
+org.junit.runner.manipulation.Sorter.NULL == orig(org.junit.runner.manipulation.Sorter.NULL)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(this.fSorter.fComparator)
+this.fScheduler == orig(this.fScheduler)
+errors[] == orig(errors[])
+errors[] == []
+errors[].getClass().getName() == []
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fMethodsForAnnotations.getClass().getName())
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fFieldsForAnnotations.getClass().getName())
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName())
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(this.fSorter.fComparator.getClass().getName())
+this.fScheduler.getClass().getName() == orig(this.fScheduler.getClass().getName())
+===========================================================================
+org.junit.runners.ParentRunner.comparator():::ENTER
+===========================================================================
+org.junit.runners.ParentRunner.comparator():::EXIT
+this.fTestClass == orig(this.fTestClass)
+this.fTestClass.fClass == orig(this.fTestClass.fClass)
+this.fTestClass.fMethodsForAnnotations == orig(this.fTestClass.fMethodsForAnnotations)
+this.fTestClass.fFieldsForAnnotations == orig(this.fTestClass.fFieldsForAnnotations)
+this.fFilter == orig(this.fFilter)
+org.junit.runner.manipulation.Sorter.NULL == orig(this.fSorter)
+org.junit.runner.manipulation.Sorter.NULL == orig(org.junit.runner.manipulation.Sorter.NULL)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(this.fSorter.fComparator)
+this.fScheduler == orig(this.fScheduler)
+return.getClass().getName() == org.junit.runners.ParentRunner$4.class
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fMethodsForAnnotations.getClass().getName())
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fFieldsForAnnotations.getClass().getName())
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName())
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(this.fSorter.fComparator.getClass().getName())
+this.fScheduler.getClass().getName() == orig(this.fScheduler.getClass().getName())
+===========================================================================
+org.junit.runners.ParentRunner.getDescription():::ENTER
+===========================================================================
+org.junit.runners.ParentRunner.getDescription():::EXIT
+this.fTestClass == orig(this.fTestClass)
+this.fTestClass.fClass == orig(this.fTestClass.fClass)
+this.fTestClass.fMethodsForAnnotations == orig(this.fTestClass.fMethodsForAnnotations)
+this.fTestClass.fFieldsForAnnotations == orig(this.fTestClass.fFieldsForAnnotations)
+this.fFilter == orig(this.fFilter)
+org.junit.runner.manipulation.Sorter.NULL == orig(this.fSorter)
+org.junit.runner.manipulation.Sorter.NULL == orig(org.junit.runner.manipulation.Sorter.NULL)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(this.fSorter.fComparator)
+this.fScheduler == orig(this.fScheduler)
+org.junit.runner.Description.EMPTY.fChildren[] == org.junit.runner.Description.TEST_MECHANISM.fChildren[]
+org.junit.runner.Description.EMPTY.fChildren[] == return.fChildren[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == org.junit.runner.Description.TEST_MECHANISM.fAnnotations[]
+org.junit.runner.Description.EMPTY.fAnnotations[] == return.fAnnotations[]
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.EMPTY.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(org.junit.runner.Description.TEST_MECHANISM.fAnnotations[])
+size(org.junit.runner.Description.EMPTY.fChildren[]) == size(return.fAnnotations[])
+org.junit.runner.Description.EMPTY has only one value
+org.junit.runner.Description.TEST_MECHANISM has only one value
+org.junit.runner.Description.EMPTY.fChildren has only one value
+org.junit.runner.Description.EMPTY.fChildren[] == []
+org.junit.runner.Description.EMPTY.fChildren[].getClass().getName() == []
+org.junit.runner.Description.EMPTY.fDisplayName has only one value
+org.junit.runner.Description.EMPTY.fDisplayName.toString == "No Tests"
+org.junit.runner.Description.EMPTY.fAnnotations has only one value
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == java.lang.annotation.Annotation[].class
+org.junit.runner.Description.EMPTY.fAnnotations[] == []
+org.junit.runner.Description.TEST_MECHANISM.fChildren has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName has only one value
+org.junit.runner.Description.TEST_MECHANISM.fDisplayName.toString == "Test mechanism"
+org.junit.runner.Description.TEST_MECHANISM.fAnnotations has only one value
+return.fDisplayName has only one value
+return.fDisplayName.toString == "null"
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fMethodsForAnnotations.getClass().getName())
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fFieldsForAnnotations.getClass().getName())
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName())
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(this.fSorter.fComparator.getClass().getName())
+this.fScheduler.getClass().getName() == orig(this.fScheduler.getClass().getName())
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == org.junit.runner.Description.TEST_MECHANISM.fAnnotations.getClass().getName()
+org.junit.runner.Description.EMPTY.fAnnotations.getClass().getName() == return.fAnnotations.getClass().getName()
+===========================================================================
+org.junit.runners.ParentRunner.getFilteredChildren():::ENTER
+===========================================================================
+org.junit.runners.ParentRunner.getFilteredChildren():::EXIT
+this.fTestClass == orig(this.fTestClass)
+this.fTestClass.fClass == orig(this.fTestClass.fClass)
+this.fTestClass.fMethodsForAnnotations == orig(this.fTestClass.fMethodsForAnnotations)
+this.fTestClass.fFieldsForAnnotations == orig(this.fTestClass.fFieldsForAnnotations)
+this.fFilter == orig(this.fFilter)
+org.junit.runner.manipulation.Sorter.NULL == orig(this.fSorter)
+org.junit.runner.manipulation.Sorter.NULL == orig(org.junit.runner.manipulation.Sorter.NULL)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(this.fSorter.fComparator)
+this.fScheduler == orig(this.fScheduler)
+return[] == []
+return[].getClass().getName() == []
+return.getClass().getName() == java.util.ArrayList.class
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fMethodsForAnnotations.getClass().getName())
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fFieldsForAnnotations.getClass().getName())
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName())
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(this.fSorter.fComparator.getClass().getName())
+this.fScheduler.getClass().getName() == orig(this.fScheduler.getClass().getName())
+===========================================================================
+org.junit.runners.ParentRunner.getName():::ENTER
+===========================================================================
+org.junit.runners.ParentRunner.getName():::EXIT
+this.fTestClass == orig(this.fTestClass)
+this.fTestClass.fClass == orig(this.fTestClass.fClass)
+this.fTestClass.fMethodsForAnnotations == orig(this.fTestClass.fMethodsForAnnotations)
+this.fTestClass.fFieldsForAnnotations == orig(this.fTestClass.fFieldsForAnnotations)
+this.fFilter == orig(this.fFilter)
+org.junit.runner.manipulation.Sorter.NULL == orig(this.fSorter)
+org.junit.runner.manipulation.Sorter.NULL == orig(org.junit.runner.manipulation.Sorter.NULL)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(this.fSorter.fComparator)
+this.fScheduler == orig(this.fScheduler)
+return has only one value
+return.toString == "null"
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fMethodsForAnnotations.getClass().getName())
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fFieldsForAnnotations.getClass().getName())
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName())
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(this.fSorter.fComparator.getClass().getName())
+this.fScheduler.getClass().getName() == orig(this.fScheduler.getClass().getName())
+===========================================================================
+org.junit.runners.ParentRunner.getTestClass():::ENTER
+===========================================================================
+org.junit.runners.ParentRunner.getTestClass():::EXIT
+this.fTestClass == return
+this.fTestClass.fClass == return.fClass
+this.fTestClass.fMethodsForAnnotations == return.fMethodsForAnnotations
+this.fTestClass.fFieldsForAnnotations == return.fFieldsForAnnotations
+this.fFilter == orig(this.fFilter)
+org.junit.runner.manipulation.Sorter.NULL == orig(this.fSorter)
+org.junit.runner.manipulation.Sorter.NULL == orig(org.junit.runner.manipulation.Sorter.NULL)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(this.fSorter.fComparator)
+this.fScheduler == orig(this.fScheduler)
+return == orig(this.fTestClass)
+return.fClass == orig(this.fTestClass.fClass)
+return.fMethodsForAnnotations == orig(this.fTestClass.fMethodsForAnnotations)
+return.fFieldsForAnnotations == orig(this.fTestClass.fFieldsForAnnotations)
+return has only one value
+return.fClass == null
+return.fMethodsForAnnotations has only one value
+return.fMethodsForAnnotations.getClass().getName() == java.util.HashMap.class
+return.fFieldsForAnnotations has only one value
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == return.fMethodsForAnnotations.getClass().getName()
+this.fTestClass.fFieldsForAnnotations.getClass().getName() == return.fMethodsForAnnotations.getClass().getName()
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName())
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(this.fSorter.fComparator.getClass().getName())
+this.fScheduler.getClass().getName() == orig(this.fScheduler.getClass().getName())
+return.fMethodsForAnnotations.getClass().getName() == return.fFieldsForAnnotations.getClass().getName()
+return.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fMethodsForAnnotations.getClass().getName())
+return.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fFieldsForAnnotations.getClass().getName())
+===========================================================================
+org.junit.runners.ParentRunner.run(org.junit.runner.notification.RunNotifier):::ENTER
+notifier has only one value
+notifier.fListeners has only one value
+notifier.fListeners[] contains no nulls and has only one value, of length 2
+notifier.fListeners[].getClass().getName() == [org.junit.runner.Result.Listener, org.junit.internal.TextListener]
+notifier.fListeners.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+notifier.fPleaseStop == false
+size(notifier.fListeners[]) == 2
+===========================================================================
+org.junit.runners.ParentRunner.run(org.junit.runner.notification.RunNotifier):::EXIT
+this.fTestClass == orig(this.fTestClass)
+this.fTestClass.fClass == orig(this.fTestClass.fClass)
+this.fTestClass.fMethodsForAnnotations == orig(this.fTestClass.fMethodsForAnnotations)
+this.fTestClass.fFieldsForAnnotations == orig(this.fTestClass.fFieldsForAnnotations)
+this.fFilter == orig(this.fFilter)
+org.junit.runner.manipulation.Sorter.NULL == orig(this.fSorter)
+org.junit.runner.manipulation.Sorter.NULL == orig(org.junit.runner.manipulation.Sorter.NULL)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(this.fSorter.fComparator)
+this.fScheduler == orig(this.fScheduler)
+notifier.fListeners == orig(notifier.fListeners)
+notifier.fListeners[] == orig(notifier.fListeners[])
+notifier.fPleaseStop == orig(notifier.fPleaseStop)
+notifier.fListeners has only one value
+notifier.fListeners[] contains no nulls and has only one value, of length 2
+notifier.fListeners[].getClass().getName() == [org.junit.runner.Result.Listener, org.junit.internal.TextListener]
+notifier.fListeners.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+notifier.fPleaseStop == false
+size(notifier.fListeners[]) == 2
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fMethodsForAnnotations.getClass().getName())
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fFieldsForAnnotations.getClass().getName())
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName())
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(this.fSorter.fComparator.getClass().getName())
+this.fScheduler.getClass().getName() == orig(this.fScheduler.getClass().getName())
+notifier.fListeners.getClass().getName() == orig(notifier.fListeners.getClass().getName())
+===========================================================================
+org.junit.runners.ParentRunner.runChildren(org.junit.runner.notification.RunNotifier):::ENTER
+notifier has only one value
+notifier.fListeners has only one value
+notifier.fListeners[] contains no nulls and has only one value, of length 2
+notifier.fListeners[].getClass().getName() == [org.junit.runner.Result.Listener, org.junit.internal.TextListener]
+notifier.fListeners.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+notifier.fPleaseStop == false
+size(notifier.fListeners[]) == 2
+===========================================================================
+org.junit.runners.ParentRunner.runChildren(org.junit.runner.notification.RunNotifier):::EXIT
+this.fTestClass == orig(this.fTestClass)
+this.fTestClass.fClass == orig(this.fTestClass.fClass)
+this.fTestClass.fMethodsForAnnotations == orig(this.fTestClass.fMethodsForAnnotations)
+this.fTestClass.fFieldsForAnnotations == orig(this.fTestClass.fFieldsForAnnotations)
+this.fFilter == orig(this.fFilter)
+org.junit.runner.manipulation.Sorter.NULL == orig(this.fSorter)
+org.junit.runner.manipulation.Sorter.NULL == orig(org.junit.runner.manipulation.Sorter.NULL)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(this.fSorter.fComparator)
+this.fScheduler == orig(this.fScheduler)
+notifier.fListeners == orig(notifier.fListeners)
+notifier.fListeners[] == orig(notifier.fListeners[])
+notifier.fPleaseStop == orig(notifier.fPleaseStop)
+notifier.fListeners has only one value
+notifier.fListeners[] contains no nulls and has only one value, of length 2
+notifier.fListeners[].getClass().getName() == [org.junit.runner.Result.Listener, org.junit.internal.TextListener]
+notifier.fListeners.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+notifier.fPleaseStop == false
+size(notifier.fListeners[]) == 2
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fMethodsForAnnotations.getClass().getName())
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fFieldsForAnnotations.getClass().getName())
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName())
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(this.fSorter.fComparator.getClass().getName())
+this.fScheduler.getClass().getName() == orig(this.fScheduler.getClass().getName())
+notifier.fListeners.getClass().getName() == orig(notifier.fListeners.getClass().getName())
+===========================================================================
+org.junit.runners.ParentRunner.validate():::ENTER
+===========================================================================
+org.junit.runners.ParentRunner.validate():::EXIT
+this.fTestClass == orig(this.fTestClass)
+this.fTestClass.fClass == orig(this.fTestClass.fClass)
+this.fTestClass.fMethodsForAnnotations == orig(this.fTestClass.fMethodsForAnnotations)
+this.fTestClass.fFieldsForAnnotations == orig(this.fTestClass.fFieldsForAnnotations)
+this.fFilter == orig(this.fFilter)
+org.junit.runner.manipulation.Sorter.NULL == orig(this.fSorter)
+org.junit.runner.manipulation.Sorter.NULL == orig(org.junit.runner.manipulation.Sorter.NULL)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(this.fSorter.fComparator)
+this.fScheduler == orig(this.fScheduler)
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fMethodsForAnnotations.getClass().getName())
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fFieldsForAnnotations.getClass().getName())
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName())
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(this.fSorter.fComparator.getClass().getName())
+this.fScheduler.getClass().getName() == orig(this.fScheduler.getClass().getName())
+===========================================================================
+org.junit.runners.ParentRunner.validatePublicVoidNoArgMethods(java.lang.Class, boolean, java.util.List):::ENTER
+isStatic == true
+errors has only one value
+errors[] == []
+errors[].getClass().getName() == []
+errors.getClass().getName() == java.util.ArrayList.class
+===========================================================================
+org.junit.runners.ParentRunner.validatePublicVoidNoArgMethods(java.lang.Class, boolean, java.util.List):::EXIT
+this.fTestClass == orig(this.fTestClass)
+this.fTestClass.fClass == orig(this.fTestClass.fClass)
+this.fTestClass.fMethodsForAnnotations == orig(this.fTestClass.fMethodsForAnnotations)
+this.fTestClass.fFieldsForAnnotations == orig(this.fTestClass.fFieldsForAnnotations)
+this.fFilter == orig(this.fFilter)
+org.junit.runner.manipulation.Sorter.NULL == orig(this.fSorter)
+org.junit.runner.manipulation.Sorter.NULL == orig(org.junit.runner.manipulation.Sorter.NULL)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(this.fSorter.fComparator)
+this.fScheduler == orig(this.fScheduler)
+errors[] == orig(errors[])
+errors[] == []
+errors[].getClass().getName() == []
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fMethodsForAnnotations.getClass().getName())
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fFieldsForAnnotations.getClass().getName())
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName())
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(this.fSorter.fComparator.getClass().getName())
+this.fScheduler.getClass().getName() == orig(this.fScheduler.getClass().getName())
+===========================================================================
+org.junit.runners.ParentRunner.withAfterClasses(org.junit.runners.model.Statement):::ENTER
+statement has only one value
+statement.getClass().getName() == org.junit.runners.ParentRunner$2.class
+===========================================================================
+org.junit.runners.ParentRunner.withAfterClasses(org.junit.runners.model.Statement):::EXIT
+this.fTestClass == orig(this.fTestClass)
+this.fTestClass.fClass == orig(this.fTestClass.fClass)
+this.fTestClass.fMethodsForAnnotations == orig(this.fTestClass.fMethodsForAnnotations)
+this.fTestClass.fFieldsForAnnotations == orig(this.fTestClass.fFieldsForAnnotations)
+this.fFilter == orig(this.fFilter)
+org.junit.runner.manipulation.Sorter.NULL == orig(this.fSorter)
+org.junit.runner.manipulation.Sorter.NULL == orig(org.junit.runner.manipulation.Sorter.NULL)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(this.fSorter.fComparator)
+this.fScheduler == orig(this.fScheduler)
+return == orig(statement)
+return has only one value
+return.getClass().getName() == org.junit.runners.ParentRunner$2.class
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fMethodsForAnnotations.getClass().getName())
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fFieldsForAnnotations.getClass().getName())
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName())
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(this.fSorter.fComparator.getClass().getName())
+this.fScheduler.getClass().getName() == orig(this.fScheduler.getClass().getName())
+return.getClass().getName() == orig(statement.getClass().getName())
+===========================================================================
+org.junit.runners.ParentRunner.withBeforeClasses(org.junit.runners.model.Statement):::ENTER
+statement has only one value
+statement.getClass().getName() == org.junit.runners.ParentRunner$2.class
+===========================================================================
+org.junit.runners.ParentRunner.withBeforeClasses(org.junit.runners.model.Statement):::EXIT
+this.fTestClass == orig(this.fTestClass)
+this.fTestClass.fClass == orig(this.fTestClass.fClass)
+this.fTestClass.fMethodsForAnnotations == orig(this.fTestClass.fMethodsForAnnotations)
+this.fTestClass.fFieldsForAnnotations == orig(this.fTestClass.fFieldsForAnnotations)
+this.fFilter == orig(this.fFilter)
+org.junit.runner.manipulation.Sorter.NULL == orig(this.fSorter)
+org.junit.runner.manipulation.Sorter.NULL == orig(org.junit.runner.manipulation.Sorter.NULL)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator)
+org.junit.runner.manipulation.Sorter.NULL.fComparator == orig(this.fSorter.fComparator)
+this.fScheduler == orig(this.fScheduler)
+return == orig(statement)
+return has only one value
+return.getClass().getName() == org.junit.runners.ParentRunner$2.class
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fMethodsForAnnotations.getClass().getName())
+this.fTestClass.fMethodsForAnnotations.getClass().getName() == orig(this.fTestClass.fFieldsForAnnotations.getClass().getName())
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName())
+org.junit.runner.manipulation.Sorter.NULL.fComparator.getClass().getName() == orig(this.fSorter.fComparator.getClass().getName())
+this.fScheduler.getClass().getName() == orig(this.fScheduler.getClass().getName())
+return.getClass().getName() == orig(statement.getClass().getName())
+===========================================================================
+org.junit.runners.Suite:::OBJECT
+this has only one value
+this.fRunners has only one value
+this.fRunners[] == []
+this.fRunners[].getClass().getName() == []
+this.fRunners.getClass().getName() == java.util.ArrayList.class
+===========================================================================
+org.junit.runners.Suite.Suite(java.lang.Class, java.util.List):::ENTER
+klass == null
+runners has only one value
+runners[] == []
+runners[].getClass().getName() == []
+runners.getClass().getName() == java.util.ArrayList.class
+===========================================================================
+org.junit.runners.Suite.Suite(java.lang.Class, java.util.List):::EXIT
+this.fRunners == orig(runners)
+this.fRunners[] == runners[]
+runners[] == orig(runners[])
+runners[] == []
+runners[].getClass().getName() == []
+this.fRunners.getClass().getName() == orig(runners.getClass().getName())
+===========================================================================
+org.junit.runners.Suite.Suite(org.junit.runners.model.RunnerBuilder, java.lang.Class[]):::ENTER
+builder has only one value
+builder.getClass().getName() == org.junit.runner.Computer$1.class
+builder.parents has only one value
+builder.parents.getClass().getName() == java.util.HashSet.class
+classes has only one value
+classes.getClass().getName() == java.lang.Class[].class
+classes[] == []
+===========================================================================
+org.junit.runners.Suite.Suite(org.junit.runners.model.RunnerBuilder, java.lang.Class[]):::EXIT
+builder.parents == orig(builder.parents)
+classes[] == orig(classes[])
+size(this.fRunners[]) == orig(size(classes[]))
+builder.parents has only one value
+builder.parents.getClass().getName() == java.util.HashSet.class
+classes[] == []
+builder.parents.getClass().getName() == orig(builder.parents.getClass().getName())
+===========================================================================
+org.junit.runners.Suite.getChildren():::ENTER
+===========================================================================
+org.junit.runners.Suite.getChildren():::EXIT
+this.fRunners == return
+this.fRunners[] == return[]
+return == orig(this.fRunners)
+return[] == orig(this.fRunners[])
+return has only one value
+return[] == []
+return[].getClass().getName() == []
+return.getClass().getName() == java.util.ArrayList.class
+this.fRunners.getClass().getName() == return.getClass().getName()
+return.getClass().getName() == orig(this.fRunners.getClass().getName())
+===========================================================================
+org.junit.runners.model.RunnerBuilder:::OBJECT
+this.parents.getClass().getName() == java.util.HashSet.class
+this.getClass().getName() != this.parents.getClass().getName()
+===========================================================================
+org.junit.runners.model.RunnerBuilder.RunnerBuilder():::EXIT
+===========================================================================
+org.junit.runners.model.RunnerBuilder.addParent(java.lang.Class):::ENTER
+this has only one value
+this.getClass().getName() == org.junit.runner.Computer$1.class
+this.parents has only one value
+parent == null
+===========================================================================
+org.junit.runners.model.RunnerBuilder.addParent(java.lang.Class):::EXIT
+this.parents == orig(this.parents)
+return == orig(parent)
+this.parents has only one value
+return == null
+this.parents.getClass().getName() == orig(this.parents.getClass().getName())
+===========================================================================
+org.junit.runners.model.RunnerBuilder.removeParent(java.lang.Class):::ENTER
+this has only one value
+this.getClass().getName() == org.junit.runner.Computer$1.class
+this.parents has only one value
+klass == null
+===========================================================================
+org.junit.runners.model.RunnerBuilder.removeParent(java.lang.Class):::EXIT
+this.parents == orig(this.parents)
+this.parents has only one value
+this.parents.getClass().getName() == orig(this.parents.getClass().getName())
+===========================================================================
+org.junit.runners.model.RunnerBuilder.runners(java.lang.Class, java.lang.Class[]):::ENTER
+this has only one value
+this.getClass().getName() == org.junit.runner.Computer$1.class
+this.parents has only one value
+parent == null
+children has only one value
+children.getClass().getName() == java.lang.Class[].class
+children[] == []
+===========================================================================
+org.junit.runners.model.RunnerBuilder.runners(java.lang.Class, java.lang.Class[]):::EXIT
+this.parents == orig(this.parents)
+children[] == orig(children[])
+size(return[]) == orig(size(children[]))
+this.parents has only one value
+children[] == []
+return has only one value
+return[] == []
+return[].getClass().getName() == []
+return.getClass().getName() == java.util.ArrayList.class
+this.parents.getClass().getName() == orig(this.parents.getClass().getName())
+===========================================================================
+org.junit.runners.model.RunnerBuilder.runners(java.lang.Class[]):::ENTER
+this has only one value
+this.getClass().getName() == org.junit.runner.Computer$1.class
+this.parents has only one value
+children has only one value
+children.getClass().getName() == java.lang.Class[].class
+children[] == []
+===========================================================================
+org.junit.runners.model.RunnerBuilder.runners(java.lang.Class[]):::EXIT
+this.parents == orig(this.parents)
+children[] == orig(children[])
+size(return[]) == orig(size(children[]))
+this.parents has only one value
+children[] == []
+return has only one value
+return[] == []
+return[].getClass().getName() == []
+return.getClass().getName() == java.util.ArrayList.class
+this.parents.getClass().getName() == orig(this.parents.getClass().getName())
+===========================================================================
+org.junit.runners.model.Statement:::OBJECT
+this has only one value
+this.getClass().getName() == org.junit.runners.ParentRunner$2.class
+===========================================================================
+org.junit.runners.model.Statement.Statement():::EXIT
+===========================================================================
+org.junit.runners.model.TestClass:::OBJECT
+this has only one value
+this.fClass == null
+this.fMethodsForAnnotations has only one value
+this.fMethodsForAnnotations.getClass().getName() == java.util.HashMap.class
+this.fFieldsForAnnotations has only one value
+this.fMethodsForAnnotations.getClass().getName() == this.fFieldsForAnnotations.getClass().getName()
+===========================================================================
+org.junit.runners.model.TestClass.TestClass(java.lang.Class):::ENTER
+klass == null
+===========================================================================
+org.junit.runners.model.TestClass.TestClass(java.lang.Class):::EXIT
+this.fClass == orig(klass)
+===========================================================================
+org.junit.runners.model.TestClass.getAnnotatedMembers(java.util.Map, java.lang.Class):::ENTER
+this.fMethodsForAnnotations == map
+this.fMethodsForAnnotations.getClass().getName() == map.getClass().getName()
+===========================================================================
+org.junit.runners.model.TestClass.getAnnotatedMembers(java.util.Map, java.lang.Class):::EXIT
+this.fClass == orig(this.fClass)
+this.fMethodsForAnnotations == orig(this.fMethodsForAnnotations)
+this.fMethodsForAnnotations == orig(map)
+this.fFieldsForAnnotations == orig(this.fFieldsForAnnotations)
+return[] == []
+return[].getClass().getName() == []
+return.getClass().getName() == java.util.ArrayList.class
+this.fMethodsForAnnotations.getClass().getName() == orig(this.fMethodsForAnnotations.getClass().getName())
+this.fMethodsForAnnotations.getClass().getName() == orig(this.fFieldsForAnnotations.getClass().getName())
+this.fMethodsForAnnotations.getClass().getName() == orig(map.getClass().getName())
+===========================================================================
+org.junit.runners.model.TestClass.getAnnotatedMethods(java.lang.Class):::ENTER
+===========================================================================
+org.junit.runners.model.TestClass.getAnnotatedMethods(java.lang.Class):::EXIT
+this.fClass == orig(this.fClass)
+this.fMethodsForAnnotations == orig(this.fMethodsForAnnotations)
+this.fFieldsForAnnotations == orig(this.fFieldsForAnnotations)
+return[] == []
+return[].getClass().getName() == []
+return.getClass().getName() == java.util.ArrayList.class
+this.fMethodsForAnnotations.getClass().getName() == orig(this.fMethodsForAnnotations.getClass().getName())
+this.fMethodsForAnnotations.getClass().getName() == orig(this.fFieldsForAnnotations.getClass().getName())
+===========================================================================
+org.junit.runners.model.TestClass.getAnnotations():::ENTER
+===========================================================================
+org.junit.runners.model.TestClass.getAnnotations():::EXIT129
+===========================================================================
+org.junit.runners.model.TestClass.getAnnotations():::EXIT
+this.fClass == orig(this.fClass)
+this.fMethodsForAnnotations == orig(this.fMethodsForAnnotations)
+this.fFieldsForAnnotations == orig(this.fFieldsForAnnotations)
+return.getClass().getName() == java.lang.annotation.Annotation[].class
+return[] == []
+this.fMethodsForAnnotations.getClass().getName() == orig(this.fMethodsForAnnotations.getClass().getName())
+this.fMethodsForAnnotations.getClass().getName() == orig(this.fFieldsForAnnotations.getClass().getName())
+===========================================================================
+org.junit.runners.model.TestClass.getName():::ENTER
+===========================================================================
+org.junit.runners.model.TestClass.getName():::EXIT109
+===========================================================================
+org.junit.runners.model.TestClass.getName():::EXIT
+this.fClass == orig(this.fClass)
+this.fMethodsForAnnotations == orig(this.fMethodsForAnnotations)
+this.fFieldsForAnnotations == orig(this.fFieldsForAnnotations)
+return has only one value
+return.toString == "null"
+this.fMethodsForAnnotations.getClass().getName() == orig(this.fMethodsForAnnotations.getClass().getName())
+this.fMethodsForAnnotations.getClass().getName() == orig(this.fFieldsForAnnotations.getClass().getName())
+===========================================================================
+org.junit.runners.model.TestClass.getSuperClasses(java.lang.Class):::ENTER
+this.fClass == testClass
+===========================================================================
+org.junit.runners.model.TestClass.getSuperClasses(java.lang.Class):::EXIT
+this.fClass == orig(this.fClass)
+this.fClass == orig(testClass)
+this.fMethodsForAnnotations == orig(this.fMethodsForAnnotations)
+this.fFieldsForAnnotations == orig(this.fFieldsForAnnotations)
+return has only one value
+return[] == []
+return[].getClass().getName() == []
+return.getClass().getName() == java.util.ArrayList.class
+this.fMethodsForAnnotations.getClass().getName() == orig(this.fMethodsForAnnotations.getClass().getName())
+this.fMethodsForAnnotations.getClass().getName() == orig(this.fFieldsForAnnotations.getClass().getName())

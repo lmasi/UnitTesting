@@ -1,0 +1,325 @@
+class Triangle extends java.lang.Object
+{
+   static java.lang.String gcda;
+    static java.lang.String cov;
+    static java.lang.String filename;
+    static java.io.File file;
+    static boolean dd;
+
+
+    public static void main(java.lang.String[])
+    {
+   java.lang.String[] args;
+        boolean z0, $z1, $z2;
+        java.io.File $r1;
+        java.io.FileWriter r2, $r4;
+        java.util.Scanner st, temp$0, r3, $r5;
+        java.io.InputStream temp$1, $r6;
+        int x, y, z, temp$3, temp$5, temp$7, temp$11, temp$12, temp$13, temp$14, temp$15, temp$16, i0, i1, i2, $i3, $i4, $i5;
+        java.io.PrintStream temp$2, temp$4, temp$6, temp$8, temp$17, temp$18, temp$19, temp$20, $r7, $r8, $r9, $r10, $r11, $r12, $r13, $r16;
+        java.lang.Exception $r14, r15;
+        java.lang.StringBuffer temp$9;
+        java.lang.String temp$10;
+	java.io.FileWriter fw, temp$28;
+        java.io.File temp$29;
+        
+
+        args := @parameter0: java.lang.String[];
+        temp$0 = new java.util.Scanner;
+        temp$1 = <java.lang.System: java.io.InputStream in>;
+        specialinvoke temp$0.<java.util.Scanner: void <init>(java.io.InputStream)>(temp$1);
+
+        st = temp$0;
+	$r4 = new java.io.FileWriter;
+        $r1 = <Triangle: java.io.File file>;
+        specialinvoke $r4.<java.io.FileWriter: void <init>(java.io.File,boolean)>($r1, 1);
+        r2 = $r4;
+
+        temp$6 = <java.lang.System: java.io.PrintStream out>;
+        virtualinvoke temp$6.<java.io.PrintStream: void print(java.lang.String)>("Input the z: ");
+
+        temp$2 = <java.lang.System: java.io.PrintStream out>;
+        virtualinvoke temp$2.<java.io.PrintStream: void print(java.lang.String)>("Input the x: ");
+        staticinvoke <Triangle: void update(int)>(2);
+        
+        temp$3 = virtualinvoke st.<java.util.Scanner: int nextInt()>();
+        x = temp$3;
+        staticinvoke <Triangle: void update(int)>(3);
+        
+        temp$4 = <java.lang.System: java.io.PrintStream out>;
+        virtualinvoke temp$4.<java.io.PrintStream: void print(java.lang.String)>("Input the y: ");
+        staticinvoke <Triangle: void update(int)>(4);
+        
+        temp$5 = virtualinvoke st.<java.util.Scanner: int nextInt()>();
+        y = temp$5;
+        staticinvoke <Triangle: void update(int)>(5);
+        
+        temp$6 = <java.lang.System: java.io.PrintStream out>;
+        virtualinvoke temp$6.<java.io.PrintStream: void print(java.lang.String)>("Input the z: ");
+        staticinvoke <Triangle: void update(int)>(7);
+        
+        temp$7 = virtualinvoke st.<java.util.Scanner: int nextInt()>();
+        z = temp$7;
+        staticinvoke <Triangle: void update(int)>(8);
+        
+        temp$8 = <java.lang.System: java.io.PrintStream out>;
+        temp$9 = new java.lang.StringBuffer;
+        specialinvoke temp$9.<java.lang.StringBuffer: void <init>()>();
+        virtualinvoke temp$9.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>("x: ");
+        virtualinvoke temp$9.<java.lang.StringBuffer: java.lang.StringBuffer append(int)>(x);
+        virtualinvoke temp$9.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(" y: ");
+        virtualinvoke temp$9.<java.lang.StringBuffer: java.lang.StringBuffer append(int)>(y);
+        virtualinvoke temp$9.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(" z: ");
+        virtualinvoke temp$9.<java.lang.StringBuffer: java.lang.StringBuffer append(int)>(z);
+        temp$10 = virtualinvoke temp$9.<java.lang.StringBuffer: java.lang.String toString()>();
+        virtualinvoke temp$8.<java.io.PrintStream: void println(java.lang.String)>(temp$10);
+        staticinvoke <Triangle: void update(int)>(9);
+        
+        temp$11 = x;
+        temp$12 = temp$11 + y;
+
+            staticinvoke <Triangle: void update(int)>(10);
+
+        if temp$12 > z goto label0;
+
+        goto label12;
+
+     label0:
+             staticinvoke <Triangle: void update(int)>(11);
+        nop;
+        temp$13 = y;
+        temp$14 = temp$13 + z;
+        if temp$14 > x goto label1;
+
+        goto label12;
+
+        goto label1;
+
+     label1:
+             staticinvoke <Triangle: void update(int)>(12);
+        nop;
+        temp$15 = x;
+        temp$16 = temp$15 + z;
+        if temp$16 > y goto label2;
+
+        goto label12;
+
+        goto label2;
+
+     label2:
+             staticinvoke <Triangle: void update(int)>(13);
+        nop;
+        if x == y goto label3;
+
+        goto label5;
+
+     label3:
+             staticinvoke <Triangle: void update(int)>(14);
+        nop;
+        if y == z goto label4;
+
+        goto label5;
+
+        goto label4;
+
+     label4:
+             staticinvoke <Triangle: void update(int)>(15);
+        nop;
+        temp$17 = <java.lang.System: java.io.PrintStream out>;
+        virtualinvoke temp$17.<java.io.PrintStream: void println(java.lang.String)>("0");
+        goto label11;
+
+     label5:
+             staticinvoke <Triangle: void update(int)>(16);
+        nop;
+        if x == y goto label8;
+
+        goto label6;
+
+     label6:
+             staticinvoke <Triangle: void update(int)>(17);
+        nop;
+        if x == z goto label8;
+
+        goto label7;
+
+        goto label7;
+
+     label7:
+             staticinvoke <Triangle: void update(int)>(18);
+        nop;
+        if y == z goto label8;
+
+        goto label9;
+
+        goto label9;
+
+     label8:
+             staticinvoke <Triangle: void update(int)>(19);
+        nop;
+        temp$18 = <java.lang.System: java.io.PrintStream out>;
+        virtualinvoke temp$18.<java.io.PrintStream: void println(java.lang.String)>("1");
+        goto label10;
+
+     label9:
+             staticinvoke <Triangle: void update(int)>(20);
+        nop;
+        temp$19 = <java.lang.System: java.io.PrintStream out>;
+        virtualinvoke temp$19.<java.io.PrintStream: void println(java.lang.String)>("2");
+
+     label10:
+             staticinvoke <Triangle: void update(int)>(21);
+        nop;
+
+     label11:
+             staticinvoke <Triangle: void update(int)>(22);
+        nop;
+        goto label13;
+
+     label12:
+             staticinvoke <Triangle: void update(int)>(23);
+        nop;
+        temp$20 = <java.lang.System: java.io.PrintStream out>;
+        virtualinvoke temp$20.<java.io.PrintStream: void println(java.lang.String)>("3");
+
+     label13:
+             staticinvoke <Triangle: void update(int)>(24);
+        nop;
+        return;
+    }
+
+public static void update(int)
+    {
+        int i0, $i1, i2;
+        java.lang.String r0, r5, r6, $r12, r17, $r18, $r21, r32;
+        java.io.InputStreamReader $r1;
+        java.io.FileInputStream $r2;
+        java.io.File $r3, $r37;
+        java.io.BufferedReader r4, $r8;
+        boolean z0, z1, $z2;
+        java.io.FileWriter r7, $r36;
+        java.lang.StringBuilder $r9, $r10, $r11, $r13, $r14, $r15, $r16, $r19, $r20, $r22, $r23, $r24, $r25, $r26, $r27, $r28, $r29, $r30, $r31, $r33, $r34, $r35;
+        java.io.IOException $r38, r39;
+        java.io.PrintStream $r40;
+
+        i0 := @parameter0: int;
+
+     label0:
+        r0 = "";
+        $r8 = new java.io.BufferedReader;
+        $r1 = new java.io.InputStreamReader;
+        $r2 = new java.io.FileInputStream;
+        $r3 = <Triangle: java.io.File file>;
+        specialinvoke $r2.<java.io.FileInputStream: void <init>(java.io.File)>($r3);
+        specialinvoke $r1.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r2);
+        specialinvoke $r8.<java.io.BufferedReader: void <init>(java.io.Reader)>($r1);
+        r4 = $r8;
+        $r9 = new java.lang.StringBuilder;
+        specialinvoke $r9.<java.lang.StringBuilder: void <init>()>();
+        $r10 = virtualinvoke $r9.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("block");
+        $r11 = virtualinvoke $r10.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(i0);
+        r5 = virtualinvoke $r11.<java.lang.StringBuilder: java.lang.String toString()>();
+        z0 = 0;
+        z1 = 1;
+
+     label1:
+        $r12 = virtualinvoke r4.<java.io.BufferedReader: java.lang.String readLine()>();
+        r6 = $r12;
+        if $r12 == null goto label3;
+
+        $z2 = virtualinvoke r5.<java.lang.String: boolean equals(java.lang.Object)>(r6);
+        if $z2 == 0 goto label2;
+
+        z0 = 1;
+        $r13 = new java.lang.StringBuilder;
+        specialinvoke $r13.<java.lang.StringBuilder: void <init>()>();
+        $r14 = virtualinvoke $r13.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(r0);
+        $r15 = virtualinvoke $r14.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(r6);
+        $r16 = virtualinvoke $r15.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("\n");
+        r17 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.String toString()>();
+        $r18 = virtualinvoke r4.<java.io.BufferedReader: java.lang.String readLine()>();
+        $i1 = staticinvoke <java.lang.Integer: int parseInt(java.lang.String)>($r18);
+        i2 = $i1 + 1;
+        $r19 = new java.lang.StringBuilder;
+        specialinvoke $r19.<java.lang.StringBuilder: void <init>()>();
+        $r20 = virtualinvoke $r19.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(r17);
+        $r21 = staticinvoke <java.lang.String: java.lang.String valueOf(int)>(i2);
+        $r22 = virtualinvoke $r20.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r21);
+        $r23 = virtualinvoke $r22.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("\n");
+        r0 = virtualinvoke $r23.<java.lang.StringBuilder: java.lang.String toString()>();
+        goto label1;
+
+     label2:
+        $r24 = new java.lang.StringBuilder;
+        specialinvoke $r24.<java.lang.StringBuilder: void <init>()>();
+        $r25 = virtualinvoke $r24.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(r0);
+        $r26 = virtualinvoke $r25.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(r6);
+        $r27 = virtualinvoke $r26.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("\n");
+        r0 = virtualinvoke $r27.<java.lang.StringBuilder: java.lang.String toString()>();
+        goto label1;
+
+     label3:
+        if z0 != 0 goto label4;
+
+        $r28 = new java.lang.StringBuilder;
+        specialinvoke $r28.<java.lang.StringBuilder: void <init>()>();
+        $r29 = virtualinvoke $r28.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(r0);
+        $r30 = virtualinvoke $r29.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(r5);
+        $r31 = virtualinvoke $r30.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("\n");
+        r32 = virtualinvoke $r31.<java.lang.StringBuilder: java.lang.String toString()>();
+        $r33 = new java.lang.StringBuilder;
+        specialinvoke $r33.<java.lang.StringBuilder: void <init>()>();
+        $r34 = virtualinvoke $r33.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(r32);
+        $r35 = virtualinvoke $r34.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("1\n");
+        r0 = virtualinvoke $r35.<java.lang.StringBuilder: java.lang.String toString()>();
+
+     label4:
+        $r36 = new java.io.FileWriter;
+        $r37 = <Triangle: java.io.File file>;
+        specialinvoke $r36.<java.io.FileWriter: void <init>(java.io.File)>($r37);
+        r7 = $r36;
+        virtualinvoke r7.<java.io.FileWriter: void write(java.lang.String)>(r0);
+        virtualinvoke r7.<java.io.FileWriter: void close()>();
+        virtualinvoke r4.<java.io.BufferedReader: void close()>();
+
+     label5:
+        goto label7;
+
+     label6:
+        $r38 := @caughtexception;
+        r39 = $r38;
+        $r40 = <java.lang.System: java.io.PrintStream err>;
+        virtualinvoke $r40.<java.io.PrintStream: void println(java.lang.Object)>(r39);
+        staticinvoke <java.lang.System: void exit(int)>(1);
+
+     label7:
+        return;
+
+        catch java.io.IOException from label0 to label5 with label6;
+    }
+
+static void <clinit>()
+    {
+        java.lang.String $r0;
+        java.io.File $r1;
+
+        <Triangle: java.lang.String gcda> = "Triangle.gcda";
+        <Triangle: java.lang.String cov> = "Triangle.java.cov";
+        <Triangle: java.lang.String filename> = "Triangle.java";
+        $r1 = new java.io.File;
+        $r0 = <Triangle: java.lang.String gcda>;
+        specialinvoke $r1.<java.io.File: void <init>(java.lang.String)>($r0);
+        <Triangle: java.io.File file> = $r1;
+        return;
+    }	
+
+
+    void <init>()
+    {
+        Triangle this;
+
+        this := @this: Triangle;
+        specialinvoke this.<java.lang.Object: void <init>()>();
+        return;
+    }
+}

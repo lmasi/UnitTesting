@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.apache.commons.csv.CSVFormatTest" time="0.003" tests="45" errors="45" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-oracle/jre/lib/amd64"/>
+    <property name="java.vm.version" value="24.80-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/lks/langTest/csv_test"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/lks/langTest/csv_test"/>
+    <property name="java.runtime.version" value="1.7.0_80-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-oracle/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/home/lks/maven/apache-maven-3.3.9/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.4.0-34-generic"/>
+    <property name="user.home" value="/home/lks"/>
+    <property name="user.timezone" value="Asia/Seoul"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="user.name" value="lks"/>
+    <property name="java.class.path" value="/home/lks/maven/apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-7-oracle/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_80"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-7-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-7-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-7-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-7-oracle/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/home/lks/maven/apache-maven-3.3.9"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0.001">
+    <error message="Method testEqualsIgnoreSurroundingSpaces() should not be static" type="java.lang.Exception">java.lang.Exception: Method testEqualsIgnoreSurroundingSpaces() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testEqualsCommentStart() should not be static" type="java.lang.Exception">java.lang.Exception: Method testEqualsCommentStart() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testWithDelimiter() should not be static" type="java.lang.Exception">java.lang.Exception: Method testWithDelimiter() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testQuotePolicyNoneWithoutEscapeThrowsException() should not be static" type="java.lang.Exception">java.lang.Exception: Method testQuotePolicyNoneWithoutEscapeThrowsException() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testWithQuoteLFThrowsException() should not be static" type="java.lang.Exception">java.lang.Exception: Method testWithQuoteLFThrowsException() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testWithFirstRecordAsHeader() should not be static" type="java.lang.Exception">java.lang.Exception: Method testWithFirstRecordAsHeader() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testSerialization() should not be static" type="java.lang.Exception">java.lang.Exception: Method testSerialization() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testNullRecordSeparatorCsv106() should not be static" type="java.lang.Exception">java.lang.Exception: Method testNullRecordSeparatorCsv106() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testEqualsQuoteChar() should not be static" type="java.lang.Exception">java.lang.Exception: Method testEqualsQuoteChar() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testEqualsSkipHeaderRecord() should not be static" type="java.lang.Exception">java.lang.Exception: Method testEqualsSkipHeaderRecord() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testQuoteCharSameAsCommentStartThrowsException() should not be static" type="java.lang.Exception">java.lang.Exception: Method testQuoteCharSameAsCommentStartThrowsException() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testWithRecordSeparatorCR() should not be static" type="java.lang.Exception">java.lang.Exception: Method testWithRecordSeparatorCR() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testWithRecordSeparatorLF() should not be static" type="java.lang.Exception">java.lang.Exception: Method testWithRecordSeparatorLF() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testWithEscapeCRThrowsExceptions() should not be static" type="java.lang.Exception">java.lang.Exception: Method testWithEscapeCRThrowsExceptions() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testWithIgnoreEmptyLines() should not be static" type="java.lang.Exception">java.lang.Exception: Method testWithIgnoreEmptyLines() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testEqualsEscape() should not be static" type="java.lang.Exception">java.lang.Exception: Method testEqualsEscape() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0.001">
+    <error message="Method testEqualsHeader() should not be static" type="java.lang.Exception">java.lang.Exception: Method testEqualsHeader() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testEqualsIgnoreEmptyLines() should not be static" type="java.lang.Exception">java.lang.Exception: Method testEqualsIgnoreEmptyLines() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testWithCommentStart() should not be static" type="java.lang.Exception">java.lang.Exception: Method testWithCommentStart() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testWithIgnoreSurround() should not be static" type="java.lang.Exception">java.lang.Exception: Method testWithIgnoreSurround() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testRFC4180() should not be static" type="java.lang.Exception">java.lang.Exception: Method testRFC4180() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testEscapeSameAsCommentStartThrowsException() should not be static" type="java.lang.Exception">java.lang.Exception: Method testEscapeSameAsCommentStartThrowsException() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testDelimiterSameAsCommentStartThrowsException() should not be static" type="java.lang.Exception">java.lang.Exception: Method testDelimiterSameAsCommentStartThrowsException() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testEqualsDelimiter() should not be static" type="java.lang.Exception">java.lang.Exception: Method testEqualsDelimiter() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testQuoteCharSameAsCommentStartThrowsExceptionForWrapperType() should not be static" type="java.lang.Exception">java.lang.Exception: Method testQuoteCharSameAsCommentStartThrowsExceptionForWrapperType() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testEqualsNullString() should not be static" type="java.lang.Exception">java.lang.Exception: Method testEqualsNullString() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testWithQuotePolicy() should not be static" type="java.lang.Exception">java.lang.Exception: Method testWithQuotePolicy() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testEqualsQuotePolicy() should not be static" type="java.lang.Exception">java.lang.Exception: Method testEqualsQuotePolicy() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testEscapeSameAsCommentStartThrowsExceptionForWrapperType() should not be static" type="java.lang.Exception">java.lang.Exception: Method testEscapeSameAsCommentStartThrowsExceptionForWrapperType() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testEqualsRecordSeparator() should not be static" type="java.lang.Exception">java.lang.Exception: Method testEqualsRecordSeparator() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testWithCommentStartCRThrowsException() should not be static" type="java.lang.Exception">java.lang.Exception: Method testWithCommentStartCRThrowsException() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testQuoteCharSameAsDelimiterThrowsException() should not be static" type="java.lang.Exception">java.lang.Exception: Method testQuoteCharSameAsDelimiterThrowsException() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testWithDelimiterLFThrowsException() should not be static" type="java.lang.Exception">java.lang.Exception: Method testWithDelimiterLFThrowsException() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testDelimiterSameAsEscapeThrowsException() should not be static" type="java.lang.Exception">java.lang.Exception: Method testDelimiterSameAsEscapeThrowsException() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testWithEscape() should not be static" type="java.lang.Exception">java.lang.Exception: Method testWithEscape() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testWithHeader() should not be static" type="java.lang.Exception">java.lang.Exception: Method testWithHeader() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testGetHeader() should not be static" type="java.lang.Exception">java.lang.Exception: Method testGetHeader() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testWithQuoteChar() should not be static" type="java.lang.Exception">java.lang.Exception: Method testWithQuoteChar() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testEquals() should not be static" type="java.lang.Exception">java.lang.Exception: Method testEquals() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0.001">
+    <error message="Method testWithEmptyEnum() should not be static" type="java.lang.Exception">java.lang.Exception: Method testWithEmptyEnum() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testFormat() should not be static" type="java.lang.Exception">java.lang.Exception: Method testFormat() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testWithRecordSeparatorCRLF() should not be static" type="java.lang.Exception">java.lang.Exception: Method testWithRecordSeparatorCRLF() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testDuplicateHeaderElements() should not be static" type="java.lang.Exception">java.lang.Exception: Method testDuplicateHeaderElements() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testWithNullString() should not be static" type="java.lang.Exception">java.lang.Exception: Method testWithNullString() should not be static
+</error>
+  </testcase>
+  <testcase name="initializationError" classname="org.apache.commons.csv.CSVFormatTest" time="0">
+    <error message="Method testWithHeaderEnum() should not be static" type="java.lang.Exception">java.lang.Exception: Method testWithHeaderEnum() should not be static
+</error>
+  </testcase>
+</testsuite>

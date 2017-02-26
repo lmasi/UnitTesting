@@ -1,0 +1,108 @@
+class Triangle extends java.lang.Object
+{
+    static long gotoC;
+    static long invoke;
+    static long Ret;
+
+    void <init>()
+    {
+        Triangle r0;
+        long l0;
+
+        r0 := @this: Triangle;
+        l0 = <Triangle: long invoke>;
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] r0;
+        java.util.Scanner $r1, r3;
+        java.io.InputStream $r2;
+        long l0, l3, l4, l5, l7, l8, l12, l13, l14, l15, l16, l17, l18;
+        int i1, i2, i6, $i9, $i10, $i11;
+        java.io.PrintStream $r4, $r5, $r6, $r7, $r16, $r17, $r18, $r19;
+        java.lang.StringBuilder $r8, $r9, $r10, $r11, $r12, $r13, $r14;
+        java.lang.String $r15;
+
+        r0 := @parameter0: java.lang.String[];
+        $r1 = new java.util.Scanner;
+        $r2 = <java.lang.System: java.io.InputStream in>;
+        l0 = <Triangle: long invoke>;
+        specialinvoke $r1.<java.util.Scanner: void <init>(java.io.InputStream)>($r2);
+        r3 = $r1;
+        $r4 = <java.lang.System: java.io.PrintStream out>;
+        l3 = <Triangle: long invoke>;
+        virtualinvoke $r4.<java.io.PrintStream: void print(java.lang.String)>("Input the x: ");
+        i1 = virtualinvoke r3.<java.util.Scanner: int nextInt()>();
+        $r5 = <java.lang.System: java.io.PrintStream out>;
+        l4 = <Triangle: long invoke>;
+        virtualinvoke $r5.<java.io.PrintStream: void print(java.lang.String)>("Input the y: ");
+        i2 = virtualinvoke r3.<java.util.Scanner: int nextInt()>();
+        $r6 = <java.lang.System: java.io.PrintStream out>;
+        l5 = <Triangle: long invoke>;
+        virtualinvoke $r6.<java.io.PrintStream: void print(java.lang.String)>("Input the z: ");
+        i6 = virtualinvoke r3.<java.util.Scanner: int nextInt()>();
+        $r7 = <java.lang.System: java.io.PrintStream out>;
+        $r8 = new java.lang.StringBuilder;
+        l7 = <Triangle: long invoke>;
+        specialinvoke $r8.<java.lang.StringBuilder: void <init>()>();
+        $r9 = virtualinvoke $r8.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("x: ");
+        $r10 = virtualinvoke $r9.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(i1);
+        $r11 = virtualinvoke $r10.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" y: ");
+        $r12 = virtualinvoke $r11.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(i2);
+        $r13 = virtualinvoke $r12.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" z: ");
+        $r14 = virtualinvoke $r13.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(i6);
+        $r15 = virtualinvoke $r14.<java.lang.StringBuilder: java.lang.String toString()>();
+        l8 = <Triangle: long invoke>;
+        virtualinvoke $r7.<java.io.PrintStream: void println(java.lang.String)>($r15);
+        $i9 = i1 + i2;
+        if $i9 <= i6 goto label3;
+
+        $i10 = i2 + i6;
+        if $i10 <= i1 goto label3;
+
+        $i11 = i1 + i6;
+        if $i11 <= i2 goto label3;
+
+        if i1 != i2 goto label0;
+
+        if i2 != i6 goto label0;
+
+        $r16 = <java.lang.System: java.io.PrintStream out>;
+        l12 = <Triangle: long invoke>;
+        virtualinvoke $r16.<java.io.PrintStream: void println(java.lang.String)>("0");
+        l13 = <Triangle: long gotoC>;
+        goto label4;
+
+     label0:
+        if i1 == i2 goto label1;
+
+        if i1 == i6 goto label1;
+
+        if i2 != i6 goto label2;
+
+     label1:
+        $r17 = <java.lang.System: java.io.PrintStream out>;
+        l14 = <Triangle: long invoke>;
+        virtualinvoke $r17.<java.io.PrintStream: void println(java.lang.String)>("1");
+        l15 = <Triangle: long gotoC>;
+        goto label4;
+
+     label2:
+        $r18 = <java.lang.System: java.io.PrintStream out>;
+        l16 = <Triangle: long invoke>;
+        virtualinvoke $r18.<java.io.PrintStream: void println(java.lang.String)>("2");
+        l17 = <Triangle: long gotoC>;
+        goto label4;
+
+     label3:
+        $r19 = <java.lang.System: java.io.PrintStream out>;
+        l18 = <Triangle: long invoke>;
+        virtualinvoke $r19.<java.io.PrintStream: void println(java.lang.String)>("3");
+
+     label4:
+        return;
+    }
+}

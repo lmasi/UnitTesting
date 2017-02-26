@@ -1,0 +1,139 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.csv.CSVFormatTest
+-------------------------------------------------------------------------------
+Tests run: 45, Failures: 0, Errors: 45, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE! - in org.apache.commons.csv.CSVFormatTest
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.Exception: Method testEqualsIgnoreSurroundingSpaces() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testEqualsCommentStart() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testWithDelimiter() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testQuotePolicyNoneWithoutEscapeThrowsException() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testWithQuoteLFThrowsException() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testWithFirstRecordAsHeader() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testSerialization() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testNullRecordSeparatorCsv106() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testEqualsQuoteChar() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testEqualsSkipHeaderRecord() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testQuoteCharSameAsCommentStartThrowsException() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testWithRecordSeparatorCR() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testWithRecordSeparatorLF() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testWithEscapeCRThrowsExceptions() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testWithIgnoreEmptyLines() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testEqualsEscape() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.Exception: Method testEqualsHeader() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testEqualsIgnoreEmptyLines() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testWithCommentStart() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testWithIgnoreSurround() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testRFC4180() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testEscapeSameAsCommentStartThrowsException() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testDelimiterSameAsCommentStartThrowsException() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testEqualsDelimiter() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testQuoteCharSameAsCommentStartThrowsExceptionForWrapperType() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testEqualsNullString() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testWithQuotePolicy() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testEqualsQuotePolicy() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testEscapeSameAsCommentStartThrowsExceptionForWrapperType() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testEqualsRecordSeparator() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testWithCommentStartCRThrowsException() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testQuoteCharSameAsDelimiterThrowsException() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testWithDelimiterLFThrowsException() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testDelimiterSameAsEscapeThrowsException() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testWithEscape() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testWithHeader() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testGetHeader() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testWithQuoteChar() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testEquals() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.Exception: Method testWithEmptyEnum() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testFormat() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testWithRecordSeparatorCRLF() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testDuplicateHeaderElements() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testWithNullString() should not be static
+
+initializationError(org.apache.commons.csv.CSVFormatTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testWithHeaderEnum() should not be static
+

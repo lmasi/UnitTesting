@@ -1,0 +1,42 @@
+class A extends java.lang.Object
+{
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+        java.io.PrintStream temp$0, temp$1, temp$2;
+        int n;
+
+        args := @parameter0: java.lang.String[];
+        temp$0 = <java.lang.System: java.io.PrintStream out>;
+        virtualinvoke temp$0.<java.io.PrintStream: void println(java.lang.String)>("Hello World");
+        n = 10;
+        if n < 4 goto label0;
+
+        goto label1;
+
+     label0:
+        nop;
+        temp$1 = <java.lang.System: java.io.PrintStream out>;
+        virtualinvoke temp$1.<java.io.PrintStream: void println(java.lang.String)>("4");
+        goto label2;
+
+     label1:
+        nop;
+        temp$2 = <java.lang.System: java.io.PrintStream out>;
+        virtualinvoke temp$2.<java.io.PrintStream: void println(java.lang.String)>("5");
+
+     label2:
+        nop;
+        return;
+    }
+
+    void <init>()
+    {
+        A this;
+
+        this := @this: A;
+        specialinvoke this.<java.lang.Object: void <init>()>();
+        return;
+    }
+}
