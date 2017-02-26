@@ -71,6 +71,11 @@ public class CSVParserTest {
     private static final String[][] RESULT = { { "a", "b", "c", "d" }, { "a", "b", "1 2" }, { "foo baar", "b", "" },
             { "foo\n,,\n\",,\n\"", "d", "e" } };
 
+	public static void main(String[] args)
+	{
+		testBackslashEscaping();
+	}
+
     @Test
     public void testBackslashEscaping() throws IOException {
 

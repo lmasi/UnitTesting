@@ -38,9 +38,14 @@ public class CSVRecordTest {
 
     private enum EnumFixture { UNKNOWN_COLUMN }
 
-    private String[] values;
-    private CSVRecord record, recordWithHeader;
-    private Map<String, Integer> header;
+    private static String[] values;
+    private static CSVRecord record, recordWithHeader;
+    private static Map<String, Integer> header;
+
+	public static void main(String[] args)
+	{
+		testGetInt();
+	}
 
     @Before
     public void setUp() throws Exception {
@@ -54,7 +59,7 @@ public class CSVRecordTest {
     }
 
     @Test
-    public void testGetInt() {
+    public static void testGetInt() {
         assertEquals(values[0], record.get(0));
         assertEquals(values[1], record.get(1));
         assertEquals(values[2], record.get(2));
@@ -68,7 +73,7 @@ public class CSVRecordTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
-    public void testGetStringInconsistentRecord() {
+    public static void testGetStringInconsistentRecord() {
         header.put("fourth", Integer.valueOf(4));
         recordWithHeader.get("fourth");
     }

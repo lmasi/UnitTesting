@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <project name="maven-antrun-" default="main"  >
 <target name="main">
-  <copy todir="/home/lks/RA/CSV/csv_test/target/apidocs/META-INF">
-    <fileset dir="/home/lks/RA/CSV/csv_test">
+  <copy todir="/home/lmasi/Documents/RA/2016/A/CSV/csv_test/target/apidocs/META-INF">
+    <fileset dir="/home/lmasi/Documents/RA/2016/A/CSV/csv_test">
       <include name="LICENSE.txt"/>
       <include name="NOTICE.txt"/>
     </fileset>
