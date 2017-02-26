@@ -1,7 +1,22 @@
 -------------------------------------------------------------------------------
 Test set: org.apache.commons.csv.LexerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.012 sec <<< FAILURE! - in org.apache.commons.csv.LexerTest
-initializationError(org.apache.commons.csv.LexerTest)  Time elapsed: 0.009 sec  <<< ERROR!
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.015 sec <<< FAILURE! - in org.apache.commons.csv.LexerTest
+initializationError(org.apache.commons.csv.LexerTest)  Time elapsed: 0.005 sec  <<< ERROR!
+java.lang.Exception: Method testNextToken5() should not be static
+
+initializationError(org.apache.commons.csv.LexerTest)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.Exception: Method testSurroundingSpacesAreDeleted() should not be static
+
+initializationError(org.apache.commons.csv.LexerTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testComments() should not be static
+
+initializationError(org.apache.commons.csv.LexerTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testSurroundingTabsAreDeleted() should not be static
+
+initializationError(org.apache.commons.csv.LexerTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.Exception: Method testBackslashWithoutEscaping() should not be static
+
+initializationError(org.apache.commons.csv.LexerTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Method testIgnoreEmptyLines() should not be static
 

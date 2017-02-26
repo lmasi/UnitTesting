@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.apache.commons.csv.CSVParserTest" time="0.014" tests="67" errors="0" skipped="3" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.apache.commons.csv.CSVParserTest" time="0.015" tests="67" errors="0" skipped="3" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
@@ -106,7 +106,7 @@
   <testcase name="testBackslashEscaping2" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
   <testcase name="testExcelFormat1" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
   <testcase name="testExcelFormat2" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
-  <testcase name="testEndOfFileBehaviourExcel" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
+  <testcase name="testEndOfFileBehaviourExcel" classname="org.apache.commons.csv.CSVParserTest" time="0.001"/>
   <testcase name="testRoundtrip" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
   <testcase name="testNoHeaderMap" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
   <testcase name="testParseFileNullFormat" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
@@ -119,7 +119,7 @@
   <testcase name="testHeaderMissingWithNull" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
   <testcase name="testIgnoreEmptyLines" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
   <testcase name="testEndOfFileBehaviorCSV" classname="org.apache.commons.csv.CSVParserTest" time="0.001"/>
-  <testcase name="testNewCSVParserNullReaderFormat" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
+  <testcase name="testNewCSVParserNullReaderFormat" classname="org.apache.commons.csv.CSVParserTest" time="0.005"/>
   <testcase name="testParseStringNullFormat" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
   <testcase name="testEmptyLineBehaviourExcel" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
   <testcase name="testHeader" classname="org.apache.commons.csv.CSVParserTest" time="0"/>

@@ -61,6 +61,12 @@ public class LexerTest {
 		try
 		{
 		testSurroundingSpacesAreDeleted();
+		testSurroundingTabsAreDeleted();
+		testIgnoreEmptyLines();
+		testComments();
+testBackslashWithoutEscaping();
+testNextToken5();
+
 		}catch(Exception e)
 		{
 		}
@@ -80,7 +86,7 @@ public class LexerTest {
     }
 
     @Test
-    public void testSurroundingTabsAreDeleted() throws IOException {
+    public static void testSurroundingTabsAreDeleted() throws IOException {
         final String code = "noTabs,\tleadingTab,trailingTab\t,\tsurroundingTabs\t,\t\t,,";
         final Lexer parser = getLexer(code, CSVFormat.DEFAULT.withIgnoreSurroundingSpaces());
         assertThat(parser.nextToken(new Token()), matches(TOKEN, "noTabs"));
@@ -93,7 +99,7 @@ public class LexerTest {
     }
 
     @Test
-    public void testIgnoreEmptyLines() throws IOException {
+    public static void testIgnoreEmptyLines() throws IOException {
         final String code =
                 "first,line,\n"+
                 "\n"+
@@ -124,7 +130,7 @@ public class LexerTest {
     }
 
     @Test
-    public void testComments() throws IOException {
+    public static void testComments() throws IOException {
         final String code =
                 "first,line,\n"+
                 "second,line,tokenWith#no-comment\n"+
@@ -202,7 +208,7 @@ public class LexerTest {
 
     // simple token with escaping not enabled
     @Test
-    public void testBackslashWithoutEscaping() throws IOException {
+    public static void testBackslashWithoutEscaping() throws IOException {
         /* file: a,\,,b
         *       \,,
         */
@@ -269,7 +275,7 @@ public class LexerTest {
 
     // encapsulator tokenizer (multi line, delimiter in string)
     @Test
-    public void testNextToken5() throws IOException {
+    public static void testNextToken5() throws IOException {
         final String code = "a,\"foo\n\",b\n\"foo\n  baar ,,,\"\n\"\n\t \n\"";
         final Lexer parser = getLexer(code, CSVFormat.DEFAULT);
         assertThat(parser.nextToken(new Token()), matches(TOKEN, "a"));
