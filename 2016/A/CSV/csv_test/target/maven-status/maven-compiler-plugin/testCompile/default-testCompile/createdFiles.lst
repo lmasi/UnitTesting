@@ -21,5 +21,6 @@ org/apache/commons/csv/bugs/JiraCsv164Test.class
 org/apache/commons/csv/LexerTest.class
 org/apache/commons/csv/TokenMatchers.class
 org/apache/commons/csv/CSVFormatTest.class
+test.class
 org/apache/commons/csv/bugs/JiraCsv167Test.class
 org/apache/commons/csv/TokenMatchers$1.class

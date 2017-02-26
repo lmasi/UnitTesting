@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: org.apache.commons.csv.LexerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.013 sec <<< FAILURE! - in org.apache.commons.csv.LexerTest
-initializationError(org.apache.commons.csv.LexerTest)  Time elapsed: 0.005 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.012 sec <<< FAILURE! - in org.apache.commons.csv.LexerTest
+initializationError(org.apache.commons.csv.LexerTest)  Time elapsed: 0.009 sec  <<< ERROR!
 java.lang.Exception: Method testSurroundingSpacesAreDeleted() should not be static
 
