@@ -52,12 +52,22 @@ public class LexerTest {
         formatWithEscaping = CSVFormat.DEFAULT.withEscape('\\');
     }
 
-    private Lexer getLexer(final String input, final CSVFormat format) {
+    private static Lexer getLexer(final String input, final CSVFormat format) {
         return new Lexer(format, new ExtendedBufferedReader(new StringReader(input)));
     }
 
+	public static void main(String[] args)
+	{
+		try
+		{
+		testSurroundingSpacesAreDeleted();
+		}catch(Exception e)
+		{
+		}
+	}
+
     @Test
-    public void testSurroundingSpacesAreDeleted() throws IOException {
+    public static void testSurroundingSpacesAreDeleted() throws IOException {
         final String code = "noSpaces,  leadingSpaces,trailingSpaces  ,  surroundingSpaces  ,  ,,";
         final Lexer parser = getLexer(code, CSVFormat.DEFAULT.withIgnoreSurroundingSpaces());
         assertThat(parser.nextToken(new Token()), matches(TOKEN, "noSpaces"));

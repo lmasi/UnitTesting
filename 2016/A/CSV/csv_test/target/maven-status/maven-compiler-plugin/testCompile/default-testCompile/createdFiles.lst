@@ -1,4 +1,5 @@
 org/apache/commons/csv/AssertionsTest.class
+org/apache/commons/csv/CSVFileParserTest$1.class
 org/apache/commons/csv/Utils.class
 org/apache/commons/csv/CSVFormatTest$EmptyEnum.class
 org/apache/commons/csv/TokenMatchers$3.class
@@ -8,13 +9,16 @@ org/apache/commons/csv/PerformanceTest$1.class
 org/apache/commons/csv/TokenMatchersTest.class
 org/apache/commons/csv/perf/PerformanceTest.class
 org/apache/commons/csv/PerformanceTest.class
+org/apache/commons/csv/CSVParserTest.class
 org/apache/commons/csv/CSVRecordTest.class
-org/apache/commons/csv/test.class
 org/apache/commons/csv/CSVRecordTest$EnumFixture.class
 org/apache/commons/csv/ExtendedBufferedReaderTest.class
 org/apache/commons/csv/CSVFormatTest$Header.class
 org/apache/commons/csv/CSVFormatPredefinedTest.class
+org/apache/commons/csv/CSVFileParserTest.class
 org/apache/commons/csv/CSVPrinterTest.class
+org/apache/commons/csv/bugs/JiraCsv164Test.class
+org/apache/commons/csv/LexerTest.class
 org/apache/commons/csv/TokenMatchers.class
 org/apache/commons/csv/CSVFormatTest.class
 org/apache/commons/csv/bugs/JiraCsv167Test.class
