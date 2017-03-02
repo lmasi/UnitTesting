@@ -1,1 +1,2 @@
 *.inv filter=lfs diff=lfs merge=lfs -text
+*.dtrace* filter=lfs diff=lfs merge=lfs -text

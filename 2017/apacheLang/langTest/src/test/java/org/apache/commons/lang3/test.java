@@ -1,18 +1,50 @@
-package org.apache.commoms.lang3;
+package org.apache.commons.lang3;
 
-import org.reflections.*;
-import java.util.*;
+import java.lang.reflect.*;
 
 class test
 {
+	public static Class c;
+
+	public static String[] str = new String[]
+	{
+		"StringEscapeUtilsTest",
+			"StringUtilsContainsTest",
+			"StringUtilsEmptyBlankTest",
+			"StringUtilsEqualsIndexOfTest",
+			"StringUtilsIsTest",
+			"StringUtilsStartsEndsWithTest",
+			"StringUtilsSubstringTest",
+			"StringUtilsTest",
+			"StringUtilsTrimStripTest",
+			"SystemUtilsTest"
+	};
+
 	public static void main(String[] args)
 	{
+		try
+		{
+			for(String className : str)
+			{
 
-		Reflections reflections = new Reflections("org.apache.commons.lang3");
+				c = Class.forName("org.apache.commons.lang3." + className);
 
-		Set<Class<? extends Object>> allClasses = reflections.getSubTypesOf(Object.class);
+				Object obj = c.newInstance();
 
-		for(Class c : allClasses)
-			System.out.println(c.toString());
+				Method[] methods = c.getDeclaredMethods();
+
+				for(Method method : methods)
+				{	
+					if(method.getName().toString().indexOf("test") >= 0 && Modifier.isPublic(method.getModifiers()))
+					{	
+						System.out.println(c.getName() + " : " + method.getName());
+						try{method.invoke(obj, new Object[]{});}catch(Exception e){e.printStackTrace();}
+					}
+				}
+			}
+		}catch(Exception e){e.printStackTrace();}
+		System.out.println("Assert");
 	}
+
 }
+
