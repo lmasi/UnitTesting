@@ -24,6 +24,10 @@ import static org.junit.Assert.assertSame;
 import static org.junit.Assert.assertTrue;
 
 import java.lang.reflect.Modifier;
+<<<<<<< HEAD
+=======
+import java.lang.reflect.*;
+>>>>>>> 2a575e381864f76f8199719dfb266b17e568881b
 
 import org.junit.Test;
 
@@ -32,6 +36,26 @@ import org.junit.Test;
  */
 public class CharSetTest  {
 
+<<<<<<< HEAD
+=======
+	public static void main(String[] args)
+	{
+		try
+		{
+			Class c = CharSetTest.class;
+			Object obj = c.newInstance();
+			Method[] methods = c.getDeclaredMethods();
+			
+			for(Method method : methods)
+				method.invoke(obj, new Object[]{});
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+	
+>>>>>>> 2a575e381864f76f8199719dfb266b17e568881b
     //-----------------------------------------------------------------------
     @Test
     public void testClass() {
