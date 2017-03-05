@@ -1,0 +1,7 @@
+====================
+org.apache.commons.lang3.CharUtils.isAsciiPrintable(char):::EXIT
+(return == false)  ==>  (orig(ch) one of { 9, 127, 252 })
+====================
+org.apache.commons.lang3.CharUtils.isAsciiPrintable(char):::EXIT
+return == false
+orig(ch) one of { 9, 127, 252 }

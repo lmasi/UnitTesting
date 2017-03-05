@@ -1,0 +1,24 @@
+====================
+org.apache.commons.lang3.mutable.MutableInt.MutableInt(int):::EXIT
+this.value == orig(value)
+this.value == 1
+====================
+org.apache.commons.lang3.mutable.MutableInt.increment():::EXIT
+this.value == 2
+====================
+org.apache.commons.lang3.mutable.MutableInt.intValue():::EXIT
+this.value == return
+return == orig(this.value)
+return one of { 1, 2 }
+====================
+org.apache.commons.lang3.mutable.MutableObject.MutableObject(java.lang.Object):::EXIT
+this.value == orig(value)
+this.value.getClass().getName() == orig(value.getClass().getName())
+====================
+org.apache.commons.lang3.mutable.MutableObject.getValue():::EXIT
+this.value == return
+return == orig(this.value)
+return has only one value
+return.getClass().getName() == java.lang.String.class
+this.value.getClass().getName() == return.getClass().getName()
+return.getClass().getName() == orig(this.value.getClass().getName())

@@ -1,0 +1,59 @@
+====================
+org.apache.commons.lang3.Validate.isTrue(boolean, java.lang.String, java.lang.Object[]):::EXIT
+values[] == orig(values[])
+message.toString one of { "Both range values must be non-negative.", "Count cannot be negative.", "Start value must be smaller or equal to end value." }
+values[] == []
+message.toString == orig(message.toString)
+====================
+org.apache.commons.lang3.Validate.noNullElements(java.lang.Object[]):::EXIT
+array[] == return[]
+array[] == orig(array[])
+return == orig(array)
+array[] elements != null
+size(return[]) >= 1
+return.getClass().getName() == orig(array.getClass().getName())
+====================
+org.apache.commons.lang3.Validate.noNullElements(java.lang.Object[], java.lang.String, java.lang.Object[]):::EXIT
+array[] == return[]
+array[] == orig(array[])
+values[] == orig(values[])
+return == orig(array)
+array[] elements != null
+values[] == []
+size(return[]) >= 1
+return.getClass().getName() == orig(array.getClass().getName())
+return.getClass().getName() != orig(values.getClass().getName())
+size(array[])-1 >= orig(size(values[]))
+====================
+org.apache.commons.lang3.Validate.notEmpty(java.lang.Object[]):::EXIT
+array[] == return[]
+array[] == orig(array[])
+return == orig(array)
+return.getClass().getName() == orig(array.getClass().getName())
+====================
+org.apache.commons.lang3.Validate.notEmpty(java.lang.Object[], java.lang.String, java.lang.Object[]):::EXIT
+array[] == return[]
+array[] == orig(array[])
+values[] == orig(values[])
+return == orig(array)
+array[] elements != null
+message.toString one of { "The validated array is empty", "null/empty items" }
+values[] == []
+size(return[]) >= 1
+message.toString == orig(message.toString)
+return.getClass().getName() == orig(array.getClass().getName())
+return.getClass().getName() != orig(values.getClass().getName())
+size(array[])-1 >= orig(size(values[]))
+====================
+org.apache.commons.lang3.Validate.notNull(java.lang.Object):::EXIT
+return == orig(object)
+return.getClass().getName() == orig(object.getClass().getName())
+====================
+org.apache.commons.lang3.Validate.notNull(java.lang.Object, java.lang.String, java.lang.Object[]):::EXIT
+values[] == orig(values[])
+return == orig(object)
+message.toString one of { "The validated object is null", "null comparator" }
+values[] == []
+message.toString == orig(message.toString)
+return.getClass().getName() == orig(object.getClass().getName())
+return.getClass().getName() != orig(values.getClass().getName())

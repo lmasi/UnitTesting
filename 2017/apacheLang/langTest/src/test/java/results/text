@@ -1,0 +1,328 @@
+====================
+org.apache.commons.lang3.text.StrBuilder.StrBuilder():::EXIT
+org.apache.commons.lang3.text.StrBuilder.CAPACITY == size(this.buffer[])
+this.size == this.buffer[org.apache.commons.lang3.text.StrBuilder.CAPACITY-1]
+this.size == this.buffer[this.size]
+this.buffer[] == [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.buffer[] elements == 0
+this.size == 0
+this.buffer[] elements == this.size
+====================
+org.apache.commons.lang3.text.StrBuilder.StrBuilder(int):::EXIT
+org.apache.commons.lang3.text.StrBuilder.CAPACITY == orig(initialCapacity)
+org.apache.commons.lang3.text.StrBuilder.CAPACITY == size(this.buffer[])
+this.size == this.buffer[org.apache.commons.lang3.text.StrBuilder.CAPACITY-1]
+this.size == this.buffer[this.size]
+this.size == this.buffer[orig(initialCapacity)-1]
+this.buffer[] == [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.buffer[] elements == 0
+this.size == 0
+this.buffer[] elements == this.size
+====================
+org.apache.commons.lang3.text.StrBuilder.StrBuilder(java.lang.String):::EXIT
+this.buffer[org.apache.commons.lang3.text.StrBuilder.CAPACITY] == this.buffer[org.apache.commons.lang3.text.StrBuilder.CAPACITY-1]
+this.buffer[org.apache.commons.lang3.text.StrBuilder.CAPACITY] == this.buffer[this.size]
+this.buffer[] == [97, 98, 99, 120, 121, 122, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.size == 6
+str.toString == "abcxyz"
+size(this.buffer[]) == 38
+this.buffer[org.apache.commons.lang3.text.StrBuilder.CAPACITY] == 0
+this.buffer[this.size-1] == 122
+str.toString == orig(str.toString)
+====================
+org.apache.commons.lang3.text.StrBuilder.append(char):::EXIT
+org.apache.commons.lang3.text.StrBuilder.CAPACITY == size(this.buffer[])
+org.apache.commons.lang3.text.StrBuilder.CAPACITY == size(return.buffer[])
+this.buffer == return.buffer
+this.buffer == orig(this.buffer)
+this.buffer[] == return.buffer[]
+this.size == return.size
+this.newLine == return.newLine
+this.newLine == return.nullText
+this.newLine == orig(this.newLine)
+this.newLine == orig(this.nullText)
+return == orig(this)
+orig(ch) == this.buffer[this.size-1]
+orig(ch) == this.buffer[return.size-1]
+orig(ch) == this.buffer[orig(this.size)]
+orig(ch) == return.buffer[this.size-1]
+orig(ch) == return.buffer[return.size-1]
+orig(ch) == return.buffer[orig(this.size)]
+this.buffer[org.apache.commons.lang3.text.StrBuilder.CAPACITY-1] == orig(this.buffer[post(org.apache.commons.lang3.text.StrBuilder.CAPACITY)-1])
+this.buffer[org.apache.commons.lang3.text.StrBuilder.CAPACITY-1] == this.buffer[return.size]
+this.buffer[org.apache.commons.lang3.text.StrBuilder.CAPACITY-1] == return.buffer[this.size]
+this.buffer[org.apache.commons.lang3.text.StrBuilder.CAPACITY-1] == orig(this.buffer[post(this.size)])
+this.buffer[org.apache.commons.lang3.text.StrBuilder.CAPACITY-1] == orig(this.buffer[post(this.size)-1])
+this.buffer[org.apache.commons.lang3.text.StrBuilder.CAPACITY-1] == return.buffer[return.size]
+this.buffer[org.apache.commons.lang3.text.StrBuilder.CAPACITY-1] == orig(this.buffer[post(return.size)])
+this.buffer[org.apache.commons.lang3.text.StrBuilder.CAPACITY-1] == orig(this.buffer[post(return.size)-1])
+this.buffer[org.apache.commons.lang3.text.StrBuilder.CAPACITY-1] == orig(this.buffer[this.size])
+this.buffer[orig(this.size)-1] == orig(this.buffer[this.size-1])
+this.buffer has only one value
+this.buffer[] == [106, 97, 118, 97, 46, 108, 97, 110, 103, 46, 73, 110, 116, 101, 103, 101, 114, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.size == 18
+return has only one value
+this.buffer[orig(this.size)-1] == 114
+====================
+org.apache.commons.lang3.text.StrBuilder.append(java.lang.String):::EXIT
+====================
+org.apache.commons.lang3.text.StrBuilder.charAt(int):::ENTER
+this.buffer[org.apache.commons.lang3.text.StrBuilder.CAPACITY] == this.buffer[org.apache.commons.lang3.text.StrBuilder.CAPACITY-1]
+this.buffer[org.apache.commons.lang3.text.StrBuilder.CAPACITY] == this.buffer[this.size]
+this.buffer[] == [97, 98, 99, 120, 121, 122, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+this.size == 6
+size(this.buffer[]) == 38
+this.buffer[org.apache.commons.lang3.text.StrBuilder.CAPACITY] == 0
+this.buffer[this.size-1] == 122
+org.apache.commons.lang3.text.StrBuilder.CAPACITY > index
+org.apache.commons.lang3.text.StrBuilder.CAPACITY < this.buffer[index]
+this.buffer[] elements >= this.buffer[org.apache.commons.lang3.text.StrBuilder.CAPACITY]
+this.buffer[] elements <= this.buffer[this.size-1]
+this.size > index
+this.size < this.buffer[index]
+index < size(this.buffer[])-1
+index >= this.buffer[org.apache.commons.lang3.text.StrBuilder.CAPACITY]
+index < this.buffer[this.size-1]
+index < this.buffer[index]
+size(this.buffer[]) < this.buffer[index]
+this.buffer[org.apache.commons.lang3.text.StrBuilder.CAPACITY] < this.buffer[index]
+this.buffer[this.size-1] >= this.buffer[index]
+====================
+org.apache.commons.lang3.text.StrBuilder.ensureCapacity(int):::ENTER
+this.buffer[org.apache.commons.lang3.text.StrBuilder.CAPACITY-1] == this.buffer[capacity]
+this.buffer[org.apache.commons.lang3.text.StrBuilder.CAPACITY-1] == this.buffer[capacity-1]
+this.size one of { 0, 17, 18 }
+====================
+org.apache.commons.lang3.text.StrBuilder.length():::ENTER
+====================
+org.apache.commons.lang3.text.StrBuilder.toString():::ENTER
+org.apache.commons.lang3.text.StrBuilder.CAPACITY == size(this.buffer[])
+this has only one value
+this.buffer has only one value
+this.buffer[] == [106, 97, 118, 97, 46, 108, 97, 110, 103, 46, 73, 110, 116, 101, 103, 101, 114, 64, 50, 48, 51, 52, 98, 54, 52, 99, 0, 0, 0, 0, 0, 0]
+this.size == 26
+this.buffer[this.size-1] == 99
+====================
+org.apache.commons.lang3.text.WordUtils.swapCase(java.lang.String):::ENTER
+str.toString one of { "I", "This String contains a TitleCase character: \307\210", "i" }
+====================
+org.apache.commons.lang3.text.WordUtils.swapCase(java.lang.String):::EXIT
+str.toString one of { "I", "This String contains a TitleCase character: \307\210", "i" }
+return.toString one of { "I", "i", "tHIS sTRING CONTAINS A tITLEcASE CHARACTER: \307\211" }
+str.toString == orig(str.toString)
+====================
+org.apache.commons.lang3.text.translate.AggregateTranslator.AggregateTranslator(org.apache.commons.lang3.text.translate.CharSequenceTranslator[]):::EXIT
+this.translators[] == translators[]
+translators[] == orig(translators[])
+translators[] elements != null
+this.translators.getClass().getName() == orig(translators.getClass().getName())
+====================
+org.apache.commons.lang3.text.translate.AggregateTranslator.translate(java.lang.CharSequence, int, java.io.Writer):::EXIT
+====================
+org.apache.commons.lang3.text.translate.AggregateTranslator.translate(java.lang.CharSequence, int, java.io.Writer):::EXIT
+this.translators == orig(this.translators)
+this.translators[] == orig(this.translators[])
+(return == 0)  ==>  (return < size(this.translators[])-1)
+(return == 0)  ==>  (return <= orig(index))
+return >= 0
+this.translators.getClass().getName() == orig(this.translators.getClass().getName())
+this.translators.getClass().getName() != orig(input.getClass().getName())
+this.translators.getClass().getName() != orig(out.getClass().getName())
+====================
+org.apache.commons.lang3.text.translate.CharSequenceTranslator.hex(int):::ENTER
+====================
+org.apache.commons.lang3.text.translate.CharSequenceTranslator.translate(java.lang.CharSequence):::ENTER
+input.getClass().getName() == java.lang.String.class
+this.getClass().getName() != input.getClass().getName()
+====================
+org.apache.commons.lang3.text.translate.CharSequenceTranslator.translate(java.lang.CharSequence):::EXIT
+====================
+org.apache.commons.lang3.text.translate.CharSequenceTranslator.translate(java.lang.CharSequence, java.io.Writer):::ENTER
+input.getClass().getName() == java.lang.String.class
+out.getClass().getName() == java.io.StringWriter.class
+this.getClass().getName() != input.getClass().getName()
+this.getClass().getName() != out.getClass().getName()
+input.getClass().getName() != out.getClass().getName()
+====================
+org.apache.commons.lang3.text.translate.CharSequenceTranslator.translate(java.lang.CharSequence, java.io.Writer):::EXIT
+orig(input) == null
+====================
+org.apache.commons.lang3.text.translate.CharSequenceTranslator.with(org.apache.commons.lang3.text.translate.CharSequenceTranslator[]):::ENTER
+translators.getClass().getName() == org.apache.commons.lang3.text.translate.CharSequenceTranslator[].class
+size(translators[]) one of { 1, 6 }
+====================
+org.apache.commons.lang3.text.translate.CodePointTranslator.CodePointTranslator():::EXIT
+====================
+org.apache.commons.lang3.text.translate.CodePointTranslator.translate(java.lang.CharSequence, int, java.io.Writer):::EXIT
+return one of { 0, 1 }
+====================
+org.apache.commons.lang3.text.translate.EntityArrays.APOS_ESCAPE():::ENTER
+====================
+org.apache.commons.lang3.text.translate.EntityArrays.APOS_UNESCAPE():::ENTER
+====================
+org.apache.commons.lang3.text.translate.EntityArrays.BASIC_ESCAPE():::ENTER
+====================
+org.apache.commons.lang3.text.translate.EntityArrays.BASIC_UNESCAPE():::ENTER
+====================
+org.apache.commons.lang3.text.translate.EntityArrays.HTML40_EXTENDED_ESCAPE():::ENTER
+====================
+org.apache.commons.lang3.text.translate.EntityArrays.HTML40_EXTENDED_UNESCAPE():::ENTER
+====================
+org.apache.commons.lang3.text.translate.EntityArrays.ISO8859_1_ESCAPE():::ENTER
+====================
+org.apache.commons.lang3.text.translate.EntityArrays.ISO8859_1_UNESCAPE():::ENTER
+====================
+org.apache.commons.lang3.text.translate.EntityArrays.JAVA_CTRL_CHARS_ESCAPE():::ENTER
+====================
+org.apache.commons.lang3.text.translate.EntityArrays.JAVA_CTRL_CHARS_UNESCAPE():::ENTER
+====================
+org.apache.commons.lang3.text.translate.EntityArrays.invert(java.lang.String[][]):::ENTER
+array.getClass().getName() == java.lang.String[][].class
+====================
+org.apache.commons.lang3.text.translate.JavaUnicodeEscaper.JavaUnicodeEscaper(int, int, boolean):::ENTER
+below == 32
+above == 127
+between == false
+====================
+org.apache.commons.lang3.text.translate.JavaUnicodeEscaper.outsideOf(int, int):::ENTER
+codepointLow == 32
+codepointHigh == 127
+====================
+org.apache.commons.lang3.text.translate.JavaUnicodeEscaper.toUtf16Escape(int):::ENTER
+codepoint one of { 128128, 128276, 1114109 }
+====================
+org.apache.commons.lang3.text.translate.LookupTranslator.LookupTranslator(java.lang.CharSequence[][]):::ENTER
+lookup.getClass().getName() == java.lang.String[][].class
+lookup[] elements != null
+size(lookup[]) >= 1
+====================
+org.apache.commons.lang3.text.translate.LookupTranslator.translate(java.lang.CharSequence, int, java.io.Writer):::ENTER
+input.getClass().getName() == java.lang.String.class
+index >= 0
+out.getClass().getName() == java.io.StringWriter.class
+input.getClass().getName() != out.getClass().getName()
+====================
+org.apache.commons.lang3.text.translate.LookupTranslator.translate(java.lang.CharSequence, int, java.io.Writer):::EXIT
+return == 0
+return % this.shortest == 0
+this.shortest > return
+return % this.longest == 0
+this.longest > return
+return <= orig(index)
+====================
+org.apache.commons.lang3.text.translate.NumericEntityEscaper.NumericEntityEscaper(int, int, boolean):::ENTER
+below < above
+====================
+org.apache.commons.lang3.text.translate.NumericEntityEscaper.above(int):::ENTER
+codepoint == 1114112
+====================
+org.apache.commons.lang3.text.translate.NumericEntityEscaper.below(int):::ENTER
+codepoint == 9
+====================
+org.apache.commons.lang3.text.translate.NumericEntityEscaper.between(int, int):::ENTER
+codepointLow < codepointHigh
+====================
+org.apache.commons.lang3.text.translate.NumericEntityEscaper.outsideOf(int, int):::ENTER
+codepointLow one of { 0, 9 }
+codepointHigh one of { 1114112, 2147483647 }
+====================
+org.apache.commons.lang3.text.translate.NumericEntityEscaper.translate(int, java.io.Writer):::ENTER
+out.getClass().getName() == java.io.StringWriter.class
+====================
+org.apache.commons.lang3.text.translate.NumericEntityEscaper.translate(int, java.io.Writer):::EXIT
+====================
+org.apache.commons.lang3.text.translate.NumericEntityEscaper.translate(int, java.io.Writer):::EXIT
+====================
+org.apache.commons.lang3.text.translate.NumericEntityEscaper.translate(int, java.io.Writer):::EXIT
+====================
+org.apache.commons.lang3.text.translate.NumericEntityEscaper.translate(int, java.io.Writer):::EXIT
+return == true
+this.above >= orig(codepoint)
+====================
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION.OPTION(java.lang.String, int):::ENTER
+$hidden$1.toString one of { "errorIfNoSemiColon", "semiColonOptional", "semiColonRequired" }
+$hidden$2 one of { 0, 1, 2 }
+====================
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION.values():::ENTER
+====================
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper.NumericEntityUnescaper(org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION[]):::ENTER
+options.getClass().getName() == org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION[].class
+options[] == []
+====================
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper.isSet(org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION):::ENTER
+option == org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION.semiColonRequired
+this has only one value
+this.options has only one value
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION.semiColonRequired has only one value
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION.semiColonOptional has only one value
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION.errorIfNoSemiColon has only one value
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION.$VALUES has only one value
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION.$VALUES.getClass().getName() == org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION[].class
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION.$VALUES[] contains no nulls and has only one value, of length 3
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION.$VALUES[].getClass().getName() == [org.apache.commons.lang3.text.translate.NumericEntityUnescaper.OPTION, org.apache.commons.lang3.text.translate.NumericEntityUnescaper.OPTION, org.apache.commons.lang3.text.translate.NumericEntityUnescaper.OPTION]
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION.$VALUES[].getClass().getName() elements == org.apache.commons.lang3.text.translate.NumericEntityUnescaper.OPTION.class
+size(org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION.$VALUES[]) == 3
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION.semiColonRequired in org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION.$VALUES[]
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION.semiColonOptional in org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION.$VALUES[]
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION.errorIfNoSemiColon in org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION.$VALUES[]
+====================
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper.isSet(org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION):::EXIT
+====================
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper.translate(java.lang.CharSequence, int, java.io.Writer):::EXIT
+this.options has only one value
+return == 0
+orig(this) has only one value
+orig(index) == 5
+====================
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper.translate(java.lang.CharSequence, int, java.io.Writer):::EXIT
+return >= orig(index)
+====================
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper.translate(java.lang.CharSequence, int, java.io.Writer):::EXIT
+this.options == orig(this.options)
+return >= 0
+this.options.getClass().getName() == orig(this.options.getClass().getName())
+this.options.getClass().getName() != orig(input.getClass().getName())
+this.options.getClass().getName() != orig(out.getClass().getName())
+====================
+org.apache.commons.lang3.text.translate.OctalUnescaper.isOctalDigit(char):::ENTER
+====================
+org.apache.commons.lang3.text.translate.OctalUnescaper.isOctalDigit(char):::EXIT
+====================
+org.apache.commons.lang3.text.translate.OctalUnescaper.translate(java.lang.CharSequence, int, java.io.Writer):::EXIT
+====================
+org.apache.commons.lang3.text.translate.UnicodeEscaper.UnicodeEscaper(int, int, boolean):::ENTER
+below == 32
+above == 127
+between == false
+====================
+org.apache.commons.lang3.text.translate.UnicodeEscaper.translate(int, java.io.Writer):::ENTER
+out.getClass().getName() == java.io.StringWriter.class
+this.above != codepoint
+====================
+org.apache.commons.lang3.text.translate.UnicodeEscaper.translate(int, java.io.Writer):::EXIT
+====================
+org.apache.commons.lang3.text.translate.UnicodeEscaper.translate(int, java.io.Writer):::EXIT
+====================
+org.apache.commons.lang3.text.translate.UnicodeEscaper.translate(int, java.io.Writer):::EXIT
+return == true
+this.below != orig(codepoint)
+====================
+org.apache.commons.lang3.text.translate.UnicodeUnescaper.UnicodeUnescaper():::EXIT
+====================
+org.apache.commons.lang3.text.translate.UnicodeUnescaper.translate(java.lang.CharSequence, int, java.io.Writer):::EXIT
+return == 6
+====================
+org.apache.commons.lang3.text.translate.UnicodeUnescaper.translate(java.lang.CharSequence, int, java.io.Writer):::EXIT
+(return == 0)  ==>  (return <= orig(index))
+return one of { 0, 6 }
+====================
+org.apache.commons.lang3.text.translate.UnicodeUnpairedSurrogateRemover.translate(int, java.io.Writer):::ENTER
+out.getClass().getName() == java.io.StringWriter.class
+====================
+org.apache.commons.lang3.text.translate.UnicodeUnpairedSurrogateRemover.translate(int, java.io.Writer):::EXIT
+====================
+org.apache.commons.lang3.text.translate.UnicodeUnpairedSurrogateRemover.translate(int, java.io.Writer):::EXIT
+====================
+org.apache.commons.lang3.text.translate.UnicodeUnpairedSurrogateRemover.translate(int, java.io.Writer):::EXIT
+return == true
+orig(codepoint) one of { 55296, 57343 }

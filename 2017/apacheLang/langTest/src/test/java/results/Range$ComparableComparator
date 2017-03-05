@@ -1,0 +1,12 @@
+====================
+org.apache.commons.lang3.Range$ComparableComparator.ComparableComparator(java.lang.String, int):::EXIT
+$hidden$1.toString == "INSTANCE"
+$hidden$1.toString == orig($hidden$1.toString)
+====================
+org.apache.commons.lang3.Range$ComparableComparator.compare(java.lang.Object, java.lang.Object):::EXIT
+org.apache.commons.lang3.Range$ComparableComparator.INSTANCE == orig(this)
+org.apache.commons.lang3.Range$ComparableComparator.INSTANCE == orig(org.apache.commons.lang3.Range$ComparableComparator.INSTANCE)
+org.apache.commons.lang3.Range$ComparableComparator.$VALUES == orig(org.apache.commons.lang3.Range$ComparableComparator.$VALUES)
+org.apache.commons.lang3.Range$ComparableComparator.$VALUES[] == orig(org.apache.commons.lang3.Range$ComparableComparator.$VALUES[])
+org.apache.commons.lang3.Range$ComparableComparator.$VALUES.getClass().getName() == orig(org.apache.commons.lang3.Range$ComparableComparator.$VALUES.getClass().getName())
+org.apache.commons.lang3.Range$ComparableComparator.$VALUES.getClass().getName() != orig(obj1.getClass().getName())

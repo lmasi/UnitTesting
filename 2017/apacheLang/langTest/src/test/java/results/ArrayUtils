@@ -1,0 +1,40 @@
+====================
+org.apache.commons.lang3.ArrayUtils.clone(java.lang.Object[]):::EXIT
+====================
+org.apache.commons.lang3.ArrayUtils.isEmpty(char[]):::ENTER
+array[] elements > size(array[])
+====================
+org.apache.commons.lang3.ArrayUtils.isEmpty(char[]):::EXIT
+array[] == []
+return == true
+====================
+org.apache.commons.lang3.ArrayUtils.isEmpty(java.lang.Object[]):::ENTER
+====================
+org.apache.commons.lang3.ArrayUtils.isEmpty(java.lang.Object[]):::EXIT
+array[] == []
+return == true
+====================
+org.apache.commons.lang3.ArrayUtils.isEquals(java.lang.Object, java.lang.Object):::ENTER
+====================
+org.apache.commons.lang3.ArrayUtils.isEquals(java.lang.Object, java.lang.Object):::EXIT
+====================
+org.apache.commons.lang3.ArrayUtils.isNotEmpty(java.lang.Object[]):::EXIT
+array[] == orig(array[])
+(return == false)  ==>  (array[] == [])
+(return == false)  ==>  (orig(array.getClass().getName()) == java.lang.Object[].class)
+====================
+org.apache.commons.lang3.ArrayUtils.isNotEmpty(java.lang.Object[]):::EXIT
+array[] == []
+return == false
+orig(array.getClass().getName()) == java.lang.Object[].class
+====================
+org.apache.commons.lang3.ArrayUtils.reverse(java.lang.Object[]):::EXIT
+====================
+org.apache.commons.lang3.ArrayUtils.reverse(java.lang.Object[], int, int):::ENTER
+endIndexExclusive == size(array[])
+startIndexInclusive == 0
+endIndexExclusive one of { 0, 1, 3 }
+size(array[]) one of { 0, 1, 3 }
+====================
+org.apache.commons.lang3.ArrayUtils.reverse(java.lang.Object[], int, int):::EXIT
+array[] is the reverse of orig(array[])

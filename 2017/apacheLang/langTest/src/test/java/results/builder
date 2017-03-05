@@ -1,0 +1,15 @@
+====================
+org.apache.commons.lang3.builder.EqualsBuilder.append(java.lang.Object, java.lang.Object):::ENTER
+lhs.getClass().getName() == rhs.getClass().getName()
+====================
+org.apache.commons.lang3.builder.EqualsBuilder.append(java.lang.Object, java.lang.Object):::EXIT
+org.apache.commons.lang3.builder.EqualsBuilder.REGISTRY == orig(org.apache.commons.lang3.builder.EqualsBuilder.REGISTRY)
+this.isEquals == return.isEquals
+this.isEquals == orig(this.isEquals)
+return == orig(this)
+====================
+org.apache.commons.lang3.builder.EqualsBuilder.append(java.lang.Object[], java.lang.Object[]):::EXIT
+====================
+org.apache.commons.lang3.builder.EqualsBuilder.isEquals():::ENTER
+====================
+org.apache.commons.lang3.builder.EqualsBuilder.isEquals():::EXIT

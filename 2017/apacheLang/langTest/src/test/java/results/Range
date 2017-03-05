@@ -1,0 +1,54 @@
+====================
+org.apache.commons.lang3.Range.Range(java.lang.Object, java.lang.Object, java.util.Comparator):::EXIT
+this.comparator.getClass().getName() == orig(comp.getClass().getName())
+this.minimum.getClass().getName() == orig(element1.getClass().getName())
+this.minimum.getClass().getName() == orig(element2.getClass().getName())
+====================
+org.apache.commons.lang3.Range.between(java.lang.Comparable, java.lang.Comparable):::EXIT
+return.minimum == orig(fromInclusive)
+return.maximum == orig(toInclusive)
+return.comparator has only one value
+return.comparator.getClass().getName() == org.apache.commons.lang3.Range$ComparableComparator.class
+return.hashCode == 0
+return.toString == null
+return.minimum.getClass().getName() == return.maximum.getClass().getName()
+return.minimum.getClass().getName() == orig(fromInclusive.getClass().getName())
+return.minimum.getClass().getName() == orig(toInclusive.getClass().getName())
+====================
+org.apache.commons.lang3.Range.between(java.lang.Object, java.lang.Object, java.util.Comparator):::EXIT
+return.hashCode == 0
+return.toString == null
+return.comparator.getClass().getName() != return.minimum.getClass().getName()
+return.comparator.getClass().getName() == orig(comparator.getClass().getName())
+return.minimum.getClass().getName() == return.maximum.getClass().getName()
+return.minimum.getClass().getName() == orig(fromInclusive.getClass().getName())
+return.minimum.getClass().getName() == orig(toInclusive.getClass().getName())
+====================
+org.apache.commons.lang3.Range.contains(java.lang.Object):::EXIT
+this.toString == orig(element)
+return == false
+orig(element) == null
+====================
+org.apache.commons.lang3.Range.contains(java.lang.Object):::EXIT
+====================
+org.apache.commons.lang3.Range.contains(java.lang.Object):::EXIT
+====================
+org.apache.commons.lang3.Range.contains(java.lang.Object):::EXIT
+return == true
+====================
+org.apache.commons.lang3.Range.is(java.lang.Comparable):::ENTER
+====================
+org.apache.commons.lang3.Range.is(java.lang.Object, java.util.Comparator):::ENTER
+element has only one value
+element.getClass().getName() == java.lang.Integer.class
+comparator has only one value
+comparator.getClass().getName() == org.apache.commons.lang3.RangeTest$2.class
+====================
+org.apache.commons.lang3.Range.isNaturalOrdering():::ENTER
+this.minimum == this.maximum
+this.comparator has only one value
+this.comparator.getClass().getName() == org.apache.commons.lang3.Range$ComparableComparator.class
+this.minimum has only one value
+this.minimum.getClass().getName() == org.apache.commons.lang3.RangeTest$1.class
+====================
+org.apache.commons.lang3.Range.isNaturalOrdering():::EXIT

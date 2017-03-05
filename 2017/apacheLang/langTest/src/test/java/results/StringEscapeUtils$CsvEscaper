@@ -1,0 +1,20 @@
+====================
+org.apache.commons.lang3.StringEscapeUtils$CsvEscaper.CsvEscaper():::EXIT
+====================
+org.apache.commons.lang3.StringEscapeUtils$CsvEscaper.translate(java.lang.CharSequence, int, java.io.Writer):::EXIT
+org.apache.commons.lang3.StringEscapeUtils$CsvEscaper.CSV_DELIMITER == org.apache.commons.lang3.StringEscapeUtils$CsvEscaper.CSV_SEARCH_CHARS[orig(index)]
+org.apache.commons.lang3.StringEscapeUtils$CsvEscaper.CSV_QUOTE_STR == orig(org.apache.commons.lang3.StringEscapeUtils$CsvEscaper.CSV_QUOTE_STR)
+org.apache.commons.lang3.StringEscapeUtils$CsvEscaper.CSV_SEARCH_CHARS == orig(org.apache.commons.lang3.StringEscapeUtils$CsvEscaper.CSV_SEARCH_CHARS)
+org.apache.commons.lang3.StringEscapeUtils$CsvEscaper.CSV_SEARCH_CHARS[] == orig(org.apache.commons.lang3.StringEscapeUtils$CsvEscaper.CSV_SEARCH_CHARS[])
+return one of { 1, 7 }
+org.apache.commons.lang3.StringEscapeUtils$CsvEscaper.CSV_SEARCH_CHARS[orig(index)] == 44
+org.apache.commons.lang3.StringEscapeUtils$CsvEscaper.CSV_DELIMITER > return
+org.apache.commons.lang3.StringEscapeUtils$CsvEscaper.CSV_QUOTE > return
+org.apache.commons.lang3.StringEscapeUtils$CsvEscaper.CSV_QUOTE_STR.toString == orig(org.apache.commons.lang3.StringEscapeUtils$CsvEscaper.CSV_QUOTE_STR.toString)
+org.apache.commons.lang3.StringEscapeUtils$CsvEscaper.CSV_SEARCH_CHARS[] elements > return
+org.apache.commons.lang3.StringEscapeUtils$CsvEscaper.CSV_SEARCH_CHARS[] elements > orig(index)
+org.apache.commons.lang3.StringEscapeUtils$CsvEscaper.CSV_SEARCH_CHARS[] elements <= org.apache.commons.lang3.StringEscapeUtils$CsvEscaper.CSV_SEARCH_CHARS[orig(index)]
+return > orig(index)
+return != size(org.apache.commons.lang3.StringEscapeUtils$CsvEscaper.CSV_SEARCH_CHARS[])
+return != size(org.apache.commons.lang3.StringEscapeUtils$CsvEscaper.CSV_SEARCH_CHARS[])-1
+return < org.apache.commons.lang3.StringEscapeUtils$CsvEscaper.CSV_SEARCH_CHARS[orig(index)]

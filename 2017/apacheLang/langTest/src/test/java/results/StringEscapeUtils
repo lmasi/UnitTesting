@@ -1,0 +1,57 @@
+====================
+org.apache.commons.lang3.StringEscapeUtils.StringEscapeUtils():::EXIT
+====================
+org.apache.commons.lang3.StringEscapeUtils.escapeCsv(java.lang.String):::EXIT
+input.toString >= return.toString
+input.toString == orig(input.toString)
+====================
+org.apache.commons.lang3.StringEscapeUtils.escapeEcmaScript(java.lang.String):::EXIT
+input.toString one of { "He didn't say, \"stop!\"", "document.getElementById(\"test\").value = '<script>alert('aaa');</script>';", "\364\217\277\275" }
+return.toString one of { "He didn\\'t say, \\\"stop!\\\"", "\\uDBFF\\uDFFD", "document.getElementById(\\\"test\\\").value = \\'<script>alert(\\'aaa\\');<\\/script>\\';" }
+input.toString == orig(input.toString)
+====================
+org.apache.commons.lang3.StringEscapeUtils.escapeHtml3(java.lang.String):::EXIT
+input.toString == "\364\217\277\275"
+return has only one value
+input.toString == return.toString
+input.toString == orig(input.toString)
+====================
+org.apache.commons.lang3.StringEscapeUtils.escapeHtml4(java.lang.String):::EXIT
+input.toString == orig(input.toString)
+====================
+org.apache.commons.lang3.StringEscapeUtils.escapeJava(java.lang.String):::EXIT
+input.toString == orig(input.toString)
+====================
+org.apache.commons.lang3.StringEscapeUtils.escapeJson(java.lang.String):::EXIT
+input.toString one of { "\"foo\" isn't \"bar\". specials: \010\r\n\014\t\\/", "He didn't say, \"stop!\"" }
+return.toString one of { "He didn't say, \\\"stop!\\\"", "\\\"foo\\\" isn't \\\"bar\\\". specials: \\b\\r\\n\\f\\t\\\\\\/" }
+input.toString == orig(input.toString)
+====================
+org.apache.commons.lang3.StringEscapeUtils.escapeXml(java.lang.String):::EXIT
+input.toString == orig(input.toString)
+====================
+org.apache.commons.lang3.StringEscapeUtils.escapeXml10(java.lang.String):::EXIT
+input.toString == orig(input.toString)
+====================
+org.apache.commons.lang3.StringEscapeUtils.escapeXml11(java.lang.String):::EXIT
+input.toString == orig(input.toString)
+====================
+org.apache.commons.lang3.StringEscapeUtils.unescapeCsv(java.lang.String):::EXIT
+input.toString <= return.toString
+input.toString == orig(input.toString)
+====================
+org.apache.commons.lang3.StringEscapeUtils.unescapeHtml3(java.lang.String):::EXIT
+input.toString == "\364\217\277\275"
+return has only one value
+input.toString == return.toString
+input.toString == orig(input.toString)
+====================
+org.apache.commons.lang3.StringEscapeUtils.unescapeHtml4(java.lang.String):::EXIT
+input.toString == orig(input.toString)
+====================
+org.apache.commons.lang3.StringEscapeUtils.unescapeJava(java.lang.String):::EXIT
+input.toString == orig(input.toString)
+====================
+org.apache.commons.lang3.StringEscapeUtils.unescapeXml(java.lang.String):::EXIT
+input.toString < return.toString
+input.toString == orig(input.toString)

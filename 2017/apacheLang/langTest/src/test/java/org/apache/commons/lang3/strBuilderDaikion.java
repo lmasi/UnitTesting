@@ -2,27 +2,13 @@ package org.apache.commons.lang3;
 
 import java.lang.reflect.*;
 
-class test
+class strBuilderDaikion
 {
 	public static Class c;
 
 	public static String[] str = new String[]
 	{
-		"ObjectUtilsTest",
-			"RandomStringUtilsTest",
-			"RandomUtilsTest",
-			"RangeTest",
-
-
-			"StringEscapeUtilsTest",
 			"StringUtilsContainsTest",
-			"StringUtilsEmptyBlankTest",
-			"StringUtilsEqualsIndexOfTest",
-			"StringUtilsIsTest",
-			"StringUtilsStartsEndsWithTest",
-			"StringUtilsSubstringTest",
-			"StringUtilsTest",
-			"StringUtilsTrimStripTest"
 	};
 
 	public static void main(String[] args)

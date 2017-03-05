@@ -1,0 +1,172 @@
+====================
+org.apache.commons.lang3.ObjectUtils.CONST(boolean):::ENTER
+v == true
+====================
+org.apache.commons.lang3.ObjectUtils.CONST(boolean):::EXIT
+====================
+org.apache.commons.lang3.ObjectUtils.CONST(byte):::EXIT
+return == orig(v)
+return one of { 3, 127 }
+====================
+org.apache.commons.lang3.ObjectUtils.CONST(char):::EXIT
+return == orig(v)
+return one of { 3, 97 }
+====================
+org.apache.commons.lang3.ObjectUtils.CONST(double):::EXIT
+return == orig(v)
+return one of { 1.0, 3.0 }
+====================
+org.apache.commons.lang3.ObjectUtils.CONST(float):::EXIT
+return == orig(v)
+return one of { 1.0, 3.0 }
+====================
+org.apache.commons.lang3.ObjectUtils.CONST(int):::EXIT
+return == orig(v)
+return one of { 3, 123 }
+====================
+org.apache.commons.lang3.ObjectUtils.CONST(java.lang.Object):::EXIT
+return == orig(v)
+return has only one value
+return.getClass().getName() == java.lang.String.class
+return.getClass().getName() == orig(v.getClass().getName())
+====================
+org.apache.commons.lang3.ObjectUtils.CONST(long):::EXIT
+return == orig(v)
+return one of { 3, 123 }
+====================
+org.apache.commons.lang3.ObjectUtils.CONST(short):::EXIT
+return == orig(v)
+return one of { 3, 123 }
+====================
+org.apache.commons.lang3.ObjectUtils.CONST_BYTE(int):::EXIT
+return == orig(v)
+return == 127
+====================
+org.apache.commons.lang3.ObjectUtils.CONST_SHORT(int):::EXIT
+return == orig(v)
+return == 127
+====================
+org.apache.commons.lang3.ObjectUtils.clone(java.lang.Object):::ENTER
+====================
+org.apache.commons.lang3.ObjectUtils.clone(java.lang.Object):::EXIT
+return == null
+orig(obj.getClass().getName()) == java.lang.String.class
+====================
+org.apache.commons.lang3.ObjectUtils.cloneIfPossible(java.lang.Object):::ENTER
+====================
+org.apache.commons.lang3.ObjectUtils.compare(java.lang.Comparable, java.lang.Comparable):::ENTER
+c1.getClass().getName() == java.lang.Integer.class
+c2.getClass().getName() == java.lang.Integer.class
+c1.getClass().getName() == c2.getClass().getName()
+====================
+org.apache.commons.lang3.ObjectUtils.compare(java.lang.Comparable, java.lang.Comparable, boolean):::ENTER
+c1.getClass().getName() == c2.getClass().getName()
+====================
+org.apache.commons.lang3.ObjectUtils.compare(java.lang.Comparable, java.lang.Comparable, boolean):::EXIT
+return one of { -1, 1 }
+orig(c1) == null
+====================
+org.apache.commons.lang3.ObjectUtils.compare(java.lang.Comparable, java.lang.Comparable, boolean):::EXIT
+orig(c1) != null
+orig(c2) != null
+====================
+org.apache.commons.lang3.ObjectUtils.defaultIfNull(java.lang.Object, java.lang.Object):::ENTER
+object.getClass().getName() == java.lang.String.class
+defaultValue has only one value
+defaultValue.getClass().getName() == java.lang.String.class
+object.getClass().getName() == defaultValue.getClass().getName()
+====================
+org.apache.commons.lang3.ObjectUtils.equals(java.lang.Object, java.lang.Object):::ENTER
+object1.getClass().getName() == java.lang.String.class
+object2.getClass().getName() == java.lang.String.class
+object1.getClass().getName() == object2.getClass().getName()
+====================
+org.apache.commons.lang3.ObjectUtils.equals(java.lang.Object, java.lang.Object):::EXIT
+====================
+org.apache.commons.lang3.ObjectUtils.equals(java.lang.Object, java.lang.Object):::EXIT
+====================
+org.apache.commons.lang3.ObjectUtils.equals(java.lang.Object, java.lang.Object):::EXIT
+====================
+org.apache.commons.lang3.ObjectUtils.equals(java.lang.Object, java.lang.Object):::EXIT
+orig(object1) == orig(object2)
+return == true
+====================
+org.apache.commons.lang3.ObjectUtils.firstNonNull(java.lang.Object[]):::ENTER
+====================
+org.apache.commons.lang3.ObjectUtils.firstNonNull(java.lang.Object[]):::EXIT
+values[] elements == null
+return == null
+orig(values.getClass().getName()) == java.lang.Object[].class
+orig(size(values[])) one of { 0, 1, 2 }
+values[] elements == return
+====================
+org.apache.commons.lang3.ObjectUtils.hashCode(java.lang.Object):::ENTER
+obj.getClass().getName() == java.lang.String.class
+====================
+org.apache.commons.lang3.ObjectUtils.hashCodeMulti(java.lang.Object[]):::ENTER
+objects.getClass().getName() == java.lang.Object[].class
+====================
+org.apache.commons.lang3.ObjectUtils.identityToString(java.lang.Appendable, java.lang.Object):::ENTER
+appendable has only one value
+appendable.getClass().getName() == java.lang.StringBuilder.class
+object has only one value
+object.getClass().getName() == java.lang.Integer.class
+====================
+org.apache.commons.lang3.ObjectUtils.identityToString(java.lang.Object):::ENTER
+====================
+org.apache.commons.lang3.ObjectUtils.identityToString(java.lang.Object):::EXIT
+====================
+org.apache.commons.lang3.ObjectUtils.identityToString(java.lang.StringBuffer, java.lang.Object):::ENTER
+buffer has only one value
+object has only one value
+object.getClass().getName() == java.lang.Integer.class
+====================
+org.apache.commons.lang3.ObjectUtils.identityToString(java.lang.StringBuilder, java.lang.Object):::ENTER
+====================
+org.apache.commons.lang3.ObjectUtils.identityToString(org.apache.commons.lang3.text.StrBuilder, java.lang.Object):::ENTER
+org.apache.commons.lang3.text.StrBuilder.CAPACITY == size(builder.buffer[])
+builder.size == builder.buffer[org.apache.commons.lang3.text.StrBuilder.CAPACITY-1]
+builder.size == builder.buffer[builder.size]
+builder.newLine == builder.nullText
+builder has only one value
+builder.buffer has only one value
+builder.buffer[] == [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+builder.buffer[] elements == 0
+builder.size == 0
+builder.newLine == null
+object has only one value
+object.getClass().getName() == java.lang.Integer.class
+builder.buffer[] elements == builder.size
+====================
+org.apache.commons.lang3.ObjectUtils.max(java.lang.Comparable[]):::ENTER
+====================
+org.apache.commons.lang3.ObjectUtils.median(java.lang.Comparable[]):::ENTER
+====================
+org.apache.commons.lang3.ObjectUtils.median(java.util.Comparator, java.lang.Object[]):::ENTER
+comparator has only one value
+comparator.getClass().getName() == org.apache.commons.lang3.ObjectUtilsTest$CharSequenceComparator.class
+items.getClass().getName() == java.lang.CharSequence[].class
+====================
+org.apache.commons.lang3.ObjectUtils.min(java.lang.Comparable[]):::ENTER
+====================
+org.apache.commons.lang3.ObjectUtils.mode(java.lang.Object[]):::ENTER
+====================
+org.apache.commons.lang3.ObjectUtils.mode(java.lang.Object[]):::EXIT
+items[] == []
+return == null
+orig(items.getClass().getName()) == java.lang.Object[].class
+====================
+org.apache.commons.lang3.ObjectUtils.notEqual(java.lang.Object, java.lang.Object):::ENTER
+object1.getClass().getName() == java.lang.String.class
+object2.getClass().getName() == java.lang.String.class
+object1.getClass().getName() == object2.getClass().getName()
+====================
+org.apache.commons.lang3.ObjectUtils.notEqual(java.lang.Object, java.lang.Object):::EXIT
+return == true
+====================
+org.apache.commons.lang3.ObjectUtils.toString(java.lang.Object):::ENTER
+====================
+org.apache.commons.lang3.ObjectUtils.toString(java.lang.Object, java.lang.String):::ENTER
+obj.getClass().getName() == java.lang.Boolean.class
+nullStr has only one value
+nullStr.toString == "bar"

@@ -1,0 +1,16 @@
+====================
+org.apache.commons.lang3.SerializationUtils.clone(java.io.Serializable):::ENTER
+object.getClass().getName() == org.apache.commons.lang3.ObjectUtils$Null.class
+====================
+org.apache.commons.lang3.SerializationUtils.clone(java.io.Serializable):::EXIT
+return == null
+====================
+org.apache.commons.lang3.SerializationUtils.serialize(java.io.Serializable):::ENTER
+obj has only one value
+obj.getClass().getName() == org.apache.commons.lang3.ObjectUtils$Null.class
+====================
+org.apache.commons.lang3.SerializationUtils.serialize(java.io.Serializable, java.io.OutputStream):::ENTER
+obj has only one value
+obj.getClass().getName() == org.apache.commons.lang3.ObjectUtils$Null.class
+outputStream has only one value
+outputStream.getClass().getName() == java.io.ByteArrayOutputStream.class

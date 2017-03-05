@@ -1,0 +1,59 @@
+====================
+org.apache.commons.lang3.CharSequenceUtils.indexOf(java.lang.CharSequence, int, int):::ENTER
+searchChar > start
+====================
+org.apache.commons.lang3.CharSequenceUtils.indexOf(java.lang.CharSequence, int, int):::EXIT
+return one of { 2, 5 }
+orig(cs.getClass().getName()) == java.lang.StringBuilder.class
+orig(searchChar) == 98
+orig(start) one of { 0, 3 }
+====================
+org.apache.commons.lang3.CharSequenceUtils.indexOf(java.lang.CharSequence, java.lang.CharSequence, int):::ENTER
+searchChar.getClass().getName() == java.lang.String.class
+start >= -1
+====================
+org.apache.commons.lang3.CharSequenceUtils.lastIndexOf(java.lang.CharSequence, int, int):::ENTER
+searchChar one of { 97, 98 }
+searchChar > start
+====================
+org.apache.commons.lang3.CharSequenceUtils.lastIndexOf(java.lang.CharSequence, int, int):::EXIT
+return one of { 2, 5 }
+orig(cs.getClass().getName()) == java.lang.StringBuilder.class
+orig(searchChar) == 98
+orig(start) one of { 2, 8 }
+====================
+org.apache.commons.lang3.CharSequenceUtils.lastIndexOf(java.lang.CharSequence, java.lang.CharSequence, int):::ENTER
+searchChar.getClass().getName() == java.lang.String.class
+====================
+org.apache.commons.lang3.CharSequenceUtils.regionMatches(java.lang.CharSequence, boolean, int, java.lang.CharSequence, int, int):::ENTER
+thisStart >= 0
+start == 0
+length >= 0
+thisStart >= start
+start <= length
+====================
+org.apache.commons.lang3.CharSequenceUtils.regionMatches(java.lang.CharSequence, boolean, int, java.lang.CharSequence, int, int):::EXIT
+====================
+org.apache.commons.lang3.CharSequenceUtils.regionMatches(java.lang.CharSequence, boolean, int, java.lang.CharSequence, int, int):::EXIT
+return == orig(ignoreCase)
+return == false
+orig(thisStart) one of { 0, 3 }
+orig(length) == 3
+====================
+org.apache.commons.lang3.CharSequenceUtils.regionMatches(java.lang.CharSequence, boolean, int, java.lang.CharSequence, int, int):::EXIT
+return == true
+orig(ignoreCase) == false
+orig(thisStart) one of { 0, 3 }
+orig(length) == 3
+orig(thisStart) <= orig(length)
+====================
+org.apache.commons.lang3.CharSequenceUtils.regionMatches(java.lang.CharSequence, boolean, int, java.lang.CharSequence, int, int):::EXIT
+(return == false)  ==>  (orig(length) >= 1)
+(return == false)  ==>  (orig(start) < orig(length))
+====================
+org.apache.commons.lang3.CharSequenceUtils.regionMatches(java.lang.CharSequence, boolean, int, java.lang.CharSequence, int, int):::EXIT
+return == false
+orig(length) >= 1
+orig(start) < orig(length)
+====================
+org.apache.commons.lang3.CharSequenceUtils.toCharArray(java.lang.CharSequence):::EXIT

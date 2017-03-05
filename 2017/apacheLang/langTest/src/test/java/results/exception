@@ -1,0 +1,4 @@
+====================
+org.apache.commons.lang3.exception.CloneFailedException.CloneFailedException(java.lang.String, java.lang.Throwable):::EXIT
+message.toString == "Cloneable type org.apache.commons.lang3.ObjectUtilsTest$UncloneableString has no clone method"
+message.toString == orig(message.toString)

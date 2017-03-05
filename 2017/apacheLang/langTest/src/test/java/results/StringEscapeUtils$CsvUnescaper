@@ -1,0 +1,14 @@
+====================
+org.apache.commons.lang3.StringEscapeUtils$CsvUnescaper.translate(java.lang.CharSequence, int, java.io.Writer):::ENTER
+org.apache.commons.lang3.StringEscapeUtils$CsvUnescaper.CSV_DELIMITER == org.apache.commons.lang3.StringEscapeUtils$CsvUnescaper.CSV_SEARCH_CHARS[index]
+input.getClass().getName() == java.lang.String.class
+index == 0
+out.getClass().getName() == java.io.StringWriter.class
+org.apache.commons.lang3.StringEscapeUtils$CsvUnescaper.CSV_SEARCH_CHARS[index] == 44
+org.apache.commons.lang3.StringEscapeUtils$CsvUnescaper.CSV_SEARCH_CHARS[] elements > index
+org.apache.commons.lang3.StringEscapeUtils$CsvUnescaper.CSV_SEARCH_CHARS[] elements <= org.apache.commons.lang3.StringEscapeUtils$CsvUnescaper.CSV_SEARCH_CHARS[index]
+input.getClass().getName() != out.getClass().getName()
+====================
+org.apache.commons.lang3.StringEscapeUtils$CsvUnescaper.translate(java.lang.CharSequence, int, java.io.Writer):::EXIT
+return one of { 9, 10 }
+return > size(org.apache.commons.lang3.StringEscapeUtils$CsvUnescaper.CSV_SEARCH_CHARS[])

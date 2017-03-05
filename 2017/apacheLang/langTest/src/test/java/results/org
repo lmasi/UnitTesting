@@ -1,0 +1,39 @@
+====================
+org.hamcrest.MatcherAssert.assertThat(java.lang.String, java.lang.Object, org.hamcrest.Matcher):::ENTER
+reason has only one value
+reason.toString == ""
+matcher.getClass().getName() == org.hamcrest.core.IsNot.class
+====================
+org.hamcrest.core.IsEqual.IsEqual(java.lang.Object):::EXIT
+this.expectedValue == orig(equalArg)
+this.expectedValue.getClass().getName() == orig(equalArg.getClass().getName())
+====================
+org.hamcrest.core.IsEqual.areEqual(java.lang.Object, java.lang.Object):::EXIT
+====================
+org.hamcrest.core.IsEqual.areEqual(java.lang.Object, java.lang.Object):::EXIT
+return == false
+====================
+org.hamcrest.core.IsEqual.equalTo(java.lang.Object):::ENTER
+====================
+org.hamcrest.core.IsEqual.isArray(java.lang.Object):::ENTER
+====================
+org.hamcrest.core.IsEqual.isArray(java.lang.Object):::EXIT
+====================
+org.hamcrest.core.IsEqual.matches(java.lang.Object):::EXIT
+this.expectedValue == orig(this.expectedValue)
+return == false
+this.expectedValue.getClass().getName() == orig(this.expectedValue.getClass().getName())
+====================
+org.hamcrest.core.IsNot.IsNot(org.hamcrest.Matcher):::EXIT
+this.matcher == orig(matcher)
+this.matcher.getClass().getName() == orig(matcher.getClass().getName())
+====================
+org.hamcrest.core.IsNot.matches(java.lang.Object):::EXIT
+this.matcher == orig(this.matcher)
+return == true
+this.matcher.getClass().getName() == orig(this.matcher.getClass().getName())
+====================
+org.hamcrest.core.IsNot.not(java.lang.Object):::ENTER
+====================
+org.hamcrest.core.IsNot.not(org.hamcrest.Matcher):::ENTER
+matcher.getClass().getName() == org.hamcrest.core.IsEqual.class

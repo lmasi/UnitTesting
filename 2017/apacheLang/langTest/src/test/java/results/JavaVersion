@@ -1,0 +1,21 @@
+====================
+org.apache.commons.lang3.JavaVersion.JavaVersion(java.lang.String, int, float, java.lang.String):::EXIT
+this.value == orig(value)
+this.name == orig(name)
+this.name.toString == name.toString
+$hidden$1.toString > name.toString
+$hidden$1.toString == orig($hidden$1.toString)
+name.toString == orig(name.toString)
+====================
+org.apache.commons.lang3.JavaVersion.get(java.lang.String):::EXIT
+====================
+org.apache.commons.lang3.JavaVersion.maxVersion():::EXIT
+====================
+org.apache.commons.lang3.JavaVersion.toFloatVersion(java.lang.String):::ENTER
+value has only one value
+value.toString == "1.8.0_111"
+====================
+org.apache.commons.lang3.JavaVersion.toFloatVersion(java.lang.String):::EXIT
+value.toString == "1.8.0_111"
+return == 1.8
+value.toString == orig(value.toString)
