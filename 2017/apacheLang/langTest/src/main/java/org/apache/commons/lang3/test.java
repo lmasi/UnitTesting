@@ -48,7 +48,7 @@ class test
 
 		int public_methods = 0;
 		int nonpublic_methods = 0;
-
+/*
 		System.out.println("===================Test Classes======================");
 		for(Class c : TestClasses)
 		{
@@ -69,6 +69,18 @@ class test
 			System.out.println("}");
 			System.out.println("\n");
 		}
+*/
+		System.out.println("===================Test Classes======================");
+		for(Class c : TestClasses)
+		{
+			ClassAnalysis CA = new ClassAnalysis(c.getName());
+	
+			System.out.print(c.getName()+"\t");
+			System.out.println(CA.getPublicMethodsCount());
+			System.out.println("\n");
+		}
+
+/*
 
 		System.out.println("\n\n\n\n\n\n\n\n");
 		System.out.println("===================Origin Classes======================");
@@ -96,7 +108,7 @@ class test
 		System.out.println("Test Classes : " + TestClasses.size() + "\t public : " + test_public_methods + ",  private/protected : " + test_nonpublic_methods);
 		System.out.println("Orig Classes : " + originClasses.size() + "\t public : " + public_methods + ",  private/protected : " + nonpublic_methods);
 		System.out.println("Test Methods : " + test_testMethod);
-		
+*/		
 	}
 
 	static class ClassNameSort implements Comparator<Class<? extends Object>> {
