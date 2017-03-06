@@ -75,9 +75,8 @@ class test
 		{
 			ClassAnalysis CA = new ClassAnalysis(c.getName());
 	
-			System.out.print(c.getName()+"\t");
+			//System.out.println(c.getName()+"\t");
 			System.out.println(CA.getPublicMethodsCount());
-			System.out.println("\n");
 		}
 
 /*
