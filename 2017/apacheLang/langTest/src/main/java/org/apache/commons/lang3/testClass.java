@@ -7,7 +7,7 @@ import org.reflections.scanners.*;
 import java.lang.reflect.*;
 import java.util.*;
 
-class test
+class testClass
 {
 	public static void main(String[] args)
 	{
@@ -42,13 +42,7 @@ class test
 			else
 				originClasses.add(c);
 		}
-		int test_public_methods = 0;
-		int test_nonpublic_methods = 0;
-		int test_testMethod = 0;
 
-		int public_methods = 0;
-		int nonpublic_methods = 0;
-/*
 		System.out.println("===================Test Classes======================");
 		for(Class c : TestClasses)
 		{
@@ -60,54 +54,11 @@ class test
 			System.out.println("{");
 			for(Method method : methods)
 			{	
-				System.out.println("\t" + method.toString());
-				if(method.getName().toString().indexOf("test") >= 0)
-					test_testMethod++;
+				System.out.println("\t" + method.getName());
 			}
-			test_public_methods += CA.getPublicMethodsCount();
-			test_nonpublic_methods += CA.getNotPublicMethodsCount();
 			System.out.println("}");
 			System.out.println("\n");
 		}
-*/
-		System.out.println("===================Test Classes======================");
-		for(Class c : originClasses)
-		{
-			ClassAnalysis CA = new ClassAnalysis(c.getName());
-	
-			//System.out.println(c.getName()+"\t");
-			System.out.println(CA.getPublicMethodsCount());
-		}
-
-/*
-
-		System.out.println("\n\n\n\n\n\n\n\n");
-		System.out.println("===================Origin Classes======================");
-		for(Class c : originClasses)
-		{
-			
-			ClassAnalysis CA = new ClassAnalysis(c.getName());
-			System.out.println(c.getName());
-			System.out.println("{");
-
-			Method[] methods = c.getDeclaredMethods();
-			for(Method method : methods)
-			{	
-				System.out.println("\t" + method.toString());
-			}
-
-			public_methods += CA.getPublicMethodsCount();
-			nonpublic_methods += CA.getNotPublicMethodsCount();
-			System.out.println("}");
-			System.out.println("\n");
-		}
-
-		System.out.println("\n\n\n\n\n\n\n\n");
-		System.out.println("===================Total================================");
-		System.out.println("Test Classes : " + TestClasses.size() + "\t public : " + test_public_methods + ",  private/protected : " + test_nonpublic_methods);
-		System.out.println("Orig Classes : " + originClasses.size() + "\t public : " + public_methods + ",  private/protected : " + nonpublic_methods);
-		System.out.println("Test Methods : " + test_testMethod);
-*/		
 	}
 
 	static class ClassNameSort implements Comparator<Class<? extends Object>> {
